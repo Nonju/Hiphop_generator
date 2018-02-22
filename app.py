@@ -1,6 +1,6 @@
 
-# -*- coding:utf8 -*-
-
+#!/usr/bin/env python2.7
+# -*- coding: utf-8 -*-
 """
 
 Entry point for Hip-hop generator app
