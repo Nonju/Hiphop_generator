@@ -1,0 +1,6 @@
+
+# todo for project
+
+- create install file based on dependencies.txt
+- parse lyrics into the parts currently listed as plain text in single lyrics file
+- rewrite credentials into json-file ( combine with validgenres.json )

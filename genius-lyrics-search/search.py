@@ -12,35 +12,36 @@ def getValidGenres():
     with open('./validgenres.json', 'r') as f:
         return json.loads(f.read())
 
+def validatePageGenres(pageMetas):
+    genreMeta = [ meta.get('content') for meta in pageMetas if 'genres' in meta.get('content')]
+    genres = set()
+    for c in genreMeta:
+        m = re.search('genres.*?\[(.*?)\]', c)
+        genreList = m.group(1).replace('"', '').split(',')
+        for genre in genreList: genres.add(genre)
+
+    for genre in genres:
+        for valid in getValidGenres():
+            if valid.lower() in genre.lower():
+                return True
+
+    return False
+
+
 def getSongLyrics(url):
     print
     print 'Fetching lyrics from url:', url
     page = requests.get(url)
     html = BeautifulSoup(page.content, 'html.parser')
+    
+    pageMetas = html.findAll("meta")
+    if not validatePageGenres(pageMetas):
+        return None
+
     #remove script tags that they put in the middle of the lyrics
-    genre = ""
-    metas= html.findAll("meta")
-
-
-    content = [ meta.get('content') for meta in metas if 'genres' in meta.get('content')]
-    genres = set()
-    for c in content:
-        m = re.search('genres.*?\[(.*?)\]', c)
-        genreList = m.group(1).replace('"', '').split(',')
-        for genre in genreList: genres.add(genre)
-
-    print 'GENRE:', genres
-
-    validGenres = getValidGenres()
-    print 'validgenres:', validGenres
-
-
     [h.extract() for h in html('script')]
     #at least Genius is nice and has a tag called 'lyrics'!
-    lyrics = html.find('div', attrs={'class': 'lyrics'}).get_text()
-
-
-    return lyrics
+    return html.find('div', attrs={'class': 'lyrics'}).get_text()
 
 def extendSongDataWithLyrics(songData):
     extended = []
@@ -49,6 +50,13 @@ def extendSongDataWithLyrics(songData):
         if not song.get('url'): continue
         lyrics = getSongLyrics(song['url'])
 
+        if not lyrics: continue
+
+        # TODO: here post-process lyrics with function that divides songs parts into object
+        # print 'LYRICS:', lyrics
+        extendedSong = song.copy()
+        extendedSong['lyrics'] = lyrics
+        extended.append(extendedSong)
 
     return extended
 
@@ -116,6 +124,9 @@ def main():
     client_id, client_secret, client_access_token = loadCredentials()
     songData = search(search_term,client_access_token)
     songData = extendSongDataWithLyrics(songData)
+
+    with open('./output.json', 'w') as f:
+        f.write(json.dumps(songData, indent=2, sort_keys=True))
 
 if __name__ == '__main__':
     main()
