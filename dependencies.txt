@@ -1,0 +1,8 @@
+
+Todo: make this into install script
+
+
+- pip install requests
+- pip install setuptools
+- pip install textblob # KOLLA OM VERKLIGEN BEHÖVS
+- pip install bs4

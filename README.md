@@ -3,8 +3,8 @@ Generator for simple hiphop lyrics
 
 
 ## Lyrics scraping lib
-Lyrics scraper through modified lib orgininally by GitHub user zzany
-https://github.com/zzany/PoliticiansInRap
+Lyrics scraper through modified lib orgininally by GitHub user jasonqng
+https://github.com/jasonqng/genius-lyrics-search
 
 
 ##	Project
