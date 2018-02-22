@@ -16,8 +16,8 @@ def validatePageGenres(pageMetas):
     genreMeta = [ meta.get('content') for meta in pageMetas if 'genres' in meta.get('content')]
     genres = set()
     for c in genreMeta:
-        m = re.search('genres.*?\[(.*?)\]', c)
-        genreList = m.group(1).replace('"', '').split(',')
+        match = re.search('genres.*?\[(.*?)\]', c)
+        genreList = match.group(1).replace('"', '').split(',')
         for genre in genreList: genres.add(genre)
 
     for genre in genres:
@@ -29,8 +29,7 @@ def validatePageGenres(pageMetas):
 
 
 def getSongLyrics(url):
-    print
-    print 'Fetching lyrics from url:', url
+    print '\nFetching lyrics from url:', url
     page = requests.get(url)
     html = BeautifulSoup(page.content, 'html.parser')
     
@@ -43,6 +42,38 @@ def getSongLyrics(url):
     #at least Genius is nice and has a tag called 'lyrics'!
     return html.find('div', attrs={'class': 'lyrics'}).get_text()
 
+def parseSongLyrics(lyricsString):
+    # lyricParts = {
+    #     'intro': [],
+    #     'verses': [],
+    #     'hooks': [],
+    #     'choruses': [],
+    #     'outro': []
+    # }
+
+
+    lyricParts = {}
+    songPartTitles = [ 'intro', 'verse', 'hooks', 'chorus', 'outro' ]
+    
+    parts = lyricsString.split('[')
+    for part in parts:
+        if not part: continue   
+        
+        try: 
+            partTitle, partLyrics = part.split(']')
+        except: continue
+
+        partTitle = partTitle.lower()
+        partLyrics = partLyrics.replace('\n', ' ').strip()
+
+        for title in songPartTitles:
+            if title in partTitle:
+                if not lyricParts.get(title): lyricParts[title] = []
+                lyricParts[title].append(partLyrics)
+
+    return lyricParts
+
+
 def extendSongDataWithLyrics(songData):
     extended = []
 
@@ -53,7 +84,7 @@ def extendSongDataWithLyrics(songData):
         if not lyrics: continue
 
         # TODO: here post-process lyrics with function that divides songs parts into object
-        # print 'LYRICS:', lyrics
+        lyrics = parseSongLyrics(lyrics)
         extendedSong = song.copy()
         extendedSong['lyrics'] = lyrics
         extended.append(extendedSong)
@@ -125,7 +156,7 @@ def main():
     songData = search(search_term,client_access_token)
     songData = extendSongDataWithLyrics(songData)
 
-    with open('./output.json', 'w') as f:
+    with open('./output2.json', 'w') as f:
         f.write(json.dumps(songData, indent=2, sort_keys=True))
 
 if __name__ == '__main__':
