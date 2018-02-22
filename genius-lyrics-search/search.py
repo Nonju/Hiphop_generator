@@ -8,15 +8,38 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
-def getSongLyrics(url):
+def getValidGenres():
+    with open('./validgenres.json', 'r') as f:
+        return json.loads(f.read())
 
+def getSongLyrics(url):
+    print
     print 'Fetching lyrics from url:', url
     page = requests.get(url)
     html = BeautifulSoup(page.content, 'html.parser')
     #remove script tags that they put in the middle of the lyrics
+    genre = ""
+    metas= html.findAll("meta")
+
+
+    content = [ meta.get('content') for meta in metas if 'genres' in meta.get('content')]
+    genres = set()
+    for c in content:
+        m = re.search('genres.*?\[(.*?)\]', c)
+        genreList = m.group(1).replace('"', '').split(',')
+        for genre in genreList: genres.add(genre)
+
+    print 'GENRE:', genres
+
+    validGenres = getValidGenres()
+    print 'validgenres:', validGenres
+
+
     [h.extract() for h in html('script')]
     #at least Genius is nice and has a tag called 'lyrics'!
     lyrics = html.find('div', attrs={'class': 'lyrics'}).get_text()
+
+
     return lyrics
 
 def extendSongDataWithLyrics(songData):
@@ -25,7 +48,7 @@ def extendSongDataWithLyrics(songData):
     for song in songData:
         if not song.get('url'): continue
         lyrics = getSongLyrics(song['url'])
-        break # REMOVE
+
 
     return extended
 
