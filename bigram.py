@@ -2,6 +2,8 @@
 #!/usr/bin/env python2.7
 # -*- coding: utf-8 -*-
 
+import random
+
 class Bigram:
 
 	BOS = 'BOS'
@@ -27,15 +29,21 @@ class Bigram:
 		pass
 
 	def predict(self, context):
+		# TODO: check if can select word in better way that 'random'
 		c = self.pc[context]
-		maxWord = self.EOS
-		maxCount = 0
-		for word, count in c.iteritems():
-			if count > maxCount:
-				maxCount = count
-				maxWord = word
+		possible = self.pc[context].keys()
+		return possible[random.randint(0, len(possible)-1)]
 
-		return maxWord
+	def generate(self, length=10):
+		sentence = []
+		for i in range(0, length):
+			if i == 0:
+				predicted = self.predict(self.BOS)
+			else:
+				predicted = self.predict(sentence[i-1])
+
+			sentence.append(predicted)
+		return ' '.join(sentence)
 
 	@classmethod
 	def train(cls, vocabulary, documents):
@@ -61,10 +69,6 @@ class Bigram:
 				else:
 					contextOccurrenceCount[context][word] += 1
 
-		# [
-		# 	(('Sherlock'), { 'Holmes': 0.012, 'Mr.': 99.01 })
-		# ]
-
 		def sumContextOccurences(context):
 			s = 0
 			for occurences, count in context.iteritems():
@@ -77,14 +81,6 @@ class Bigram:
 
 			total = sumContextOccurences(contextOccurrenceCount[context])
 			for word, count in occurences.iteritems():
-				# print 
-				# print word
-				# print count
-				# print total
-				# print  float(count) / float(total)
 				bigram.pc[context][word] = float(count) / float(total)
-
-
-		# print bigram.pc['here']
 
 		return bigram
