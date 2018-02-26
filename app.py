@@ -37,11 +37,24 @@ def modelTrain():
 	voc = vocab.getVocab()
 	docs = getDocuments()
 
-	introDocs = getPart(docs, partName=u'verse')
-	bigram.Bigram.train(voc, introDocs)
+	verseDocs = getPart(docs, partName=u'verse')
+	return bigram.Bigram.train(voc, verseDocs)
+
+def buildSentence(model, length=4):
+	# TODO: rewrite to actually work
+
+	sentence = ''
+	word = 'BOS'
+	while raw_input() == 'y':
+		word = model.predict(word)
+		sentence += u' {}'.format(word)
+		print '>> ', sentence
+
+
 
 def main():
-	modelTrain()
+	model = modelTrain()
+	buildSentence(model)
 
 if __name__ == '__main__':
 	main()
