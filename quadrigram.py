@@ -4,7 +4,7 @@
 
 import random
 
-class Trigram:
+class Quadrigram:
 
 	BOS = 'BOS'
 	EOS = 'EOS'
@@ -14,7 +14,7 @@ class Trigram:
 
 	def getRandomBOS(self):
 		BOSes = [ context for context in self.pc.keys() if self.BOS in context ]
-		return BOSes[ random.randint(0, len(BOSes) -1) ]
+		return BOSes[ random.randint(0, len(BOSes)-1) ]
 
 	def randomByContext(self, context):
 		# TODO: check if can select word in better way that 'random'
@@ -28,9 +28,10 @@ class Trigram:
 			if i == 0 or sentence[-1] == self.EOS:
 				bosContext = self.getRandomBOS()
 				sentence.append(bosContext[1])
+				sentence.append(bosContext[2])
 				predicted = self.randomByContext(bosContext)
 			else:
-				predicted = self.randomByContext((sentence[-2], sentence[-1]))
+				predicted = self.randomByContext((sentence[-3], sentence[-2], sentence[-1]))
 
 			sentence.append(predicted)
 		return ' '.join(sentence)
@@ -38,9 +39,9 @@ class Trigram:
 	@classmethod
 	def train(cls, vocabulary, documents):
 		documents = documents[:]
-		trigram = cls()
-		trigram.vocabulary = vocabulary
-		trigram.documents = documents
+		quadrigram = cls()
+		quadrigram.vocabulary = vocabulary
+		quadrigram.documents = documents
 
 		# determine context / word probabilities
 		contextOccurrenceCount = {}
@@ -48,8 +49,8 @@ class Trigram:
 			doc.insert(0, cls.BOS)
 			doc.append(cls.EOS)
 
-			for i in range(1, len(doc)-1):
-				context = (doc[i-1], doc[i])
+			for i in range(2, len(doc)-1):
+				context = (doc[i-2], doc[i-1], doc[i])
 				word = doc[i+1]
 
 				if context not in contextOccurrenceCount:
@@ -66,12 +67,12 @@ class Trigram:
 				s += count
 			return s
 
-		trigram.pc = {}
+		quadrigram.pc = {}
 		for context, occurences in contextOccurrenceCount.iteritems():
-			trigram.pc[context] = {}
+			quadrigram.pc[context] = {}
 
 			total = sumContextOccurences(contextOccurrenceCount[context])
 			for word, count in occurences.iteritems():
-				trigram.pc[context][word] = float(count) / float(total)
+				quadrigram.pc[context][word] = float(count) / float(total)
 
-		return trigram
+		return quadrigram

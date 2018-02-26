@@ -21,7 +21,7 @@ class Bigram:
 	def generate(self, length=10):
 		sentence = []
 		for i in range(0, length):
-			if i == 0:
+			if i == 0 or sentence[-1] == self.EOS:
 				predicted = self.randomByContext(self.BOS)
 			else:
 				predicted = self.randomByContext(sentence[i-1])
@@ -31,6 +31,7 @@ class Bigram:
 
 	@classmethod
 	def train(cls, vocabulary, documents):
+		documents = documents[:]
 		bigram = cls()
 		bigram.vocabulary = vocabulary
 		bigram.documents = documents

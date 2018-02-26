@@ -12,6 +12,10 @@
 
 	- simple interface for generating by order, regather data / vocab
 
+	- create parent class for models
+
+	- CLEAR EOS FROM POSSIBLE PREDICTIONS!!
+
 # Not sure if should do
 
 	- generate vocabulary as set of words found in lyrics (why though? needed?)

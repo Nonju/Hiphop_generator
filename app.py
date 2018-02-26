@@ -13,8 +13,10 @@ import vocab
 import codecs
 import json
 
+# models
 import bigram
 import trigram
+import quadrigram
 
 def getDocuments():
 	#Replace with function that uses search
@@ -33,19 +35,47 @@ def getPart(docs, partName=''):
 
 	return parts
 
-def modelTrain(): # Currently training of verses
+def modelTrain(order=4): # Currently training of verses
 	voc = vocab.getVocab()
 	docs = getDocuments()
 
 	verseDocs = getPart(docs, partName=u'verse')
 	# return bigram.Bigram.train(voc, verseDocs)
-	return trigram.Trigram.train(voc, verseDocs)
+
+	if order == 2:
+		return bigram.Bigram.train(voc, verseDocs)
+	elif order == 3:
+		return trigram.Trigram.train(voc, verseDocs)
+	elif order == 4:
+		return quadrigram.Quadrigram.train(voc, verseDocs)
 
 def main():
-	model = modelTrain()
-	generated = '\n'.join([ model.generate(length=5) for i in range(0, 4) ])
-	# print 'Sentence:', model.generate(length=20)
-	print generated
+	# bi, tri, quad = modelTrain()
+
+	testRows= 5
+	order = None
+	while not isinstance(order, int):
+		order = raw_input('order: ')
+		try: order = int(order)
+		except: continue
+
+	# # bi test
+	# print '\nBigram'
+	# print '\n'.join([ bi.generate(length=10) for i in range(0, testRows) ])
+
+	# # tri test
+	# print '\nTrigram'
+	# print '\n'.join([ tri.generate(length=10) for i in range(0, testRows) ])
+
+	# # quad test
+	# print '\nQuadrigram'
+	# print '\n'.join([ quad.generate(length=10) for i in range(0, testRows) ])
+
+	model = modelTrain(order=order)
+	while True:
+		generated = '\n'.join([ model.generate(length=20) for i in range(0, testRows) ])
+		print generated
+		raw_input()
 
 if __name__ == '__main__':
 	main()
