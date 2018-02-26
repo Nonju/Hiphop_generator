@@ -6,6 +6,12 @@
 	- rewrite credentials into json-file ( combine with validgenres.json )
 	- set amount of pages to retrieve from genius.com
 
+	- find way to better end lines, ( base on EOS ?? )
+	- get model by order (function)
+	- function that generates x rows intro, x rows verses, etc
+
+	- simple interface for generating by order, regather data / vocab
+
 # Not sure if should do
 
 	- generate vocabulary as set of words found in lyrics (why though? needed?)
