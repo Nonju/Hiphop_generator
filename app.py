@@ -14,6 +14,7 @@ import codecs
 import json
 
 import bigram
+import trigram
 
 def getDocuments():
 	#Replace with function that uses search
@@ -37,11 +38,14 @@ def modelTrain(): # Currently training of verses
 	docs = getDocuments()
 
 	verseDocs = getPart(docs, partName=u'verse')
-	return bigram.Bigram.train(voc, verseDocs)
+	# return bigram.Bigram.train(voc, verseDocs)
+	return trigram.Trigram.train(voc, verseDocs)
 
 def main():
 	model = modelTrain()
-	print 'Sentence:', model.generate(length=20)
+	generated = '\n'.join([ model.generate(length=5) for i in range(0, 4) ])
+	# print 'Sentence:', model.generate(length=20)
+	print generated
 
 if __name__ == '__main__':
 	main()
