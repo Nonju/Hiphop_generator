@@ -69,7 +69,7 @@ def parseSongLyrics(lyricsString):
         for title in songPartTitles:
             if title in partTitle:
                 if not lyricParts.get(title): lyricParts[title] = []
-                lyricParts[title].append(partLyrics)
+                lyricParts[title].append(partLyrics.split()) # basic tokenizer, splits on whitespace
 
     return lyricParts
 
@@ -141,12 +141,11 @@ def search(search_term, client_access_token, pageLimit=10):
             primaryartist_name = result["result"]["primary_artist"]["name"]
             songData.append(dict(id=result_id, title=title, url=url, artist=primaryartist_name))
 
-        print [ song.get('artist') for song in songData ]
-        print 
-
         if page == pageLimit: break
         page+=1
 
+    print [ song.get('artist') for song in songData ]
+    print 
     return songData
 
 def main():

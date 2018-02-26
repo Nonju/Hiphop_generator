@@ -29,7 +29,8 @@ def generateVocab():
 
 
 def getVocab():
-	pass
+	with codecs.open(VOCAB_FILE, 'r', encoding='utf8') as vocabFile:
+		return json.loads(vocabFile.read())
 
 def main():
 	generate = raw_input('generate (yes/no): ')
