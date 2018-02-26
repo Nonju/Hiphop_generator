@@ -5,3 +5,7 @@
 - parse lyrics into the parts currently listed as plain text in single lyrics file
 - rewrite credentials into json-file ( combine with validgenres.json )
 - set amount of pages to retrieve from genius.com
+
+
+# Not sure if should do
+- generate vocabulary as set of words found in lyrics (why though? needed?)

@@ -104,7 +104,7 @@ def loadCredentials(): # TODO: change file format to json
             client_access_token = re.findall(r'[\"\']([^\"\']*)[\"\']', line)[0]
     return client_id, client_secret, client_access_token
     
-def search(search_term, client_access_token, pageLimit=1):
+def search(search_term, client_access_token, pageLimit=10):
     #Unfortunately, looks like it maxes out at 50 pages (approximately 1,000 results), roughly the same number of results as displayed on web front end
     page=1
     songData = []
@@ -156,7 +156,7 @@ def main():
     songData = search(search_term,client_access_token)
     songData = extendSongDataWithLyrics(songData)
 
-    with open('./output2.json', 'w') as f:
+    with open('./output.json', 'w') as f:
         f.write(json.dumps(songData, indent=2, sort_keys=True))
 
 if __name__ == '__main__':

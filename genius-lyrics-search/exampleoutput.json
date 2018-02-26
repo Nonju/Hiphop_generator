@@ -3,11 +3,10 @@
     "artist": "Eminem", 
     "id": 3269416, 
     "lyrics": {
-      "choruses": [], 
-      "hooks": [], 
-      "intro": "It's the calm before the storm right here Wait, how was I gonna start this off? I forgot\u2026 oh yeah", 
-      "outro": "", 
-      "verses": [
+      "intro": [
+        "It's the calm before the storm right here Wait, how was I gonna start this off? I forgot\u2026 oh yeah"
+      ], 
+      "verse": [
         "That's an awfully hot coffee pot Should I drop it on Donald Trump? Probably not But that's all I got 'til I come up with a solid plot Got a plan and now I gotta hatch it Like a damn Apache with a tomahawk I'ma walk inside a mosque on Ramadan And say a prayer that every time **** talks She gets her mou\u2014 ahh, I'ma stop But we better give Obama props 'Cause what we got in office now's a kamikaze That'll probably cause a nuclear holocaust And while the drama pops And he waits for shit to quiet down, he'll just gas his plane up And fly around 'til the bombing stops Intensities heightened, tensions are risin' Trump, when it comes to givin' a shit, you're stingy as I am Except when it comes to havin' the balls to go against me, you hide 'em 'Cause you don't got the fuckin' nuts like an empty asylum Racism's the only thing he's fantastic for 'Cause that's how he gets his fuckin' rocks off and he's orange Yeah, sick tan That's why he wants us to disband 'Cause he cannot withstand The fact we're not afraid of Trump Fuck walkin' on egg shells, I came to stomp That's why he keeps screamin', \"Drain the swamp!\" 'Cause he's in quicksand It's like we take a step forwards, then backwards But this is his form of distraction Plus, he gets an enormous reaction When he attacks the NFL so we focus on that in\u2013 \u2013stead of talkin' Puerto Rico or gun reform for Nevada All these horrible tragedies and he's bored and would rather Cause a Twitter storm with the Packers Then says he wants to lower our taxes Then who's gonna pay for his extravagant trips Back and forth with his fam to his golf resorts and his mansions? Same shit that he tormented Hillary for and he slandered Then does it more From his endorsement of Bannon Support for the Klansmen Tiki torches in hand for the soldier that's black And comes home from Iraq And is still told to go back to Africa Fork and a dagger in this racist 94-year-old grandpa Who keeps ignorin' our past historical, deplorable factors Now if you're a black athlete you're a spoiled little brat for Tryna use your platform or your stature To try to give those a voice who don't have one He says, \"You're spittin' in the face of vets who fought for us, you bastards!\" Unless you're a POW who's tortured and battered 'Cause to him you're zeros 'Cause he don't like his war heroes captured That's not disrespectin' the military Fuck that, this is for Colin, ball up a fist! And keep that shit balled like Donald the bitch! \"He's gonna get rid of all immigrants!\" \"He's gonna build that thing up taller than this!\" Well, if he does build it, I hope it's rock solid with bricks 'Cause like him in politics, I'm usin' all of his tricks 'Cause I'm throwin' that piece of shit against the wall 'til it sticks And any fan of mine who's a supporter of his I'm drawing in the sand a line, you're either for or against And if you can't decide who you like more and you're split On who you should stand beside, I'll do it for you with this: Fuck you! The rest of America, stand up! We love our military, and we love our country But we fuckin' hate Trump!"
       ]
     }, 
@@ -18,11 +17,13 @@
     "artist": "DJ Khaled", 
     "id": 83921, 
     "lyrics": {
-      "choruses": [], 
-      "hooks": [], 
-      "intro": "This shit's special DJ Khaled!", 
-      "outro": "And if I cry two tears for her, that would be the most that I would I give to her She ain\u2019t the one you wanna play with You say you wanna rap, to this bitch you must commit I fuck hip hop And if I cry two tears for her, that will be the most I can give to her She ain\u2019t the one you wanna play with (I fuck hip hop) And you all know how the story go", 
-      "verses": [
+      "intro": [
+        "This shit's special DJ Khaled!"
+      ], 
+      "outro": [
+        "And if I cry two tears for her, that would be the most that I would I give to her She ain\u2019t the one you wanna play with You say you wanna rap, to this bitch you must commit I fuck hip hop And if I cry two tears for her, that will be the most I can give to her She ain\u2019t the one you wanna play with (I fuck hip hop) And you all know how the story go"
+      ], 
+      "verse": [
         "And if I cry two tears for her That will be the most that I would give to her She left me stranded in my nightmares Taking pictures of my memories she right there Twisting on the blade in my heart, deep Always on my mind so I can't sleep She used to tell me she was all mine Now the only way I see the broad is online I'm doing drugs trying to feel you I'm killing me trying to kill you I built my whole life around ya I thought I found it all when I found her Shopping sprees on whatever coast How'd you really feel, I may never know And as I ride through these streets With my hand on my heat, eyes red from the sweets, I Realize some things never change Once in love and it's gone you don't look at it the same, nigga Fuck love cause she don't live here I'm soaked in blood but I'm still here Hip Hop heartbreaks Straight-laced, deep bass, 808s plus the mixtapes Got a nigga feeling like I up and left ya Get away now you all in the lectures Being studied by the college's professors Now I regret the day I met ya (Bitch) I'll be the first one to say it She ain't the one you want to play with I fucked Hip Hop", 
         "And if I cry two tears for her That would be the most that I can give to her I am Joseph, Darryl, Jason, Dr. Dre, O'Shea And a host of those who passed away Today I'm Drake, I'm Wayne, 2 Chainz You say you want to rap, to this bitch you must commit Then you're a slave to your grave, you won't get out, you cannot quit She menstruates weekly, her vibe covers keep you warm But the source to her heart is love, word up, right on You know how girls are, she love when you licking on her world star Kissing on her belly, trick on her at Onyx Confused fans think that she illuminates demonic But she's the object of my affections, God's essence, God bless her She bought me Bentleys, Breitlings, made some friends resent me For writing about my life, they thought I should have stayed quiet She took me to places I would have never saw without her And she took me from my girl powder I doubt I'll ever be the same, hallowed be thy name Give me strength so I don't do this dame like Orenthal James Brad warned me while driving this auburn Ferrari Never follow in her games, I fuck around and I'll be sorry But I tried her used to ride her, for dollars not the fame She slowed me down and had me guzzling on cups of lean She's a middle-aged cougar, showing young'uns the dream Noticed she wasn't breathing for a second then I screamed \"She's dead!\" and everybody took it out on Nasty I was just looking out for my music family Wasn't trying to claim her to myself, she's yours You can have her she's a motherfucking whore I fuck Hip Hop"
       ]
@@ -34,15 +35,13 @@
     "artist": "Lupe Fiasco", 
     "id": 556, 
     "lyrics": {
-      "choruses": [], 
-      "hooks": [
-        "One you never heard of, I Push it harder, further, the Grind might feel like murder, but Hip-Hop, you saved me One you never heard of, I Push it harder, further, the Grind might feel like murder, but Hip-Hop, you saved my life", 
-        "One you never heard of, I Push it harder, further, the Grind might feel like murder, but Hip-Hop, you saved me One you never heard of, I Push it harder, further, the Grind might feel like murder, but Hip-Hop, you saved my life", 
-        "One you never heard of, I Push it harder, further, the Grind might feel like murder, but Hip-Hop, you saved me One you never heard of, I Push it harder, further, the Grind might feel like murder, but Hip-Hop, you saved my life One you never heard of, I Push it harder, further, the Grind might feel like murder, but Hip-Hop, you saved me One you never heard of, I Push it harder, further, the Grind might feel like murder, but Hip-Hop, you saved my life"
+      "intro": [
+        "Dedicate, dedicate This one right here goes out To my homie with the dream, nah mean?"
       ], 
-      "intro": "Dedicate, dedicate This one right here goes out To my homie with the dream, nah mean?", 
-      "outro": "Hip-Hop, you saved my life Hip-Hop, you saved my life", 
-      "verses": [
+      "outro": [
+        "Hip-Hop, you saved my life Hip-Hop, you saved my life"
+      ], 
+      "verse": [
         "He said, \"I write what I see Write to make it right, don't like where I be I'd like to make it like the sights on TV Quite the great life, so nice and easy\" S\u00ed, now you can still die from that But it's better than not being alive from straps Agreed, a Mead notebook And a Bic that click when it's pushed And a wack-ass beat \u2014 That's a track that's weak That he got last week Cause everybody in the stu' was like, \"That's that heat\" A bass-heavy medley, with a sample from the 70s With a screwed-up hook that went \"stack that cheese\" Somethin'-somethin'-somethin'; \"stack that cheese\" Mother, sister, cousin; \"stack that cheese\" He couldn't think of nothin'; \"stack that cheese\" He turns down the beat, writer's block impedes Crying from the next room, a baby in need Of some Pampers and some food and place to sleep That, plus a black Cadillac on Ds Is what keep him on track to be a great MC", 
         "Reps North-side, so he rocks them braids 1100 friends on his MySpace page \"Stack That Cheese\" got 700 plays Producer made him take it down, said he had to pay Open mic champ two weeks in a row Ex D-boy with a B-boy flow Glow like Leroy, you should see boy go Got a daddy serving life and a brother on the row Best homie in the grave, tatted up while in the cage Minute Maid got his momma working like a slave Down baby mama who he really had to honor \u2018Cause she was his biggest fan, even let him use her Honda To drive up to Dallas, went to open up for amateurs Let him keep a debit card so he could put gas in it Told her when he get on he gon' take her to the Galleria Buy her everything but the mannequins, ya dig?", 
         "His man called, said \"Your time might be now They played your freestyle over 'Wipe Me Down' They played it two times, said it might be crowned As the best thing out the H-Town in a while\" He picked up his son with a great big smile Rapped every single word to the newborn child Then he put him down and went back to the kitchen And put on another beat and got back to the mission of Get his momma out the hood, put her somewhere in the woods Keep his lady looking good, have her rolling like she should Show his homies there's a way, other than that flippin' yay Bail his homie out of jail, put a lawyer on his case Throw a concert for the school, show the shorties that it's cool Throw some candy on the Caddy, chuck the deuce and act a fool Man, it feels good when it happens like that Two days from going back to selling crack, yessir"
@@ -55,7 +54,7 @@
     "artist": "Tyrez", 
     "id": 2878427, 
     "lyrics": {
-      "choruses": [
+      "chorus": [
         "It's too cold for you here and now So let me hold both your hands in the holes of my sweater", 
         "It's too cold for you here and now So let me hold both your hands in the holes of my sweater", 
         "Baby, baby stay here I need some time to clear my mind We both know it\u2019s a problem When you call me all the time And I\u2019ll say I may just need a little bit longer, yeah I may just need you to be stronger If I\u2019m not there with you", 
@@ -68,29 +67,18 @@
         "You said you were there for me You wouldn't let me fall All the times I share with you Were you even there at all  Nowhere to run where I am The scared truth will turn to lies Cause who I am Is where you want to be", 
         "You said you were there for me You wouldn't let me fall All the times I share with you Were you even there at all  Nowhere to run where I am The scared truth will turn to lies Cause who I am Is where you want to be   18.\t45:55 Nic Lopez & Abstract, Jacoby & Carly Butler - Bring it On Home   I can't go on it's what she said But girl don't you worry, it'll be ok You've got a place to rest your head At the end of every day  See this game ain't always fair Sometimes you feel alone But I'll be waiting here Waiting for you to come back home  Cause love is all we know Like a song that's slow It goes on and on and on It goes on and on and on Love is all we need If there's you and me It goes on and on and on It goes on and on and on  Don't be afraid, don't be afraid If you can't find the words to say Just bring it all home baby Bring all your worries to me Don't be afraid, don't be afraid Every little thing it's gonna be okay Just bring it all home baby Give all your worries to me  Girl, don't you worry about a thing You're the light to my darkness like the sunrise brings My everything, revolves around you Like the sun to the earth and the earth to the moon  But you must know the sun needs the moon sometimes To remind it of the power and the rays it shines So like the moon I'll be your rock Count on me to keep you shining when your shine is off the clock  Be a shoulder when you need it When you feel you've been defeated When your energy depleted Till' my heart is over beating You know it beats for you  My everything is all I give to you Don't be afraid, we're gon' make it girl  Don't be afraid, don't be afraid If you can't find the words to say Just bring it all home baby Bring all your worries to me Don't be afraid, don't be afraid Every little thing it's gonna be okay Just bring it all home baby Give all your worries to me  Came through, they told me to talk away Sitting reminiscent, thinking about it everyday It's all okay I thought that today's when I backed up Told them I would wrap up My friends was getting wrapped up  I took my songs and packed up Grabbed up a little bit Release another song Why this people never fucked with it?  Fell by the way side It's all alright cuz damn I tried To take a break from branching out Show them all what I'm about  But damn man I just wanna push it to capacity This is just the man that I had planned to be, yeah Anthony Looking at my own reflection My perspective it's too obscure man I did it all for you man  Don't be afraid, don't be afraid If you can't find the words to say Just bring it all home baby Bring all your worries to me Don't be afraid, don't be afraid Every little thing it's gonna be okay Just bring it all home baby Give all your worries to me"
       ], 
-      "hooks": [
-        "So come on, let it go Just let it be Why don't you be you And I'll be me Everything that's broke Leave it to the breeze Why don't you be you And I'll be me And I'll be me", 
-        "I just wanna say fuck you til I fuck you again I think I've had enough of you, but I don't wanna lose a friend I'm gonna love you forever That's just my curse It's whatever", 
-        "I just wanna say fuck you til I fuck you again (Yeah, I just want to say) I think I've had enough of you, but I don't wanna lose a friend I'm gonna love you forever (And I'm gonna love you) That's just my curse It's whatever   3.\t04:57 Ivan B - Youll' Be Alright", 
-        "Just close your eyes The sun is going down You'll be alright No one can hurt you now Come morning light You and I'll be safe and sound", 
-        "And maybe someday It\u2019s me and you But right now I can\u2019t seem to feel it too Lately all I know is you\u2019re running through my mind I know it hurts, it\u2019s just not our time", 
-        "And maybe someday It\u2019s me and you But right now I can\u2019t seem to feel it too Lately all I know is you\u2019re running through my mind I know it hurts, it\u2019s just not our time Baby don\u2019t you tell me that you don\u2019t see it too You say you love me so then tell me, what can I do? You\u2019re on my mind I know it hurts, it\u2019s just not our time", 
-        "I can't stop drinking about you I gotta numb the pain I can't stop drinking about you Without you I ain't the same", 
-        "I can't stop drinking about you I gotta numb the pain I can't stop drinking about you Without you I ain't the same", 
-        "I can't stop drinking about you I gotta numb the pain I can't stop drinking about you Without you I ain't the same  No one's gonna love you like I do No one's gonna care like I do   12.\t31:15 Quinn XCII & aykoay - Good Friend   She waits, he works, they live at night Low pay, no way to stay polite Too late to change the state of mind Lights out, black on, too hard to find Hops in his car, that's a bad blessing Long night ahead, now she's mad stressing Time's on their side, but they're still shakin' Gun in their hands, money for the taking Then he feels her touch, it becomes all too much Don't say goodbye, say hello to my good friend See, he's all I know Run and hide, ain't no show, this is a hold-up Hope you just know that we steal to survive She prays to change, they wisely would How could something so bad find their livelihood He knows it's tough but it's for their good Left them out to burn like it's firewood And in their hard days have each other still Moving through motions like they know the drill So when it comes to fate, they don't have a say Grown up with these roles that they have to play Rents late as hell but they're side-steppin' Hearts on their sleeves to conceal weapons Break down the door but nobody's waking Head for the drawer, money for the taking Then he feels her touch, it becomes all too much Don't say goodbye, say hello to my good friend See, he's all I know Run and hide (yeah!), ain't no show, this is a hold-up Hope you just know that we steal to survive x2 But if this ends in ruin It could have happened anywhere Can't help but feeling human Looked up at Wall Street millionaires x2 Don't say goodbye, say hello to my good friend See, he's all I know Run and hide (yeah!), ain't no show, this is a hold-up Hope you just know that we steal to survive x2   13.\t33:24 Drake Chisholm \u2013 Passages   Sometimes I think is this all worth it Is music my calling, is this really my purpose Sometimes I think about quitting and working a desk Then I think about the time I invest The time I spend up in the booth The time I spend giving you the truth They told me, to get me a career I told them I would blow up and this would be my year But thats what I said last year and the year before The cycle never ends I can't take anymore Cause I see artists with these fans and these plays Then I look at myself feel that I'm stuck in a phase So I just wanna shout out everybody who believes in me Cause you see something that I can't even see in me And I don't say that enough They wanna ride the wave until that shit get rough But imma stay in it, even if that means I drown I invested everything I had in my sound Next year when I see my fam for Christmas I don't wanna tell em I'm going to school for business Told them I did it with music, yeah I did it with rap Ain't making much pay but I'm making these tracks I'm spreading this love and I'm getting it back Man that's what I'm trying to say I spent so many years just waiting on that day But it still hasn't came, no it still isn't here Now I'm stuck looking myself in the mirror Like am I doing this right Is this really what I'm gonna do with my life My mom keeps telling me I need to find jobs But I'm too busy worried if I'm posted on blogs I just gotta stay with it It's true what they say everybody has critics And I know the road is long and far But I've been working so damn hard so my heart beats   14.\t37:05 Ivan B & Tido Vegas - After The Ending", 
-        "Shadows settle on the place, that you left Our minds are troubled by the emptiness Destroy the middle, it's a waste of time From the perfect start to the finish line", 
-        "Shadows settle on the place, that you left Our minds are troubled by the emptiness Destroy the middle, it's a waste of time From the perfect start to the finish line", 
-        "Shadows settle on the place, that you left Our minds are troubled by the emptiness Destroy the middle, it's a waste of time From the perfect start to the finish line   15.", 
-        "Shadows settle on the place, that you left Our minds are troubled by the emptiness Destroy the middle, it's a waste of time From the perfect start to the finish line", 
-        "Shadows settle on the place, that you left Our minds are troubled by the emptiness Destroy the middle, it's a waste of time From the perfect start to the finish line", 
-        "Shadows settle on the place, that you left Our minds are troubled by the emptiness Destroy the middle, it's a waste of time From the perfect start to the finish line   16.\t40:08 Witt Lowry & Tido Vegas - I Could Be", 
-        "Cause I could be the rain in your desert sky I could be the fire in your darkest night I could be your curse or your angel It's all in how you love me  I could be your sun when it's cold outside I could be your rock when there's nowhere to hide I could be your curse or your angel It's all in how you love me It's how you love me", 
-        "Cause I could be the rain in your desert sky I could be the fire in your darkest night I could be your curse or your angel It's all in how you love me  I could be your sun when it's cold outside I could be your rock when there's nowhere to hide I could be your curse or your angel It's all in how you love me It's how you love me", 
-        "Cause I could be the rain in your desert sky I could be the fire in your darkest night I could be your curse or your angel It's all in how you love me  I could be your sun when it's cold outside I could be your rock when there's nowhere to hide I could be your curse or your angel It's all in how you love me It's how you love me   17.\t43:08 Abstract & Blulake - Correlationships"
+      "intro": [
+        "You hate when my head Hangs low after all These things you said Trust it's not your fault Can\u2019t expect you to understand Take it back to when it began Had I just followed all my plans I wouldn\u2019t have ended up so lost Now we\u2019re both so off And I\u2019m still the one to blame Can\u2019t say we\u2019ll stay the same Can\u2019t say we\u2019ll stay the same", 
+        "See you as you are Villan in your veins Why you gotta show disdain Gang of a hundred useless pawns I'm all right Fly as paper planes We will never let you reign Bang out my drum line 'till the dawn", 
+        "No one's gonna love you like I do", 
+        "Nobody's perfect, I'll never try, no But I promise I'm worth it if you just open up your eyes I don't need a second chance, I need a friend Someone who's gon stand by me right there till the end If you want the best of my heart You've just gotta see the good in me"
       ], 
-      "intro": "Nobody's perfect, I'll never try, no But I promise I'm worth it if you just open up your eyes I don't need a second chance, I need a friend Someone who's gon stand by me right there till the end If you want the best of my heart You've just gotta see the good in me", 
-      "outro": "Said don't bite your tongue Open from the start I said, no, no, no, no, no, no Leave you as you are You got my heart I said, no, no, no, no, no, no Said don't bite your tongue Open from the start I said, no, no, no, no, no, no Leave you as you are You got my heart I said, no, no, no, no, no, no   10.\t24:09 Ivan B & Niykee Heaton - Edge of THe World", 
-      "verses": [
+      "outro": [
+        "From nervous touch and getting drunk To staying up and waking up with you   2.\t03:10 Karizma - f u till i f u (ft Cass)   We hate to give in, but we're hardly living comfortably I hate you because you think that you're still in love with me It's time we drift apart, we're blind and in the dark I kinda wanna care but it's kinda too late to start And here you are, hitting my line Hitting rewind on the past for the 50th time Come on tell me, what do you think Wanna lay down, up in the clouds or under the sheets", 
+        "If I\u2019m not there with you If I\u2019m not there with you If I\u2019m not there with you If I\u2019m not there with you If I\u2019m not there with you If I\u2019m not there with you If I\u2019m not there with you   6.\t11:35 Matt Easton & Wes Powell \u2013 Butterly   Thought I saw a butterfly Thought I saw a butterfly I thought I saw a butterfly yesterday Came by fluttering then it flew away It had me reminiscing on the better days Coming by on the fly to communicate  And just for a second had a flashback When life was simple, ain't nothing abstract Playing outside, till it was dinner time Ghosts in the graveyards on them summer nights Lay back, never in a hurry then No path, and never any worrying Every day was a fresh start Making friends on the reg Playing games in the neighbors yard Used to hustle lemonade on my block 25 cents with some ice in a cup A little bit of hopscotch in the parking lot Hickory Dickory Dock tales non stop Never worry 'bout a job neither And the worst news was a call home from the teacher Icey pops straight out the freezer Think about it, life couldn't have been easier  And now I'm back to the present day And I just wanna grab a time machine and run away All these happy memories just passed by All because I thought I saw a butterfly  Thought I saw a butterfly Thought I saw a butterfly Thought I saw a butterfly  I thought I saw a butterfly yesterday Came by fluttering then it flew away It had me reminiscing on the better days Coming by on the fly to communicate  Like where did those childhood feelings go Where I wasn't dealing with a bunch of animals And everyone looked out for one another Gave away my lunch-able if someone looked hungry 4th of July, fireworks at butler Everyone in town gathering to see each other As it got larger, setting off sparklers Who could throw the football the farthest And when did that tear disappear It's a little weird, now I'm planning a career Where did the innocent laughter go Where I felt at ease, do I have to grow One question to ask that I have to know Is why can't we act the same as we grow old Why can't we be kids on the playground Looking for a hand to hold as we run around", 
+        "Said don't bite your tongue Open from the start I said, no, no, no, no, no, no Leave you as you are You got my heart I said, no, no, no, no, no, no Said don't bite your tongue Open from the start I said, no, no, no, no, no, no Leave you as you are You got my heart I said, no, no, no, no, no, no   10.\t24:09 Ivan B & Niykee Heaton - Edge of THe World"
+      ], 
+      "verse": [
         "See as you lay here... or as we lay here You won't bottle your questions You're asking why you can't stay here The truth, I'm trying to lose all my feelings before they appear Wanna be clear, but it's hard with this naked body I lay near I know, I shoulda chose someone that matters, no bitches I'm wishing I listened, I could've saved my heart from the stitches We're kissing, I listen, you're telling me your favorite position When really all I wanna hear is that you're loyal and driven We're living in a world where girls are thinking diamonds are love We're mining it up to remind us of us, paying for trust Do you get it? She told me, \"Mark just forget it\" I wanna change this world and girl I just don't think that you get it This pressure is heavy, not ready to just let you forget me But when this all is said and done, you gon regret that you met me I used to wanna find a feeling, now I'm feeling so empty But honestly, I wanna thank you for the love that you lent me That's real", 
         "It's the morning You're even pretty when you're snoring Like why the fuck are you perfect You're way too gorgeous I quit, you win, I forfeit I'm sick of having make-up sex We fight hard, we play rough We break hearts And say stuff we actually mean as you cry off your makeup We're terrible for each other I'll say without a stutter My head is over heels, but only when we're under covers And here you are, trying to leave Knocking my wind, taking my breath then dying to breathe You're the drug I'm fiending for You're the cut I'm bleeding for I'm saying \"fuck you\" and I wanna fuck you even more", 
         "Maybe it's just the way we were Maybe it's just the way I am Maybe it's that feeling every time I got to hold your hand I know that's cheesy but I just want you to understand The memories are there even if you forgot how we danced Hurt feelings, numb nights, you know it's all the same If loves an endless battle Why'd we play it like a game? It takes two to play so how am I to blame? I gave you everything and all you did was fade away You wanted love, you gave me hurt And it hurt more to make it work You were a chapter In my life I was a line in yours We went through hell and back just for you to get me back And after all of that take a glance on where that left us at So go ahead, pretend the rest of your life Hide behind all of your makeup with those heals too tight When you realize what you want is buried deep inside I'll look deep into your eyes and say we'll be alright", 
@@ -119,15 +107,13 @@
     "artist": "Dead Prez", 
     "id": 1798, 
     "lyrics": {
-      "choruses": [], 
-      "hooks": [
-        "It's bigger than hip-hop, hip-hop, hip-hop, hip It's bigger than hip-hop, hip-hop, hip-hop, hip-hop", 
-        "It's bigger than hip-hop, hip-hop, hip-hop, hip It's bigger than hip-hop, hip-hop, hip-hop, hip-hop", 
-        "Hip-hop, hip-hop, hip-hop, hip It's bigger than hip-hop, hip-hop, hip-hop, hip-hop It's bigger than hip-hop, hip-hop, hip-hop, hip It's bigger than hip-hop, hip-hop, hip-hop, hip-hop"
+      "intro": [
+        "\u275dFake (fake) Records (records)\u275e  Uh, uh, uh, 1-2, 1-2 Uh, uh, 1-2, 1-2, uh, uh All my dogs"
       ], 
-      "intro": "\u275dFake (fake) Records (records)\u275e  Uh, uh, uh, 1-2, 1-2 Uh, uh, 1-2, 1-2, uh, uh All my dogs", 
-      "outro": "D.P.'s got that crazy shit We keep it crunked-up, John Blazed and shitUh, DP's got that crazy shit we keep it crunk up John Blaze'd and shit what Uh, DP's got that crazy shit we keep it crunk up John Blaze'd and shit what Uh, DP's got that crazy shit we keep it crunk up John Blaze'd and shit what Uh, DP's got that crazy shit we keep it crunk up John Blaze'd and shit what Uh, DP's got that crazy shit we keep it crunk up John Blaze'd and shit what", 
-      "verses": [
+      "outro": [
+        "D.P.'s got that crazy shit We keep it crunked-up, John Blazed and shitUh, DP's got that crazy shit we keep it crunk up John Blaze'd and shit what Uh, DP's got that crazy shit we keep it crunk up John Blaze'd and shit what Uh, DP's got that crazy shit we keep it crunk up John Blaze'd and shit what Uh, DP's got that crazy shit we keep it crunk up John Blaze'd and shit what Uh, DP's got that crazy shit we keep it crunk up John Blaze'd and shit what"
+      ], 
+      "verse": [
         "One thing bout music when it hit you feel no pain White folks say it controls your brain I know better than that, that's game And we ready for that Two soldiers head of the pack Matter fact, who got the gat? And where my army at? Rather attack than not react Back to beats, it don't reflect on how many records get sold On sex, drugs and rock 'n' roll Whether your project's put on hold In the real world; these just people with ideas They just like me and you when the smoke and camera disappear Again the real world; it's bigger than all these fake-ass records When poor folks got the millions and my woman's disrespected If you check 1-2, my word of advice to you is just relax Just do what you got to do; if that don't work then kick the facts If you a fighter, rider, biter, flame-ignitor, crowd-exciter Or you wanna just get high then just say it But then if you a liar-liar, pants on fire, wolf-crier, agent with a wire I'm gon' know it when I play it", 
         "Who shot Biggie Smalls, if we don't get them, they gon' get us all I'm down for running up on them crackers in their city hall We ride for y'all, all my dogs, stay real Nigga don't think these record deals gon' feed your seeds and pay your bills Because they not MC's get a little bit of love and think they hot Talking bout how much money they got; All y'all records sound the same I'm sick of that fake-thug-R&B-rap-scenario, all day on the radio Same scenes in the video Monotonous material Y'all don't hear me though These record labels slang our tapes like dope You can be next in line and signed and still be writing rhymes and broke You would rather have a Lexus or justice? A dream or some substance? A Beamer, a necklace or freedom? Still a nigga like me don't playa-hate, I just stay awake This real hip-hop And it don't stop 'til we get the po-po off the block They call it..."
       ]
@@ -139,15 +125,10 @@
     "artist": "Nas", 
     "id": 1446, 
     "lyrics": {
-      "choruses": [], 
-      "hooks": [
-        "If hip hop should die before I wake I'll put an extended clip and body 'em all day Roll to every station, wreck the DJ Roll to every station, wreck the DJ If hip hop should die before I wake I'll load an extended clip and body 'em all day Roll to every station, wreck the DJ Roll to every station, wreck the DJ (Hip hop just died this morning And she's dead, she's dead)", 
-        "If hip hop should die before I wake I'll put an extended clip and body 'em all day Roll to every station, wreck the DJ Roll to every station, wreck the DJ If hip hop should die before I wake I'll load an extended clip and body 'em all day Roll to every station, wreck the DJ Roll to every station, wreck the DJ (Hip hop just died this morning And she's dead, she's dead)", 
-        "If hip hop should die before I wake I'll put an extended clip and body 'em all day Roll to every station, wreck the DJ Roll to every station, wreck the DJ If hip hop should die before I wake I'll load an extended clip and body 'em all day Roll to every station, wreck the DJ Roll to every station, wreck the DJ (Hip hop just died this morning And she's dead, she's dead)"
+      "intro": [
+        "Hip hop, hip hop (Ugh!) is dead (Had to flip this track again, y'all!) Hip, hip hop, hip hop (Ugh!) is dead Hip, hip hop (Ugh!) Hip, hip hop is dead (NYC! Dirty South!) Hip, hip hop (West Coast!) Hip hop (Midwest!) Hip hop (Let's go!)"
       ], 
-      "intro": "Hip hop, hip hop (Ugh!) is dead (Had to flip this track again, y'all!) Hip, hip hop, hip hop (Ugh!) is dead Hip, hip hop (Ugh!) Hip, hip hop is dead (NYC! Dirty South!) Hip, hip hop (West Coast!) Hip hop (Midwest!) Hip hop (Let's go!)", 
-      "outro": "", 
-      "verses": [
+      "verse": [
         "Yeah, niggas smoke, chill, party and die in the same corner Get cash, live fast, body their man's mama Quick fast, trigger fingers on the llama Revenge in their eyes, Hennessy and the ganja Word to the wise with villain state of minds Grindin', hittin' Brazilian dimes from behind Grindin', hittin' Brazilian dimes from behind (Grindin', hittin' Brazilian dimes from behind) Whenever, if ever, I roll up, it's sown up Any ghetto will tell ya, \"Nas helped grow us up\" My face once graced promotional Sony trucks Hundred million and billin', I helped blow 'em up Gave my man my right, I could have went left So like my girl Foxy, the kid went deaf So people, who's your top 10? Is it MC Shan? Is it MC Ren?", 
         "The bigger the cap, the bigger the peelin' Come through, something ill, missing the ceilin' What influenced my raps? Stick-ups and killings Kidnappings, project buildings, drug dealings Criticize that, why's that? \u2018Cause Nas rap is compared to legitimized crap \u2018Cause we love to talk on nasty chickens Most intellectuals will only half listen So you can't blame jazz musicians Or David Stern with his NBA fashion issues Oh, I think they like me, in my white tee You can't ice me, we here for life, B On my second marriage, hip hop's my first wifey And for that, we not taking it lightly If hip hop should die, we die together Bodies in the morgue lie together, all together now", 
         "Everybody sound the same, commercialize the game Reminiscing when it wasn't all business It forgot where it started So we all gather here for the dearly departed Hip-hopper since a toddler One homeboy became a man, then a mobster If it dies, let me get my last swig of vodka RIP, we'll donate your lungs to a rasta Went from turntables to MP3's From \"Beat Street\"to commercials on Mickey D's From gold cables to Jacobs From plain facials to Botox and face lifts I'm looking over my shoulder It's about 80 people from my hood that showed up And they came to show love Sold out concert and the doors are closed shut"
@@ -159,13 +140,7 @@
   {
     "artist": "BET", 
     "id": 57111, 
-    "lyrics": {
-      "choruses": [], 
-      "hooks": [], 
-      "intro": "", 
-      "outro": "", 
-      "verses": []
-    }, 
+    "lyrics": {}, 
     "title": "BET Hip Hop Awards 2011 Cypher #1", 
     "url": "https://genius.com/Bet-bet-hip-hop-awards-2011-cypher-1-lyrics"
   }, 
@@ -173,11 +148,13 @@
     "artist": "PolitikZ", 
     "id": 582626, 
     "lyrics": {
-      "choruses": [], 
-      "hooks": [], 
-      "intro": "A-ha, ayo Who woulda thought That a white boy would bring hip hop back? Yo, I do it for the real hip hop, you know what I'm sayin'? Fuck Drake, real hip hop", 
-      "outro": "Real hip hop, don't you ever forget it It's that underground shit, it's the white boy that said it Real hip hop, don't you ever forget it It's that underground shit and it's the white boy that\u2014", 
-      "verses": [
+      "intro": [
+        "A-ha, ayo Who woulda thought That a white boy would bring hip hop back? Yo, I do it for the real hip hop, you know what I'm sayin'? Fuck Drake, real hip hop"
+      ], 
+      "outro": [
+        "Real hip hop, don't you ever forget it It's that underground shit, it's the white boy that said it Real hip hop, don't you ever forget it It's that underground shit and it's the white boy that\u2014"
+      ], 
+      "verse": [
         "I'm a spiritual lyrical individual Spiritual miracle lyrical individual Spiritual miracle individual Skippin' and flippin' and dippin' And skippin' and flippin' and dippin' The illest, the killest, the skill of the willest I'm the realest, I'm the realest I'm bringin' real hip hop back, don't you ever forget it Fuck Lil Wayne and the government's corrupt Fuck the government 'cause I don't give a fuck I'm the realest in the game 'cause I'm underground And fuck that mainstream shit 'cause I don't give a fuck I'm a spiritual lyrical miracle Lyrical spiritual illest of miracle lyricals Flippin' and dippin' and skippin'"
       ]
     }, 
@@ -188,18 +165,7 @@
     "artist": "August Alsina", 
     "id": 737554, 
     "lyrics": {
-      "choruses": [], 
-      "hooks": [
-        "Came up in criminal days Livin' these criminal ways, what can I say? Huggin' the block every day Grindin' and making a way At night I pray for better days That it don't be the same tomorrow Now I celebrate my sorrows with this bottle And say", 
-        "(Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey) I pray for more better days (Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey) I know that I can feel change (Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey) I pray for more better days (Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey) I know that I can feel change", 
-        "Still I came up in criminal days Livin' these criminal ways, what can I say? Huggin' the block every day Grindin' and making a way At night I pray for better days That it don't be the same tomorrow Now I celebrate my sorrows with this bottle And say", 
-        "(Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey) I pray for more better days (Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey) I know that I can feel change (Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey) I pray for more better days (Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey) I know that I can feel change", 
-        "Came up in criminal days Livin' these criminal ways, what can I say? Huggin' the block every day Grindin' and making a way At night I pray for better days That it don't be the same tomorrow Now I celebrate my sorrows with this bottle And say", 
-        "(Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey) I pray for more better days (Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey) I know that I can feel change (Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey) I pray for more better days (Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey, Hip-Hop, hey) I know that I can feel change"
-      ], 
-      "intro": "", 
-      "outro": "", 
-      "verses": [
+      "verse": [
         "I came from drop tops and old school Chevy's Dope boys rollin' through, shittin' on ya heavy Fifteens in the trunk, beatin' down your block Only 4 years old when Biggie got shot I remember playin' on the block, hangin' on the block Young niggas slangin' on the block, gettin' off them rocks Now we livin' better now, Coogi sweater now Weather still gettin' colder, we could change the weather now, but I", 
         "Everyday ain\u2019t good but everyday ain\u2019t bad Mama always said, \"Show thanks for what you have Boy, never forget to realize you're blessed This cold world can rot you if you let it\" Now I'm outchea tryna get it, really outchea tryna get it Always knew that I would make it, maybe it was so prophetic 'Cause I came up from the bottom and the humblest beginnings From the youngest nigga grindin' to the youngest nigga winnin'", 
         "'Fore you die, you make your mark and reach new levels Want the bread, want the diamonds and the bezels And if it's bitches that you want, have several Just gotta know, lotta shit's temporary It won't last, no, no, it won't last, no One minute it's all here, next thing you know it's all gone That's why I been on my grizzy outchea Long as I grind, better days are near"
@@ -207,5 +173,963 @@
     }, 
     "title": "Hip-Hop", 
     "url": "https://genius.com/August-alsina-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Yasiin Bey", 
+    "id": 4808, 
+    "lyrics": {
+      "intro": [
+        "You say \"one for the treble, two for the time\" Come on, y'all, let's rock this! You say \"one for the treble, two for the time\" Come on! Speech is my hammer, bang the world into shape Now let it fall, (huh!)"
+      ], 
+      "verse": [
+        "My restlessness is my nemesis It's hard to really chill and sit still Committed to page, I write a rhyme Sometimes won't finish for days Scrutinize my literature from the large to the miniature I mathematically administer Subtract the wack Selector, wheel it back, I'm feeling that From the core to the perimeter black You know the motto Stay fluid even in staccato (Mos Def) Full blooded, full throttle Breathe deep inside the drum hollow There's the hum, young man where you from Brooklyn number one Native son, speaking in the native tongue I got my eyes on tomorrow (there it is) While you still tryin to find where it is I'm on the Ave where it lives and dies Violently but silently Shine so vibrantly that eyes squint to catch a glimpse Embrace the bass with my dark ink fingertips Used to speak the King's En-g-lish But caught a rash on my lips So now my chat just like dis Long range from the base-line (swish) Move like an apparition Float to the ground with ammunItion (chi-chi-POW) Move from the gate, voice cued on your tape Putting food on your plate Many crews can relate Who choosing your fate (yo) We went from picking cotton To chain gang line chopping To Be-Bopping, to Hip-Hopping Blues people got the blue chip stock option Invisible man, got the whole world watching (where ya at) I'm high, low, east, west All over your map I'm getting big props, with this thing called hip hop Where you can either get paid or get shot When your product in stock The fair-weather friends flock When your chart position drop Then the phone calls.... Chill for a minute Let's see who else hot Snatch your shelf spot Don't gas yourself ock The industry just a better built cell block A long way from the shell tops And the bells that L rocked (rock, rock, rock, rock...)"
+      ]
+    }, 
+    "title": "Hip Hop", 
+    "url": "https://genius.com/Yasiin-bey-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Naughty By Nature", 
+    "id": 35051, 
+    "lyrics": {
+      "outro": [
+        "Smooth it out now!"
+      ], 
+      "verse": [
+        "You drew a picture of my mornin' But you couldn't make my day (Hey!) I'm rockin' and you're yawnin' But you never look my way (Hey!) I'm lickin' down your darlin' In every single way (Hey!) Your funny flow is foreign And a green card's on the way", 
+        "This ain't got shit to do with shampoo But watch your head and shoulder Brother older, bold enough to fold ya, yo I told ya A raid afraid of what I made and played it, plus a funky fit So save yo' flips and tricks for that music and the monkey bit", 
+        "Triggers from the Grilltown Illtown Some ask how it feels now The deal is that we're real, so we're still 'round Don't lamp with a freestyle phantom Ain't tryin' to be handsome Shrinkin' what you're thinkin', 'cause I'm vampin'", 
+        "I live and die for Hip Hop, this is Hip Hop for today I give props to hip-hop, so Hip Hop hooray", 
+        "You heard a lot about a brother gainin' mo' ground Bein' low down, I do the showdown with any little ho round No! I wanna know who you believe in Through your funny reasons Even when I'm sleepin' you think I'm cheatin' You said: \"I know you, Mr. O.P.P. man Yo, PP man, won't only see me man\" You should've known when I ain't hit it and step That I was wit' it a bit, not to consider the rep, heck! I did your partner 'cause she's hot as a baker 'Cause I'm Naughty by Nature, not 'cause I hate ya You put your heart in a part of a part that spreads apart And forgot that I forgave when you had a spark You try to act like somethin' really big is missin' Even though my name's graffiti-written on your kitten I love black women always and disrespect ain't the way Let's start a family today; Hip Hop Hooray", 
+        "Hip Hop, Hip Hip Hop, Hip Hip Hop, Hooray! There's many hungry hip-hoppers One reason Hip Hop's tip-top today Swerve what you heard 'cause I ain't bailin' no hay Ain't choppin' no crops, but still growin' every day", 
+        "Here's a thunder sound from the wonders found From the underground town down the hill Feel how Illtown drown smiles to frowns Snatchin' crowns from clowns, beatdowns are found Don't know me? Don't come around!", 
+        "Tippy tippy (pause) tippy tippy (pause) Sometimes creepin' up I eat em up Your styles are older than Lou Rawls Peace to this one and that one and them That way I shout-out and I didn't miss one friend Fools get foolish, neither them or Parker Lewis knew us You could have crews with shoes and can't step to us Some kitties purr, now call me sir too Lookin' for her crew; any trick that diss gets a curfew I put on projects for boots Step through troops and leave proof My problem solver's name is Mook I hittin' woodies in a hoodie Peace to Josette, Jobete, Jo-Jo, Genae, and every hood G That's right, my fight is ill Peace goes to L.O.N.S. and Quest Nice & Smooth and Cypress Hill I live and die for Hip Hop, this is Hip Hop of today I give props to Hip Hop, so Hip Hop Hooray"
+      ]
+    }, 
+    "title": "Hip Hop Hooray", 
+    "url": "https://genius.com/Naughty-by-nature-hip-hop-hooray-lyrics"
+  }, 
+  {
+    "artist": "Rap Genius", 
+    "id": 317386, 
+    "lyrics": {}, 
+    "title": "Hip Hop MVPs of 2013", 
+    "url": "https://genius.com/Rap-genius-hip-hop-mvps-of-2013-annotated"
+  }, 
+  {
+    "artist": "Erykah Badu", 
+    "id": 32531, 
+    "lyrics": {
+      "verse": [
+        "I met him when I was a A little girl, he gave me He gave me poetry He was my first But in my heart I knew I Wasn't the only one 'Cause when the tables turned He had to break, but...", 
+        "Or could it be that it was All just so simple then A teenage love but you said He's just a friend He moved around and we kept In touch through his friend Mike The world was young and we knew We couldn't rush but...", 
+        "Y'all know how I met her We broke up and got back together To get her back, I had to sweat her Thought she'd roll with bad boys forever in many ways Them boys may be better, to grow, I had to let her She needed cheddar and I understood that Looking for cheese, that don't make her a hoodrat In fact she's a queen to me, her light beams on me I love it when she sings to me It's like that and a..."
+      ]
+    }, 
+    "title": "Love of My Life (An Ode To Hip Hop)", 
+    "url": "https://genius.com/Erykah-badu-love-of-my-life-an-ode-to-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Meek Mill", 
+    "id": 229644, 
+    "lyrics": {
+      "intro": [
+        "Yeah, we back in the hood I like recording in Philly Put me in my zone (Philly, wassup?)"
+      ], 
+      "verse": [
+        "I remember it was no lights Mattress on the floor A thousand roaches, four mice Yeah, I remember it was no lights (X2) Mattress on the floor A thousand roaches, four mice Yeah I remember all the cold nights (I do) Niggas sold white just to live the low life Ralph Laurenin, I was sinning The crazy part is the designer ain't wanna send it The dope dealer, was out in me And not magic, you couldn't imagine The shit I saw, had no choice but to get involved You either spit it raw, or sell crack and dribble the ball It's crazy when I seen my own neighbor hitting the soft I was thinking in my head like I gotta get with this raw Shit's getting tow up, as she watch me grow up Right in front of the kids, she fucking her nose up She's thinking like so what My homie got colder She even sold a nintendo, I'm thinking like hol' up I done seen my homie mommy turn into a zombie And it was like New Jersey Drive the way we throw them johnnies The way we stole them cars Slide through like a bowling ball Ain't had nowhere to go at all Who thought that we would go this far? Matter fact, who thought that we would live this long? I got the money and the power, made a nigga strong I had respect before that Cause every fight, I fought back Cause I was always taught that A nigga hit you hold that Down baby, now it's thirty rounds baby As I'm riding through my hood It been going down crazy in this bitch Where they murder for a half a pound baby So imagine for a kilo Shark in the water, nemo Skinny niggas with a full pound, turn to Deebo Got the four five and the six call it Cee-Lo Ya'll niggas talking 'bout murder, that ain't be though Fuck around and get your life took nigga, repo Fuck what niggas tell us, I see 'em and know they jealous Steppin'' in my Margielas this nina like my umbrella Ballin' like I'm melo And kinging like I'm Coretta Eighteen in my beretta and singing I won't do never We shooting at all you pussies Ringing on all you niggas My city body for body My finger all on the trigger I'm ready my niggas heavy Yellow gold all on my prezi I'm switching gears in my rari I'm feeling like I'm Andretti I'm Freddie all in your dreams Lean Like I'm Kareem My 750 my beam I'm clean fuck do you mean My team full of gorillas Killers on 4 wheelers They stuck me back in the trap Fresh off of tour nigga They wanna see my demise Wanna see me with no job Wanna see me back on the corner Fifty niggas we mob With choppers like fuck the coppers Duckin' them helicopters They wanna lock us in boxes Courthouses and teleprompters They jealous my album sellin' Jealous that I ain't jealous They jealous that I ain't tellin' I'm focused no I ain't failin' Propellin' up in the sky Jealous I ain't die They jealous a nigga made it They jealous I don't know why I don't understand y'all suckas Guess I ain't meant to Pussy motherfuckers Lemme tell 'em what I been through"
+      ]
+    }, 
+    "title": "Hip Hop", 
+    "url": "https://genius.com/Meek-mill-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Hopsin", 
+    "id": 275164, 
+    "lyrics": {
+      "intro": [
+        "I'm changing man I thought I was supposed to be this hip hop savior But I have turned into a sinister"
+      ], 
+      "verse": [
+        "Yeah, wack niggas prepare to die You ain't got nowhere to hide I'm knockin' at your fuckin' door You scared 'cause you know Hell arrived Niggas gon' get dealt with rhymes It's just me, myself and I I low-key run this rap shit You don't know 'cause it ain't televised This is war, gentleman (kill) My flow is filled with more venom Than George Zimmerman in his car chillin' With a loaded .44 tucked into his drawers fidgetin' And itchin' to find a brand new casket to store niggas in Y'all just make me laugh and giggle Call me out on tracks then bitch I'll pound on you Like that vendin' machine that stole my pack of Skittles Niggas thought the old me dissolved and I went soft After my album Raw but nah bitch I evolved I'm takin' over shit easily I rarely do collaborations 'cause y'all ain't qualified to be in a league with me Hop just let the beast unleashed Someone get this freak a leash I'm snapping on all you, leavin' every MC deceased", 
+        "Motherfucker we makin' history A million independently So kiss my fucking ass Left or right you get to pick the cheek You don't ball you just pretend you do to make the chicks believe But your label is fucking you like Ruthless Records did to me Stop with the compliments, I've been locked in my momma's den Plottin' when I will be droppin' this Hopsin apocalypse Bombin' the competent Rap goblins mobbin' the continent Gotta be dominant I'm surprised that God isn't vomiting I'm wearin' a badge, tearin' your ass Another vag, cuttin' through necks, 'til they barely attached Me and this game are one of the same, like Jarren and crack The darkness is arrived, so make a flare with a match You got skill? Where is it at? I haven't seen it, who dares to attack a genius? You'll get managed I'll have you gag your penis Until you throw up your own liver (nuts) I don't give a (fuck), the flow ripper (what)", 
+        "Now if I stop being who I am, that would upset me I'll never change for none of your wack-ass deadbeats I struggled to change for J. Christ to accept me I don't even change clothes, shit not even my bed sheets When I step inside the booth and rhyme Rappers commit suicide And jump in front of a moving semi-truck Like it was cool to die Niggas is watered down Fuck it it's time to scuba dive Better get on your knees and pray to God and hope that you survive Killin' rappers like I condone violence I murder you and when your soul is floatin' to hell I ghostride it You won't last living in this cold climate, so don't try it I know I'm ill, I don't need no pussies to co-sign it Commercial niggas thinking they carry the torch It's going to be very hilarious when I bury your corpse So next time you spit a fucking rhyme that's too simple I'll jump kick your ass through the glass of the booth window"
+      ]
+    }, 
+    "title": "Hip Hop Sinister", 
+    "url": "https://genius.com/Hopsin-hip-hop-sinister-lyrics"
+  }, 
+  {
+    "artist": "HipHop.de", 
+    "id": 213974, 
+    "lyrics": {
+      "intro": [
+        "Guten Morgen NSA, yeah Guten Morgen NSA, heut schon Facebook gecheckt? Wahrscheinlich habt Ihr damals schon mein' Game Boy gehackt Hab das Handy am Ohr, ihr wisst eh, wo ich steck' - Ah"
+      ], 
+      "outro": [
+        "Guten Morgen NSA Guten Morgen NSA Guten Morgen NSA Guten Morgen NSA Yeah..."
+      ]
+    }, 
+    "title": "Guten Morgen NSA", 
+    "url": "https://genius.com/Hiphopde-guten-morgen-nsa-lyrics"
+  }, 
+  {
+    "artist": "Dead Prez", 
+    "id": 78825, 
+    "lyrics": {}, 
+    "title": "It's Bigger Than Hip Hop", 
+    "url": "https://genius.com/Dead-prez-its-bigger-than-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Genius", 
+    "id": 2035981, 
+    "lyrics": {}, 
+    "title": "LeBron vs. Curry In Hip-Hop", 
+    "url": "https://genius.com/Genius-lebron-vs-curry-in-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Ludacris", 
+    "id": 641, 
+    "lyrics": {
+      "verse": [
+        "Hi, my name's Ludacris, and I'm high as giraffe pussy And I'm close to the edge, so your parents can come push me I curse so much just to get on they nerves I got kids actin' a fool from the traps to the 'burbs My filthy mouth, it won't fight cavities or beat plaque So I shot the tooth fairy and put my old teeth back I take a shit on the equator, the size of a crater And make government officials breathe harder than Darth Vader It's the chicken and the beer that makes Luda keep rappin' But no pork on my fork, I don't even speak pig Latin I go fishin' on my lake, with yo bitch as the bait Plus I eat many MC's, but I don't gain no weight The numba one chief rocka, clean out yo' rap lockers I'm as stiff as a board, y'all more shook than maracas But my trix ain't for kids, if you dig'um you'll get smacked I'll clock ya I'll spring forward, you fall back Every album that I drop has got more than ten bangers That's cause I'm a shot caller, y'all fools is Crank Yankers Ain't a damn thing changed but the ice on my chain To get chicks from Portland, Oregon to Portland, Maine Now I roll up torpedoes, get blunted with rastas For a hefty fee, I'm on your record like Bob Costas I own so many jerseys, I'm a throwback mess I hit the cleaners and tell 'em I want a full court press So momma toast your glass while I'm countin' my cash Cause every single is a smash, I'm hot as a camel's ass The competition never just wanna admit that they lost And that they last about as long as my part in the wash From yo' car to a crap game, no one rolls wit'chu One of Mini Me's shoes got more sole than you So by the time you figure out why your record ain't spinnin' I'm in the strip club smokin', with President Clinton So stand clear of the long sideburns and goatee They made the mold of the penis enlarger off me I'll be in another room when I hit from the back Not to mention my refrigerator's taller than Shaq So yippie kay yay, yippie yie yie yo If you can't swim, don't smoke my hydro I've been lookin for a woman just to put my stamp on But a lot of y'all are mo' stuck up than tampons So wash all ya sins away and stop playin' If God's line is busy you might have to two way him Then catch me in your backyard, playin' croquet And when I'm drunk tell them kids, drugs are bad, mmm'kay? Or watch me swing my chain at the Roscoe's off Pico Got seven cars, get all my rims at Chrome Depot And people think I'm bad, they say \"Oh he's so Evil!\" Cause I go on blind dates, with actual blind people But my album's out the store, yours be on the shelf I heard you masturbate a lot, so y'all keep to yourself Cause these women want a man that stay up and stay strong Like the NBA, you gotta play hard or go home All that shit that y'all talkin', y'all can pop it to them Cause Ludacris'll beat you down with a prosthetic limb I put my foot so deep in yo' ass that you can smell it And yo' breath will turn to Foot Locker water repellant I'm the man, I got money far as the eyes can see And I'm in a group, I split dough with me, me and me So much money in my jewelry that I'm damn near sorry So I'mma trade my earrings in, and get a Ferrari I buy cars with straight cash, have meetings with Donald Trump Y'all meet with Honda, no payments for 12 months Take a look at yo' life, and no wonder you so sad Y'all put up with more shit than a colostomy bag, fool"
+      ]
+    }, 
+    "title": "Hip Hop Quotables", 
+    "url": "https://genius.com/Ludacris-hip-hop-quotables-lyrics"
+  }, 
+  {
+    "artist": "Chamillionaire", 
+    "id": 1417, 
+    "lyrics": {
+      "verse": [
+        "Officer, I didn't do it, you can't blame me for this Could you please loosen up the handcuffs on my wrists? You can call me what you wanna, man, but I ain't a snitch No cooperation is exactly what you will get 'Til I talk to my lawyer, you get no reply You've obviously been watching too much CSI I'm not a crash dummy, so don't even try To talk your dirty trash to me, no BFI If you are not guilty of anything, then why did you run? \u2018Cause you the police! And plus I saw you cocking your gun And the chamber wasn't empty, it was obviously one If you think I'm believing that one, then you're obviously dumb I know that you heard the sirens, you dived in To the vehicle you was drivin' and ridin' in Instead you shouldn't be whinin', but abidin' By the law, naw, it's obvious that you're lyin'", 
+        "Stop lying to me, boy, it'd be best you confess I can smell the BS on the scent of your breath Saw the meth while I was inspecting your deck Saw that you was ridin' dirty when I looked at the rest Who is this guy Busta? Who is this guy Snoop? Who is his other friend who's wearing the sky blue? Look at this pic here, he standing beside you Tell me his name now, I heard he was Piru Confiscated the CD's at one of your homes For evidence ever since we heard some of your songs What about this Pimp guy? He was on one of your songs I could've sworn that he said he had a \"Pocket Full of Stones\" Am I wrong? Hell yeah! I don't know who that is! I don't know no Pimp C, all I know is I'm rich And I'ma bond, like James, bet I be out here quick, man You ain't getting out of here, you must think that you're slick In the car we confiscated the chronic and the clips Diary that you had and all your blueprints On the Death Row booklet we found your two prints Your thumb and your index, the judge will love this", 
+        "A big celebrity, a case we long for You a pirate? Why you got that eyepatch on for? (Funny) Putting people in a hearse what I heard for Where were you the night of April 21st, son? (Home) I think you got your facts wrong, gat's on You, Chamillionaire, robbed, shot a couple cats on Melview (What?) We gonna have to jail you too In the lineup, don't speak until we tell you to This the person who jimmied your lock, sir? Well, it's dark, kinda look like him, I'm not sure Failure to nail, \u2018cause assailant's another Believe I see an unmarked tailing a brother Hit the bodega, not no more game This chick used to be nice acting all strange Like she was gonna get it, pathetic Assailant caught, now they all apologetic"
+      ]
+    }, 
+    "title": "Hip Hop Police", 
+    "url": "https://genius.com/Chamillionaire-hip-hop-police-lyrics"
+  }, 
+  {
+    "artist": "KRS-One", 
+    "id": 2731, 
+    "lyrics": {}, 
+    "title": "Hip Hop Vs. Rap", 
+    "url": "https://genius.com/Krs-one-hip-hop-vs-rap-lyrics"
+  }, 
+  {
+    "artist": "Complex", 
+    "id": 274152, 
+    "lyrics": {}, 
+    "title": "100 Best Hip-Hop Beats", 
+    "url": "https://genius.com/Complex-100-best-hip-hop-beats-lyrics"
+  }, 
+  {
+    "artist": "Das EFX", 
+    "id": 15809, 
+    "lyrics": {
+      "verse": [
+        "Well on your mark and get set, can't forget to go In case you didn't know the flow is Fat like Joe (like Joe) Yo, you niggedy-know that I'm back man You're wack man, I eat a rapper like I'm Pac Man I briggedy-bring it, straight from the cellar Fo' realla, packin' more hits than Lou Piniella I swell a, nigga in his eye if he test me You don't impress me, a-yo Books kick the rest, G Uhh, one time for your mind...", 
+        "Ayo what up it's the crew bringing the ruckus, no doubt We's the roughest dream team, Reign Supreme like a Cutlass Getting duckets, the dough, you can't touch the flow It's me, the nigga wit' G, the B double O K-S So say yes and bust your caliber When I pop shit and rock shit like Metallica Stakes through the hearts of them snake fake niggas Them all up in my face, jealous of my tape niggas So honey shake your figures and show me whatcha got (Blow the spot) Das EFX with the Real Hip-Hop", 
+        "Iggedy-okie-dokie Next nigga to quote me I hope he got more Miracles than Smokey Won't be no discussion, strictly head crushing Lead rushin' through your body You're in my Dangerfield like Rodney Howdy, I'll back up in that ass, G, kaplowie And now we got the game to a Tee like Howie Allow me, to introduce myself and my peeps Straight from the sewer, stayin' true to the streets", 
+        "Well it's me, Krazy Drayz, bringin' up the rear I swear, we got to Hold It Down e'ry year So there, let me crack a beer and kick my feet up Turn the heat up and smiggedy-smoke all the weed up Kids I eat up, wit' a style that's the newest My crew is, getting more run than Carl Lewis It's from the sewers now ya see me on the top So stop and recognize the niggas on ya block", 
+        "Ayo, MC's is irrelevant, and delicate to the texture But this style of mine is well defined like Webster Ain\u2019t a badder nigga raw from the jaw than the Jabber-Jibber When I get Stone like Sharon from Sliver Equipped to riggedy-rip the microphone to shreds Dread, yo come and hit these niggas in the head", 
+        "Well I connect my rhymes like Lego, so l'eggo my Eggo I burn ya like Waco, you need more than Maaco I take it to ya crew and keep 'em moving like I'm U-Haul I'm here to school y'all figgedy-faggots like RuPaul I throw a screwball and strike out the MC And if he temps me, I knock em out like Jack Dempsey I burn some sensi and chase it wit' a Guinness The illest, now hit me with the hook because I'm finished"
+      ]
+    }, 
+    "title": "Real Hip-Hop", 
+    "url": "https://genius.com/Das-efx-real-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Big K.R.I.T.", 
+    "id": 53606, 
+    "lyrics": {
+      "intro": [
+        "Twin states mane: Alabama, Mississippi Big KRIT, Yelawolf Happy, happy birthday, happy birthday..."
+      ], 
+      "verse": [
+        "I used to do backspins, no Adidas suit In my grandmama's house, listening to Coup Straight out the country like a pair of boots With arrow pulled back, you been shot, no apparel to match I was hip-hop before I hopped to be hip Some dirty British Knights, tied up, size 6 Don't give me the spoon to cut my pie with I get it, hand scooped the poofs under my eyelids I was bumpin' that Tela and that UGK, and that group home And Skinny Pimp from Tennessee, and I knew the songs Mystikal, muthafucka: put your boots on That's mustard: no Grey Poupon Geto Boys trick or treat: let's go home Deep dish D's: drop two tones And I know Alabama ain't your birthplace But I just come to celebrate: happy birthday Hip-hop", 
+        "I'm hollerin' breathe little shawty Just look what I done bought ya The very best that I possess from 'neath that country water Like preaching from the altar, I break bread with you hip-hop Just show me where the sauce, a piece of mind is what it cost ya The beginning of the better, return of forever Like Pete Rock in the lab, no telling what we'll chef up You find a will to flow once the vinyl dust settle I was digging in the crates, just bring a 40 and your shovel Old school Chevy, sprayed it Ole Miss Rebel My definition for lizard crawlin' and heavy metal 808 bass in, haters strut facing While you was Kid N Playin', I was UGKing \"Say it ain't so, KRIT\", bitch, I'm just saying Don't play me like no sucka These Alpines leave you muffled Country bumpkin hella gumption, tell them niggas take that Happy birthday hip-hop, now show me where the cake at", 
+        "Bonita fried, apple pie bum put me on (Put 'em up) waffle house, 2Pac's rock song You see I had to dig to find the hieroglyphics My mama didn't know about Del and Souls of Mischief See the Bible Belt gave me the Holy Spirit But it didn't give me rap, cuz I wasn't supposed to hear it So I had to walk under them Rebel flags With my hoodie inside out, with Adidas on the tag", 
+        "Who would've thunk it, I think we onto something Like a speaker on my chest, no holding back they hear me coming If you check my gun function, I've been 'bout it 'bout it The royalties within my jeans and they so outta pocket Back when Screw was popping, Them 4s and vogues was chopping The swangas swung like pendulums and boppers kept bopping Reminiscing on the golden times 3000 rhymed over noise so organized"
+      ]
+    }, 
+    "title": "Happy Birthday Hip Hop", 
+    "url": "https://genius.com/Big-krit-happy-birthday-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Joe Budden", 
+    "id": 6207, 
+    "lyrics": {}, 
+    "title": "Who Killed Hip Hop?", 
+    "url": "https://genius.com/Joe-budden-who-killed-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Hip Hop Tamizhan", 
+    "id": 271660, 
+    "lyrics": {
+      "intro": [
+        "Intha vaazhkai oru naadaga medai Athil nadithidum nadigargal naam Intha vaazhakai oru puthagam enral Athu kooridum paadam naam Indha vaazhkaiyil kadhaigalo nooru Antha kathaigalai naan unaku solgiren kelu  Yeah..Yeah.. Hiphop Tamizha Ah..Adhi Yeah.. This one's for you Listen"
+      ], 
+      "verse": [
+        "Aval peyar selvi Karkka ponal kalvi Pallikoodam pogaiyila Gavanam padipil illa Buthimathi solla yaarumillai Kaaranam ivaluku thaayum illa Thanthaiyo bothaiyila Parithaabam ival nilamai Paasam inri verumai Paasam kaata thanthaiyuku neram illa Yenna kodumai Paasam thedi alainthal Pathumai kidaikala Athanal bothaiku ival adimai Thozhi enra peyarinil silaper Kaadhalithu paar enru mudivedum palaper Kaadhalitha oruvanai Avanum nallavan illai Enna seival paavam onru ariyaatha chinna pillai Oru naal bothaiyila porvaikula pogaiyila Avanum anaithukolla Ivalum thadukkavilla Ithu mattuminri pala pengal udan thodarbu Kadaisiyil oru naal ithu avaluku therinthu Senral pirinthu.. Ivanai maranthu.. Kayavanin pasikku intha kuzhanthai virunthu Vilaivu kaadhal tholvi Ilavasa inaippaaga HIV", 
+        "Oru naali ethanai uravu Oru nodiyil yethanai kanavu Kaanal neerai karaigirene Vaazhkayil kashtam varalam Vaazhve kashtam than enral Irava naanum enna seiven?  Kaneere (kaneere) Kaneere (kaneere) Kadal pole nanigirathe Kashtangal (kashtangal) Nashtangal (nashtangal) Kannukku theriginrathu", 
+        "Ivan peyar saravanan Vayatho ettu Ivan kadhai kettu Kilambitadhu kaneer sottu Sontha thaai thanthai ivanai kai vittadhu Natpaale ketadhu Kadaisiyil sethadhu  Thanthai kudikaaran Thaai sariyillai pokku Siru vayathile intha pinju nenjil nanjai vithaithu Samuthayam othukida thavarana nanbargal Siru vayathinal bothaiku adimaiyagum siruvargal Varumai ivan thiramaiyai katti pottadhu Kalaignan aaga vendum enra kanavai vetti pottadhu Kai kodukka yaarum illa Kaiyil thooka kaasu illai Ayyo paavam enna seivan ivan chinna pillai Nanban odun sernthu kondu seithan mudhal thiruttu Pannirendu vayathil ivan mela vazhakku Irandu varudathila mella mella maarinaan Pathinaangu vayathil kolaikaaran aagiran Kaasukaaga nanbanai kaatikodukka Nadu rootil vaithu ivanathu uyirai parikka Naai adichu potta kuda naalu per ketpaanga Yaarum vanthu thooka villa ket oru naathi illa"
+      ]
+    }, 
+    "title": "Iraiva", 
+    "url": "https://genius.com/Hip-hop-tamizhan-iraiva-lyrics"
+  }, 
+  {
+    "artist": "Rap Genius", 
+    "id": 542180, 
+    "lyrics": {}, 
+    "title": "Glossary Of Literary Devices And Forms Of Wordplay Used In Hip-Hop", 
+    "url": "https://genius.com/Rap-genius-glossary-of-literary-devices-and-forms-of-wordplay-used-in-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Ludacris", 
+    "id": 1716, 
+    "lyrics": {}, 
+    "title": "I Do it for Hip Hop", 
+    "url": "https://genius.com/Ludacris-i-do-it-for-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "BET Hip Hop Awards", 
+    "id": 542729, 
+    "lyrics": {
+      "verse": [
+        "R.I.P. to Mike Brown Never met Affleck, but I do it for the town In the Chi where they find bodies in the lost and found I've been blowing up in London, still smelling like a pound While Ferguson was looting in the street Obama was on the treadmill moving in repeat I'm 21, I ain't had a cosign yet Like Lamar Odom, they already know I had crack Shout to Khloe, not Axel Foley Call the police, your the lames on TV with braids like Lil' Romeo No limit when I go in, it's a war zone My troops home, they *brrt* \"where you at?\" like a boost phone Y'all mobile, I'm global, we been different Had a number #1 in the UK, that's a big difference Not to mention, as a minor I was major I ain't never get a job, I got my own business SAVEMONEY", 
+        "Good credit, need no cosign Snow Tha Product got the balls to come in the game And I won't get no push from no guy When I need the dough, split no pies I'm not a cookie cutter bitch, but no shade But if Snow spit it, Snow write Oh, by the way you rappers namedrop El Chapo Migos, Narkos, coppos, cop o's from papos", 
+        "Yo, I keep these rappers running like roaches when Raid come in Los is the dopest, please don't provoke him to spray something I hopped up out the bed as fresh as a Glade plugin Cause I charged a high fee like the dance in the Bay, cousin Just exit Trying to describe me in one word is like if you spell dog, but you dyslexic They should've kept my cage locked Where I'm from if he say he tryna shoot that fade he get his fade shot Hey, Pac, remember shit was poppin'? You on my list, it was a wrap, I was Christmas shoppin' I kept a full body cast for a bitch to hop in Then I full bodied Cass while Swizz was watching I'm way better whether you may agree Mayweather pedigree, you make cheddar bet it on me I get the best of the best dealt with So when my magazine hit I ain't talking XXL shit So the whip matte black, the top bent back Got a chick misguided like a", 
+        "I put the word out like word out, word is bond, word up Word is bird, wordie words that I heard I got a herd of verbs that'll slap is for after yours Anything after the fact is an act of war Bad man and a wicked shotta Wet you up like an otter, operate like Shabba Hundred thousands way to hump, choose a telly I'm rude and black like Ox from Belly Got shellys to shock your shooters Bet a bottom dollar I can make thunder clap and make a rottweiler holla Yeah, rob the rich and eat with the hood, bang Cause Jersey's back, back top of the food chain KG was on the scenery He said \"eat the cypher, turn the BET to an eatery\" And here's a true statement Half of the hip in hip hop needs a hip replacement", 
+        "My dream is to be a part of team Elohim To transcend ten of walks of human beings Meditate and convo with the all eye seeing To maybe just hear Quiet my soul so he shares or It can lighten my load My soul"
+      ]
+    }, 
+    "title": "BET 2014 Cypher", 
+    "url": "https://genius.com/Bet-hip-hop-awards-bet-2014-cypher-lyrics"
+  }, 
+  {
+    "artist": "J. Period", 
+    "id": 202226, 
+    "lyrics": {}, 
+    "title": "Knowledge of Self: Top 10 Conscious Hip Hop Songs", 
+    "url": "https://genius.com/J-period-knowledge-of-self-top-10-conscious-hip-hop-songs-lyrics"
+  }, 
+  {
+    "artist": "Flight of the Conchords", 
+    "id": 3370, 
+    "lyrics": {
+      "outro": [
+        "I'm the motherflippin' I'm the motherflippin' I'm the motherflippin' Who's the motherflippin' I'm the motherflippin' I'm the motherflippin' I'm the motherflippin' Motherflippin'"
+      ], 
+      "verse": [
+        "I'm the motherflippin' Rhymenoceros My beats are phat And the birds are on my back And I'm horny, I'm horny If you choose to proceed You will indeed concede Cause I hit you with my flow The wild rhino stampede I'm not just wild I'm trained, domesticated I was raised by a rapper and rhino that dated And subsequently procreated That's how it goes Here's the Hiphopopotamus The hip-hop hippo", 
+        "They call me the Hiphopopotamus My lyrics are bottomless...", 
+        "Sometimes our rhymes are polite Like thank you for the dinner Ms. Wright That was very delicious, goodnight Sometimes they are obscene Like a pornographic dream NC-17 With ladies in a stream of margarine Haha yeah Some margarine", 
+        "They call me the Hiphopopotamus Flows that glow like phosphorous Popping off the top of this esophagus Rocking this metropolis I'm not a large water-dwelling mammal Where did you get that preposterous hypothesis Did Steve tell you that perchance? Steve", 
+        "My rhymes and records they don't get played Because my records and rhymes they don't get made And if you rap like me you don't get paid And if you roll like me you don't get laid", 
+        "My rhymes are so potent That in this small segment I made all of the ladies in the area pregnant Yes, sometimes my lyrics are sexist But you lovely bitches and hoes Should know I'm trying to correct this", 
+        "Why, because I rap about reality Like me and my grandma drinking a cup of tea There ain't no party like my nana's tea party Hey, ho"
+      ]
+    }, 
+    "title": "Hiphopopotamus Vs. Rhymenoceros", 
+    "url": "https://genius.com/Flight-of-the-conchords-hiphopopotamus-vs-rhymenoceros-lyrics"
+  }, 
+  {
+    "artist": "Bia\u0142as", 
+    "id": 2363436, 
+    "lyrics": {}, 
+    "title": "To jest hip-hop", 
+    "url": "https://genius.com/Biaas-to-jest-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Majoe", 
+    "id": 2310194, 
+    "lyrics": {}, 
+    "title": "Hip Hop", 
+    "url": "https://genius.com/Majoe-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Guizmo", 
+    "id": 94544, 
+    "lyrics": {}, 
+    "title": "Hip-hop", 
+    "url": "https://genius.com/Guizmo-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "MC Kresha & Lyrical Son", 
+    "id": 2497385, 
+    "lyrics": {
+      "chorus": [
+        "Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr (Hip-Hop, Hip-Hop) Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr ty T\u00eb k\u00ebndoj, K\u00ebndoj, Vet\u00ebm p\u00ebr ty (Hip-Hop)", 
+        "Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr (Hip-Hop, Hip-Hop)  Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr ty T\u00eb k\u00ebndoj, K\u00ebndoj, Vet\u00ebm p\u00ebr ty (Hip-Hop)", 
+        "Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr (Hip-Hop, Hip-Hop)  Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr ty T\u00eb k\u00ebndoj, K\u00ebndoj, Vet\u00ebm p\u00ebr ty (Hip-Hop)", 
+        "Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr ty (Hip-Hop, Hip-Hop)  Vet\u00ebm p\u00ebr ty Vet\u00ebm p\u00ebr ty T\u00eb k\u00ebndoj, K\u00ebndoj, Vet\u00ebm p\u00ebr ty (Hip-Hop)"
+      ], 
+      "intro": [
+        "Zemren ma mushe plot me g\u00ebzim N\u00eb shpirt m\u00eb mbete margaritar Prandaj p\u00ebr mu je melodi T\u00eb k\u00ebndoj, k\u00ebndoj, vet\u00ebm p\u00ebr ty"
+      ]
+    }, 
+    "title": "Hip Hop", 
+    "url": "https://genius.com/Mc-kresha-and-lyrical-son-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Wyclef Jean", 
+    "id": 110433, 
+    "lyrics": {
+      "intro": [
+        "Refugee public, and counting on and on All hands on deck Can I go in for a minute Cause there\u2019s no limit to the Cash Money Hip Hop getting"
+      ], 
+      "outro": [
+        "A new jesus piece with Chris Lighty's name Biggy and Pac, East and West Coast kids Mary J Blige, RnB queen G-Unit, Ruff Ryders, Mobb Deep, DMX Lox, Dipset, and we all in same game Lyor Cohen"
+      ], 
+      "verse": [
+        "I see them rappers with the big old chains Remind me of the Slick Rick rings And Rakim was the microphone fiend And Bobby Brown was the RnB king Yeah, and every rapper wanna bang What happen to the days we were all in the same gang Missy and Timbaland, original dubstep And Bambaataa had our future on tape deck Man, my daughter is seven I had to put her in check And let her know that K.R.S Is more than letters in the alphabets She's Will.I.Am'ing with her mommy She's like : \"Dad, let me teach you how to dougie\" Things done changed but they stay the same I\u2019m bumping Nas in the Range down memory lane Talib, Mos Def, PE bought them lectures My first music video Rakim, I was the extra Run DMC ran rap, now run's a preacher And we all are poor righteous teachers Krush grooving, body moving Rhazel, Doug E. Fresh, Biz Markie had me beat boxin And Kim, Foxy and Eve are all warriors Ya MC Lytes, ya not B's, yall Queen Latifah's Looks... pretty Nicki's in Ibiza And every fella had a crush on Salt N Peppa She so Naughty By Nature, Long.Live.A$AP Written on a Wolf Gang back pack", 
+        "Yeah I see the rappers poppin\u2019 champagne Them Beastie Boys that Rick Rubin And Big L was the lyrical king, and Bobby Brown was the RnB king And we all wanted to be Russell Simmons What happen to the day when we were all in the same gang? Yeah my young cuzzos rock Chief Keef tattoos They say Easy E, what an attitude I\u2019m talking Cypress Hill, i\u2019m talking Ice Cube I\u2019m talking Ice-T, Dr Dre, Snoop Bone Thugs-n-Harmony, Crucial conflict Twista, Tech N9ne, flipped it this way I'm talking from back in the day in the bay Keak Da Sneak and the homie Mac Dre They should have made a hip-hop dictionary written by E-40 Red & Meth, Keith Murray, Kanye, Trick Daddy, Too Short had the lady Flo ridin' with a Pitbull, Miami going crazy Bun B, Pimp C, UGK, Master P Had me listening to the south in a new way And I miss Outkast like people miss the Fugees And there's a Birdman watching over New Orleans And Scarface never seen a thug cry Till he seen his Dogg Nate singin' hooks from the sky", 
+        "I see them rappers with the big gold chains LL Cool J Ja, Irv, Murder Inc Fat Joe, Big Pun, Cuban Link We all wanted 5 mics in The Source magazine French Montana at the Red Caf\u00e9 Wiz Khalifa roll the paper up 'we're all in the same gang' When I hear Waka, I hear ODB slang I\u2019m talking Wu Tang, Raekwon, 2Chainz EPMD remind me of them Coke boys And Joey Bada$$ is Uncle Murda, boys Grandmaster Flash red alert, I'm talking Kool Herc Jazzy Jeff, Fresh Prince brought it to suburbs And hip hop will never be the same Since Eminem lost Proof and Heavy's out the game We still immortal with the technique, making GOOD music But the tables ain\u2019t been the same since Jam Master used it And Common used to love her and her 2Live Crew Cause she stuck to her roots and let the DJ Screw From Busta, Jay, Meek Mills to Tip to Quik Kendrick Lamar, Luda, Ross, Wayne and Drake 50, Future & Game, Tribe Quest, Wale And if we miss you, Puff Daddy do the remix"
+      ]
+    }, 
+    "title": "Hip Hop", 
+    "url": "https://genius.com/Wyclef-jean-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Joell Ortiz", 
+    "id": 3856, 
+    "lyrics": {
+      "intro": [
+        "Yo, do me a favor Accidently step on your white sun glasses We don't wear those over here, this is hip hop (that's right) This is Carhartt jackets Timberland boots, unlaced This is Champion hoodies, chicken wings and french fries RIP pieces on the handball court This is us still fightin' police brutality, this is hip hop"
+      ], 
+      "verse": [
+        "I ain't tryin' to bring New York back I'm just a breath of fresh air, that good old New York rap Slick talk to the track, c'mon, who brought that to the game? Graffiti all on the train, get up your name I don't feel how I used to feel I'm in my 20's so a new Nas joint used to give me the chills In the barber shop tryin' to cop a new hot tape Them Rob lowes is crazy, the doo wop's great It's hip hop\u2026 and yes, I'm a fan first If you from the south, finger snap till your hands hurt If you from the west, W's in the air If you from the East Coast, act like you from here The good old two-step, the classic head nod The thirsty iced grill, who wants to get robbed? That was the energy in the club On the real, that was the energy that I loved", 
+        "I ain't tryin' make you dance I just rip beats But the soul in my voice give you quick feet I don't know what it's like to not dig deep When I'm holding this mic I don't just speak, pipsqueak The tides come in and the Earth shakes 200 hundred mile an hour winds, I'm your worst fate Birthdate: July 6th 1980 How can your age even matter when you rhyme this crazy? Aww, man, I gotta thank the Lord \u2018Cause with this pen in my hand, I don't think that hard It just happens, wrist action, classic in the makin' I kick back and just laugh, I'm happy, I'm amazin' Look at me, gaze into my eyes, see the poverty? Now understand why me and this music just gotta be? It's something that's inside of me And I can't shake it, so I embrace it, and let y'all taste it", 
+        "Somethin' happen to may body when that track smokin' Y'all swim more wilder than me, I be backstrokin'' I'm the best and my fans'll second that notion I'll be the last man standing with my back broken Crack open a couple of 40's, celebrate Mijo My competition, man, they squared in the H3 I run circles around them like a skate key And turn your little buzz into \"Yo, whatever happened\u2026?\" So don't play, B, I ain't talking shit I just got a awful gift that'll make your office doors just stiff They won't open, so no braggin' And no boastin' while I'm hungry Matter of fact, don't do that when I got a lot of money Yup, I'm feelin' myself, that sound right You gotta step in that ring like, \"Listen, I'll pound Mike\" You gotta step on that court like, \"I could hold down Mike\" The way I step on that stage and have the whole crowd like\u2026"
+      ]
+    }, 
+    "title": "Hip-Hop", 
+    "url": "https://genius.com/Joell-ortiz-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Nice & Smooth", 
+    "id": 35096, 
+    "lyrics": {}, 
+    "title": "Hip Hop Junkies", 
+    "url": "https://genius.com/Nice-and-smooth-hip-hop-junkies-lyrics"
+  }, 
+  {
+    "artist": "Fid Q", 
+    "id": 494942, 
+    "lyrics": {}, 
+    "title": "Bongo Hiphop", 
+    "url": "https://genius.com/Fid-q-bongo-hiphop-lyrics"
+  }, 
+  {
+    "artist": "MC Choice", 
+    "id": 3061797, 
+    "lyrics": {
+      "intro": [
+        "H\u00e3, salve, na cena agora MC Choice, Daddy Chame como quiser Salve pros mano do Largo da Batalha Salve pros mano do Tanque MP, Versus S.A, Choice  Hey, hey (y'all, hey) Yeah S\u00f3 uma vis\u00e3o, Choice"
+      ], 
+      "outro": [
+        "Temos tudo que precisamos, n\u00f3s mesmos O que estamos esperando? Diz! Vemos tudo que observamos Os mesmos que n\u00f3s est\u00e1vamos matando Temos tudo que observamos Temos tudo que observamos (tudo, tudo) O mundo \u00e9 nosso F\u00e9, f\u00e9"
+      ]
+    }, 
+    "title": "Super Hip Hop", 
+    "url": "https://genius.com/Mc-choice-super-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Rap Genius Polska", 
+    "id": 421211, 
+    "lyrics": {}, 
+    "title": "1982 - 1999 - polskie p\u0142yty hip-hop", 
+    "url": "https://genius.com/Rap-genius-polska-1982-1999-polskie-pyty-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Necro", 
+    "id": 2336694, 
+    "lyrics": {
+      "intro": [
+        "Warning! The truly unusual motion picture you are about to see contains many scenes of Graphic Violence. (The real) It is not intended for the faint of heart (Hip hop) nor the young and impressionable"
+      ], 
+      "verse": [
+        "Fuck your wifey, run up on you, Hyphy, holding a knifey You ain't a soldier, boy, I'm running with Ice-T Mixed with Vodka, sitting shotgun with the Glock 'Pon cock, taking hip hop back Shoot up your commercial block, pop, pop, pop You are not rugged, you should stop rapping Hops You are not hip hop, you on some faggot shit dancing like a bitch You sold out Herc and all of that work, wasted for talentless bullshit", 
+        "I'm not bigger than the drama don't get me mixed up I'll battle Jigga tomorrow, I got a reputation For bashing a face in and even when I make my millions I'll be down for confrontation I rap for the kids in buildings with little education Urban children, herbing you daily's our occupation Suburban kids get with it too But do ya history, know what you're listening to Don't be a drone or I'm dissing you Rap clones, I piss on you, biters don't make me smack you holmes You weak like arthritis, don't sleep on me like Itis We're street fighters and we keep heat right beside us In case you too pussy for a fair one like Commodus", 
+        "I'll stay an immature grown man Rhyming hardcore for fans, my indie is major I hustle harder than the brain muscles Of Master P and Russell combined Do what it takes, even if I gotta bust you with a nine", 
+        "Yeah, when you see us you better pay homage I'm on some combat shit like early day carcass How you identify a body from they cartilage? 50 deuce, park side killer, blade sharpeners Philly soundtrack, Abel Ferrerra I will catch a fucking homicide, lay 'em, whoever DJ Miz, heat will fucking slay 'em and sever If you think that either one of us is playing, whatever (Well fuck you) Go up in ya face with the open hand pliers Old school like sneakers hanging from overhead wires Y'all just  getting warmed up, pussy, we set fires We the hardest rappers that's living but y'all biters (but y'all biters) Load up the trunk with the motherfuckin' arsenal I'm about to spray your fuckin' wig like a barber do I'm a loose cannon, there's no telling what I'mma do Shooting innocent motherfuckers like they was Amadou", 
+        "Immune to Ebola and never got the swine flu And when you say it like that, it shows a different side of you Reminding you of the rights that are now denied to you How elements that compose the sun are inside of you But you didn't come here for knowledge and wisdom America rubs it's pussy to dead children Truth, no modesty, no apology, odium Go home and let the cable TV wash over you Ya life's a microcosm of the world's problems But you don't even have the perspective to try to solve 'em No compassion, remorse, or any type of future seeing Government being run by people that are barely human beings Who claim we were brainwashed by hip hop music But now pop culture propaganda's how they use it Crack 'em with the black jack on a Necro track Snatch your chain and hump the dance floor, I'm taking it back Bitch"
+      ]
+    }, 
+    "title": "Take Hip-Hop Back", 
+    "url": "https://genius.com/Necro-take-hip-hop-back-lyrics"
+  }, 
+  {
+    "artist": "BET Hip Hop Awards", 
+    "id": 546483, 
+    "lyrics": {
+      "verse": [
+        "I'm from Newark, South Ward, you know the crime rates You better weigh your armor, me and karma on a blind date I used to sell firearms through the tri-state I made money off ratchets; the Mona Scott mind-state My lil' homie got an AK bustin' Big ratchet blazin' bitches; she Nae Nae puffin' If your bae-bae comin', I gotta hit it first On the car dash she in; I'm tryin' to Ray-J somethin' We all eat, I brought my team to the jock All the groupies wanna do is be seen with the squad This year Mook was crowned king, I seen with my eyes But ain't no church in the wild, so what's a king to a God? Cassidy duckin' me, Murda Mook duckin' me Me and Joe Budden beef over with, luckily And for the rest of you industry niggas kickin' it I want y'all in this ring, tell mommy sign the permission slip", 
+        "My momma told me \"Break a leg backstage, it's all yours.\" Now I'm snappin' on cam, salute to Paul George I got it locked, Rhode Island on the map now A \"G\" to the \"AR\" in the field with his cat round I hold my own, all my hitters in the background Trigger happy pimpin', yeah, they quick to lay the MAC down Ride with the blicky, makin' power moves like 50 I'm too live, fancier than Iggy Said I'm the queen in this game of chess I'm right now and I'm rated next, hangin' with the vets Jewerly ice cold, look like I'm doin' the ALS I'm in your city, but I'm holdin' down my state These rap chicks is food, throw 'em on my plate You got four, bring four more; they gettin' ate I already got the caskets, I'll see y'all at the wake Man, I ain't got time to chop it up with fakes Since day one, I been A1, you can pour me on a steak", 
+        "I got a million on my mind, nigga So I ain't tryin' to waste a minute of my time with ya It's always ones that not around that wanna shine with ya I was taught to show the love to the ones that grind with ya Show shout out them boys that I'm gettin' paid with And shout out to Wiz jumpin' on Day's shit Ain't make no money from music, but I done made hits If I was makin' it up, it probably would make sense And BET deserve a round from us Last time this year I was in the streets wildin', bruh Detroit, they still ain't heard the real sound from us No disrespect, but if they take it personal then round 'em up And Uncle Snoop talking 'bout he got the loudest blunts Threw him a zip and now that boy cop his pounds from us My momma tell me I scare her hangin' with all these guys But all these guys saying I ain't hangin' around enough", 
+        "So they threw me to the lion's pit I came back with the lion, taught 'em how to sit Sit, I'm nice, better acknowledge it Or I'll fight the whole show, like I'm Jocelyn Get me? All these suckers lollipop'n Club the olly oxen, they always wanna get in free King of battle rap, comfortable in first place Hear the finish line is all mine, heard Drake? Have you flashback and the actin' is real here Cripple your career, put it back in a wheelchair Get killed here, ain't no chill here, my demeanor Don't play the field here, Degrassi, it ain't greener I'm a detonator, because of recent events now You gotta be strapped in the elevator I smell the paper, lead me to the power Chicks holdin' my rod, like Mimi in the shower I\u2019m a horror, BET ain\u2019t mean to bring I\u2019m shinin', Steven Hill meet Stephen King Grindin', weed, pills, leaves, and spring You buyin', you need a deal, I need a ring And I\u2019m that boy that you all should fear Call\u2026 I\u2019ll be sure that it\u2019s all good here Better know your boundaries or let the four wood flare Jack boy surround your door and they all stood there Last time they had me viewing from the back seat Second I was by dude-in-that-blue-hat seat This time I'm on stage with a rap sheet I'm doin' pretty damn well if you ask me Now the teleprompter tellin' me get off The voices in my head still tellin' me to get off It's that Rick Ross weight loss, chillin' on the beach Figure since I'm here might as well make my own speech Like, first, wanna thank everybody that tried to diss me Second, I wanna thank all you bitches that wouldn't kiss me Third, I wanna thank all the fags that didn't list me It's because of y'all that we here makin' this history But let me stop, \u2018cause I see I'm going over top Y'all don't even know what I'm saying, y'all just know it's hot"
+      ]
+    }, 
+    "title": "2014 Live On Stage Battle Rap Cypher", 
+    "url": "https://genius.com/Bet-hip-hop-awards-2014-live-on-stage-battle-rap-cypher-lyrics"
+  }, 
+  {
+    "artist": "BET Hip Hop Awards", 
+    "id": 541785, 
+    "lyrics": {
+      "verse": [
+        "Your boy got it popping like Crisco Number one independent on the east coast I rep the streets, I don't do it for the weirdos I am really with the", 
+        "Yo, yo, yo Last year I was watching it from the couch I stayed in tune with all my dreams Haters see me living them out I'm from Detroit, Michigan, homie, it's the home of the Lions My homies was dying, rock hoodies during moments of silence Passionate, practicing activists doper than", 
+        "Just holla at me if you need that real And if it's true that words are weapons, Dee packs steel I did it solo, no aid But Dee's that ill, I reach and feel And thieves that kill can't steal that skill for real I'm a positive black man, beware in the streets Don't compare me unless it's to the man America leads Sit back an reteach", 
+        "Allow me to murder this For anybody that may not have heard of this It's the L-O-G-I-C I'm repping MD yes y'all know the deal We keep it real all the time, V's up, that's on my mind I'm feeling infinite, like Eminem's first album Speak to the people like Malcolm Murder your mind in a minute, like the Millenium Falcon Rip the mic and yeah I know the outcome Check it, I'm biracial, but couldn't tell by the facial So everybody swears that his parents wasn't interracial But if I had dreads, sold drugs and screamed \"Fuck the feds!\" Then maybe, just maybe they might give me some street cred Even though I grew up with that all in my house Ain't gotta glorify that shit, there's more to talk about, but Don't get it twisted, I'm far from a mad rapper If anything I'm the finest of dead president kidnappers I got so much on my mind but not enough time to mention Cause I'm ripping and living and striving and killing", 
+        "I said don't ask me about no broads, no rap wars I do this for my Mike Brown brothers that's really at war Therefore, y'all better close y'alls jaws When it come to me, cause y'all gonna need wraps and gauze I'm the underdog, clear, y'all ain't gotta like me Gather your best armor bodying me less than likely I swear on James Brown if you try me Red Hook Summer like Spike Lee Bloody gloves, we in the ring like carats This ain't the first quarter, but I'm balling like it's March Madness Heh? I got 'em pinched cause I'm lavish When you're in a motel you better hold your bladder Now what they talking about this MC deficit? Like I will run up on that stigma put a death to it Man, realize that I'm the best at this And I don't gotta wear a dress to be addressing this"
+      ]
+    }, 
+    "title": "2014 Lyrical Punishers Cypher", 
+    "url": "https://genius.com/Bet-hip-hop-awards-2014-lyrical-punishers-cypher-lyrics"
+  }, 
+  {
+    "artist": "Chris Brown", 
+    "id": 53932, 
+    "lyrics": {
+      "verse": [
+        "Do you think I give a fuck what you think about me? I got my chin up, brother walking properly Almost got them papers so no coppers bother me Fuck walking on egg shells, father help me please I'm ducking slugs, I'm in higher water so they leech You got the game f'd up, but it\u2019s all G I choose it cause this music\u2019s therapeutic to my brain cells And when I'm stupid, yeah I lose it I don\u2019t think well Yeah, and for this moolah, I'm a road runner You can't stop the party, boy, you won't fuck my fun up Might just have to call them boys then they gonna run up Pretty little face lift, yeah you getting done up I light a candle for the homies that's history You light a candle just to save electricity Let me calm down, I don't wanna get tazed, I just bought this outfit and these shades I'm balling hard nigga hit that replay and all my haters die slow and decay Look, leggo, give me four quarters and a few vitamin waters I guess to win in this game I just gotta fuck reporters A nigga somersault naw, it's not what the doctor ordered Red shots is on your forehead, block 'em, they recording Now I'm on the west coast riding in that lolo With a couple killers who be hiding from the popo Know they got the best smoke, feel like you in slow mo But I don't smoke that shit so no that wasn't no promo VA yeah we hard bitch Cause everywhere I go I feel like I'm a target I'm a star, you just start shit Super hero switching fists like I'm Clark Kent", 
+        "Superman that ho, check, look, see the way snakes double I guess you can say I'm tipsy I'm all about my hustle like my first name Nipsy Breezy brought me on, so I be wherever Chris be I'm the next to blow, believe it or not, Ripley's Biggest thing in LA how can you miss me? Tell the bank teller keep them hundreds extra crispy Cash rules everything around me I see your mouth moving but you ain't really saying shit like the lip sync A lot of chicks on my teams so they call me coach My dick game got them bugging call them cockroach How you fly as me? I don't fly coach Nigga I'm sick so when I spit it's fucking gross That's dope, nigga that's dope Iced in the bitch but I ain't never seen the slopes Californication, I'm repping the West coast East side, young niggers, my cousins are straight locs"
+      ]
+    }, 
+    "title": "Real Hip Hop Shit #4", 
+    "url": "https://genius.com/Chris-brown-real-hip-hop-shit-4-lyrics"
+  }, 
+  {
+    "artist": "Royce da 5\u20199\u201d", 
+    "id": 40674, 
+    "lyrics": {
+      "chorus": [
+        "I know my streets, I know my sounds Y'all know my beats, how I get down I take my steps, and leaps and bounds Nigga it's hip hop", 
+        "Hip hop is everything around you No competition Back to the voice of today It's real in the field What's realer than hip hop? I know my streets, I know my sound Y'all know my beats, how I get down I take my steps, and leaps and bounds, nigga it's hip hop", 
+        "Hip hop is everything around you Gotta be something for me to write this Back to the voice of today No talent rappers What's realer than hip hop? I know my streets, I know my sounds Y'all know my beats, how I get down I take my steps, and leaps and bounds Nigga it's hip hop!", 
+        "Hip hop is everything around you Come alive y'all Back to the voice of today It's all in the game What's realer than hip hop? I know my streets, I know my sounds Y'all know my beats, how I get down I take my steps, and leaps and bounds Nigga it's hip hop!"
+      ], 
+      "verse": [
+        "Yeah, yeah, we started from nothing a couple MCs Beat-boxin', the crowd in the lunch room Me and Preem, both names go together Like they ain't supposed to be separate like D&D I said it before, I rep in records beats At the HeadQCourterz, rest in peace Nigga I'mma hold shotty, and knock you out And I ain't gotta know karate like Afu-Ra It's hip hop, strong or not This is rap basketball, stats all you got Long as you hot, and your flow can hold up To knowing that all of your short goals is long shots! Ninety percent of you niggas ain't hard Here just to get a rep, you not Gang Starrs The finest flow will amaze Rap without me is The Source minus the quotable page", 
+        "Rhythmically come on with it, I'm long-winded I will diss you from long distances You will not get the chance like Choppa Ness and Dylan to disrespect, who you don't listen to Egg in the skillet brain, nigga, this is you Smarten up, every person in the Earth Be hardened up but the only target is us It's hip hop, cars and trucks I be dreaming about shit like having a hard time swinging On a nigga or squeezing a trigger or falling If I land I won't wake up My six shot model, ya crew I'm leavin' ya momma faces blue like a Hpnotiq bottle They feel you the realer you spit, this killer shit is hearin' us Healin' you if you ill or you sick mentally, it's", 
+        "More venom, 5\u20199\u201d is like a G5 Illest lyrics is stored in him Chorus is killing, any warrior feeling That I ain't God - Lord willing Trust me after I crush ya building You will just hush, you won't restore the village We look toward with killing, real Though this album is mor-bidly feeling to steel Hip hop! Fuck your feelings More rappers dying, much more killing It's no feeling realer than gambling ya life Everyday, and waking up to more dealings Fourteen killings compared to offshore millions Equals I got a lot more villians You know that you easily lose, you be on MTV News For the first time, because you died over"
+      ]
+    }, 
+    "title": "Hip Hop", 
+    "url": "https://genius.com/Royce-da-59-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Quebonafide", 
+    "id": 3088920, 
+    "lyrics": {
+      "intro": [
+        "Do s\u0142owa hip-hop zrymowa\u0142em tu ju\u017c ka\u017cde s\u0142owo Do s\u0142owa hip-hop zrymowa\u0142em tu ju\u017c ka\u017cde s\u0142owo Returnersi... (Quebonafide, KRS-One! Let's go! Watch this!)"
+      ]
+    }, 
+    "title": "To nie jest hip-hop", 
+    "url": "https://genius.com/Quebonafide-to-nie-jest-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Honors English", 
+    "id": 140578, 
+    "lyrics": {}, 
+    "title": "Rap Genius: My Hip Hop Story", 
+    "url": "https://genius.com/Honors-english-rap-genius-my-hip-hop-story-lyrics"
+  }, 
+  {
+    "artist": "Joell Ortiz", 
+    "id": 24689, 
+    "lyrics": {
+      "intro": [
+        "+ {Jadakiss} Yo, do me a favor? (what?) Accidentally step on your white sunglasses (ha ha ha) We don't wear those over here, this is hip hop {uh-huh} This is Carhartt jackets (yeah), Timberland boots unlaced {yup}, this is Champion hoodies Chicken wings and french fries {uhh} R.I.P. pieces on the handball court (you see it) This is us still fighting police brutality {AH-HAH!}"
+      ], 
+      "verse": [
+        "Everybody runnin' they mouth 'bout how they real Ringtones blowin' the doors off album sales Need to be tellin' the people about how they feel \u2018Cause that's how it all started, I'm surprised they feel ill Music just ain't what it used to We used to have songs that you could shoplift or boost to This is the truth too, listen, we gon' pop in the Juice Crew Then run up in the mall, get loose, boo Hard streets, hard times, beats and hard rhymes Five-Percenters teachin' the God lines Two turntables, a mixer, few speakers Haze didn't exist yet, they blew reefer Pink Champale, plenty of malt liquor Extension cord was ran through grandma's kitchen Fashion statements, bats was safe then Now, D-Block Royal bash your face in", 
+        "Uhh, geah, check\u2026\u00a0I said hip hop, started out in the park Man, I knew it was going down from the start I be backstage with that extra pound in my heart Butterflies, what a vibe when I tear that whole crowd apart! It's hip hop, my lips got problems, I spit hot shit Watch the Kid Rock albums, I hurt verses And bruise flows, who knows what's next and when? I'm like a NBA game; nothin' less than 10 It's like all kind of diseases infest my pen I'm sick, I gotta spit, I can't digest my phlegm This gift could be a curse if you don't use it right So call me now, tell half of these dudes good night They let the lion out the cage, the dragon from out the cage Dudes worship him, girls be draggin' him off the stage You dudes weak, you ruin beats, you don't hurt the track Give your producer my contacts, I'll murder that", 
+        "Just when y'all thought Queenbridge was a wrap Nas came back bridgin' the gap Joey Crack told the whole map to lean back For a second you would've thought New York was takin' the scene back Even Ja dropped a mean track It went \"I'm from New York!\" The first city that have heads to fiend for crack Now all I hear about is who's a Blood, who's a Crip Religious leaders only teach half of the truth and shit I'd rather rock a fake gold crucifix than them platinum white Jesus faces; he rap like he's a racist Know a philosopher that reads the pages So that knowledge I try to keep away from me for ages (Aww, man) It's like I'm in a race against time Couple years ago I couldn't wait to get signed I thought automatically that my face'll get shine But being lyrical was just a waste of slick rhyme \u2018Cause so, still I annihilate though The sire lace the place with the fireplace flow The day y'all could fuck with me or Joell Ortiz That's the day Hell gon' freeze"
+      ]
+    }, 
+    "title": "Hip Hop (Remix)", 
+    "url": "https://genius.com/Joell-ortiz-hip-hop-remix-lyrics"
+  }, 
+  {
+    "artist": "Prince Ea", 
+    "id": 224168, 
+    "lyrics": {
+      "intro": [
+        "", 
+        "(Coughs), this is who killed hip-hop, video log 2893 (Coughs), I'm sick, I think I've been poisoned I've been researching this for too long, I think somebody's watching me (Cough), but I finally have results"
+      ], 
+      "outro": [
+        "- Guy: Hello? - Hopsin: Yo they got Prince Ea man... this shit is way fucking crazier than I expected.."
+      ], 
+      "verse": [
+        "So many years tryna' figure it out, night after night, tryna' figure it out Scribbling down equations, going crazy, thinking about who crippled the sound Of hip-hop, it was breaking me down Why'd it drop like a dip in the dow Until now, I was living with doubt but I finished the trails and finally figured it out See I was naive at first trying to explain stuff Like maybe there's a reason they betrayed us Maybe some wack rappers are really good rappers and went under cover to save us You'd be surprised what I made up Like maybe Sister Souljah is Soulja Boy with a shape up And maybe Melle Mel, is really Waka Flocka, with some kind of Martin Lawrence make up? Wake up to the day light, the best way to hide something is keep it in plain sight And there was a break in the case, all this time you were right in my face I should've known it was you from the start, you fooled everybody, it was you all along Well I found your finger prints, now I got the evidence To prove to the whole world, who you are It was you behind every big rap beef You killed Pimp C and B.E.T You impregnated Kreayshawns Mom, and brainwashed Lupe to cosign Lil B You forced Busta to sign with Young Money And 2Pac to sign with Suge You told Ice T he would win an Oscar if he starred in Leprechaun in the Hood You pushed Lil Mama on that stage You blackmailed Birdman to kiss Wayne You kidnapped Ja Rule's career, and hid it in the same place as Young Berg's chains You sold drugs to DMX, and gave Lugz to Funk Master Flex You ghostwrite for Drake and send freestyle lyrics to his Black Berry Via text It was you who created the word swag, and took realness from our songs You made the manufactured the hip-hop Illuminati to distract us from what's really going on I figured you out, I finally caught you So many years and I finally got you It's about time that somebody stopped you Now I can finally expose you I'mma make sure the whole world knows you Case closed, the criminal responsible for killing hip-hop Is none other than..."
+      ]
+    }, 
+    "title": "Who Killed Hip-Hop", 
+    "url": "https://genius.com/Prince-ea-who-killed-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Dalmo Mendon\u00e7a", 
+    "id": 492829, 
+    "lyrics": {}, 
+    "title": "Ass Talks Back: How Nicki Minaj Takes Control of The Big Butt Narrative in Hip Hop", 
+    "url": "https://genius.com/Dalmo-mendonca-ass-talks-back-how-nicki-minaj-takes-control-of-the-big-butt-narrative-in-hip-hop-annotated"
+  }, 
+  {
+    "artist": "Black Hippy", 
+    "id": 200284, 
+    "lyrics": {
+      "verse": [
+        "Full time grinder Watts City/Wise city rhymer The ghetto Moses tryna get my homies outta bondage Need some time to think so I'm rolling up the ganja Sneaking out my pores, know I'm blowing on the bombest Bars looking nice, my rap smoke polish A God on the mic, wack rappers pay homage Leader of the new school Everytime I bust a rhyme, incredible lines When I talk, make em' press rewind I do it for Hip-Hop, fuck what you heard Do it for my nigga's who voices will never be heard Listen, blessed with talent, voice of the young people Went from a zero, now my city label me as a hero Nine, double-O, five, nine, that's where the chopper sing Sound so melodic, the problems, that's what the drama brings Dog I'm gutted as ever strivin' for finer things One-O-Five Eastbound, swervin' in and out of lanes This game filled with a lot of lames On the real my nigga, this shit gotta change From Cali to Queens, Top Dawg guarantee We the new regime", 
+        "Like, 4 years ago I was writing rhymes in my Chevy Celebrity Spittin' the hardness, says Doc Elery It's prophecy I shine, ask cashanova Burnin' up my notepad tryna ash my doja Sober... For the game you decayed I sow it up You must say yes too much Cause you don't know enough To match my caliber, I'm a whole new breed Ya stamina's shot, I'm movin' like the old .23 For Hiphop I breath... Have a seat, I'm a beast And I'm ready for war with no peace Seems that they forgot to rap, you had to think They just wanna be ballers when you see em' on the screen Who am I to say the grass ain't green Who am I to say the next generation don't share the same vision as we I will say this, it's less likely Than me having clean piss Rest in peace  Omar Jones Your spirits in my lyrics when I flow Became the number one prospect All because I keep it true, I don't do it for the coupe", 
+        "Draped in stone like I gazed at Medusa Download my audio and blow up your computers Spit that conglomerate shit, the shit that you aren't used to Shit so strong the unborn can smell it in the future They'll sell it and they\u2019ll shoot ya A Mom and Pop store sold out And the fan killed the clerk over my music Is that real? Realer than me at 16, writing sixteens, battled and dismantled six teens All for the love of hip-hop, I would still rap Even if Rodman came back and my diss flopped Thats an analogy built with substance Fuck an award, my metaphors for the public You forging your signature on", 
+        "Coming from where the diplomas don't matter Backpacks still carry the work Big burner under the shirt Shit I just wanted her purse Kill a bitch and hit the studio to murder a verse I'm just getting it in Reminiscing about the time when I was stressing to rhyme Started getting better, shit I'm destined to shine Clip load up Fuck it back to the crime Profession of pro skaters couldn't fuck with my grind Still stuck with a nine Shooting like MJ in his prime You motherfuckers know what it is Straight splatter your wig Let your mother know its personal And murder your kids Little nieces buried in anchovies Rap Lebron, Kobe Hip-hop, shit, no matter what I'm talking Cough on the beat and its abortion Murder motherfuckers, straight extortion Live on the beat Who wanna compete? Down in Miami spitting heat, straight tragic Move to Orlando working magic Cocaine balls out the cabinet Uncut, raw, whole ransom Anybody can get it, I'm fully committed to Hip-Hop"
+      ]
+    }, 
+    "title": "I Do It For Hip Hop", 
+    "url": "https://genius.com/Black-hippy-i-do-it-for-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Fugees", 
+    "id": 20530, 
+    "lyrics": {
+      "intro": [
+        "Yo, this is the Fugees.. Refugees About to take you on a journey Into the dimensions of the Booga-Basement The basement, word Hey yo, one two three! The crew is called Re-Fu-Ge-ee-es An if you come to test the rap stylee Stop the violence and just bring it on, willld"
+      ], 
+      "verse": [
+        "Hey yo I, feel kind of melancholy people think they really know me I keep a rap-book with me while I'm driving daddy's Audi I pay the toll fighting for my own soul Cause the bourgeoise type of mental sucks like a black hole But I be baitin the rebel base to bass distort the EQ The devil's wishin they could send me back to Mogadishu Cause I've been wild since I was a juvenile Afro-centric profile, back when righteous rap was your style Now kids are whylin so I ask the bad black Boogie bandit, what's the damage, gimme the estimate then Pray tell me when's the revolution will begin? I turn on my TV I check out Farrakhan on CNN see I'm like the phantom that's flying like the bird do And things you never heard plus I come from the suburbs Word to God, I heard you're acting kind of hard And you got your skin scarred when they was shootin on the boulevard  (You got the vocab) I got the vocab (On the real got the vocab) You know we got the vocab (All my peeps got the vocab) Yeah, we got the vocab", 
+        "Then cast off from here to Mexico You see my four-five-six a-be my Celo And when I rest my head is on a pillow Be-ba-dee-be, be-dee-be, be-dee-be-bo You see the skills I manifest is very tho-rough And if you don't believe me ask Freres Ja-cques Mmmm, Freres Jacques, Freres Jacques A dorme vous? A dorme vous? WATCH OUT NOW! When I choose to speak I'm forming the cipher fly East to the Five Percenter Knowledge is born, to all beginners Cast the first stone, if you feel you ain't a sinner, ahh Say o-ur father, who art in heaven Forgive the foolish rapper for he not know how Fugee be steppin Correct and, stopped and kept in, nuff respect to the DJ, that be selectin, the type of record ahhh  (You got the vocab) I got the vocab (The click's got the vocab) You know they got vocab (Brooklyn got the vocab) We got the vocab", 
+        "Check it out, here we go Back in Eighty-TREE, no one wanted to be NAPPY I turn on my TV, it's a dreadlock for FREE Kill the gimmick -It's nonsense, it's no sense or value A rapper, disaster, nobody ever told me that \"Roxanne, you don't got to work for money no more!!\"... and... Back in the days I used to listen to Kool G Rap Way back when before guns became gats and Run-D.M.C. used to ask Mary was she buggin? I loved P.E., they kept me concious of what I was saying Afrika Bambaata, Poor Righteous Teacher Got within myself so it made me a Five Percenter Say La-Di-Da-Di, UHH! we like to party but My jam was BDP, with My Philosophy Say Grandmaster Flash, MC Melle Mel Then LL Cool J came with Rock the Bells! See I'm the one for the crew, like a Jew is a Jew Like Apollo got the moon, like the men who got the blue Like the Fu got the Manchu, Shaka got the Zulu Hawaii got the Honolulu I got the rap lieu, so skippedy-de-bop-bop you don't stop You do the rock-rock from hip-hop through be-bop From be-bop to bee-bee  (You got the vocab) I got the vocab (Boogie Down got the vocab) You know they got the vocab (Black people got the vocab) Word, we got the vocab Aiyyo peeps, grab the mic and show you got the gift of gab (You got the vocab) Yeahh, we got the vocab (Queens got the vocab) You know y'all got the vocab (Uptown got the vocab) Yeahh, they got the vocab Aiyyo, bros grab the mic and show you got the gift of gab (DC got the vocab) Word, y'all got the vocab (Virginia got the vocab) Aiyy, I know y'all got the vocab (Oakland got the vocab) Word, they got the vocab Aiyyo, sisters grab the mic and show you got the gift of gab"
+      ]
+    }, 
+    "title": "Vocab (Refugee Hip-Hop Remix)", 
+    "url": "https://genius.com/Fugees-vocab-refugee-hip-hop-remix-lyrics"
+  }, 
+  {
+    "artist": "Megaloh", 
+    "id": 125193, 
+    "lyrics": {}, 
+    "title": "Hip Hop Remix", 
+    "url": "https://genius.com/Megaloh-hip-hop-remix-lyrics"
+  }, 
+  {
+    "artist": "BET", 
+    "id": 3269752, 
+    "lyrics": {
+      "intro": [
+        "Dark side, you're now at the BET Cypher And you know we all from south Florida, so let me introduce the crew We got my dog Ball Greezy the legend We got my dog Zoey Dollaz making dollaz And we got my dog, put your face on Ski Mask The Slump God And it's your boy Ultimate Denzel Curry Aye yo, Premo drop that shit"
+      ], 
+      "verse": [
+        "Uh, I want a swag like Fab, crib like Ross Paper like Jiggy and a hustle like Puff Keep it street like Jeezy, label like Weezy Talk more shit than Trick Daddy and Yeezy Legend like Pac, and that nigga Biggie Go from ashy to classy just like Nicki Major key like Khaled, smoke like Snoop Bang beats like Dre and make movies like Cube Tour the world like Flo, neck like Slick Rick With a fire ass album like 50 gon' get rich Cool like Cab, bang like Jimmy Smoove like Juelz, and freaky like Zekie Nas with the knowledge, X with the pain Ja Rule with the melodies and Drake when I sing OutKast with the grammar, Geechie at it's finest Cee Lo Green with the dungeon fam behind him Ball Greezy, wide, yeah", 
+        "Ayo, I'm bout to hit this beat raw, somebody get a Plan B I'm so hot I made them move the cypher to Miami After this your girl mouth about to be dumb like Donald Trump Cause I'm on this screen spitting harder than Donald Duck Last year, I was watching this on the TV This year, hi hater, I know you see me When I was ducking cops, swiping cards with no I.D You was home bored, scrolling up on your IG uh My future bright boy I see no error I could've been like you, broke without a clue But those c-notes better A rap nigga touch me? He know better I be solo, but I'm 32 deep My clip a ladder I make them bullets go climb up your cheeks It's never about how you fall, it's always about the hand that catches ya You can catch 3 to your head like you Chance the Rapper Jay told me never go Eric Benet I say never go Joe Budden, and lose a bad chick like Tahiry right on TV Because fuck a rap beef, knowing they wanna meet me Rappers, dancing like they Meechie Louie shorts on jet skis, ooh I'm finna", 
+        "Ayy, ayy, ayy, ayy, ayy This disgusting, like I just spilled some mustard I'll turn my flow to Hush and Let It Burn Like it's straight from Usher Matter fact, I rode here on the back Of a saber tooth white wild mountain cat Double park in a spot for the handicap 'Cause if you can't tell I got a bad back but It's a mayday, who gave this crazy a payday And when she see my big wiggles Made face like she stepped on Legos God of War, like I'm Kratos, carnivore, I'm the prey though I'm a whore, we a whore, we all whores, ayy! Even if she hot I'm gonna drop her like potato Told these niggas catch up like the sauce from a tomato I see myself in Great White, you shrimp just like alfredo And the way that I'm getting bread Like I'm a jar of mayo", 
+        "Better recognize, this the man ULT Coming from the depths of that black land CC Aquarius'killa the ultimate no Marvel or DC You'll never be superman cuz I'm where the green be Kryptonite You say we blood until they lay you in the crypt tonight Be careful or people that's around that ain't living right the Left turn leave another brother chest burn Bullets so hot they'll leave your homie's chest hair permed Used to be on the block like H&R Where the crackers chasing most of my niggas like an Atar Raw, I'm Egyptian, nah I'm encryption, law My depiction is a real nigga description bitch You still hum capped off a niggas rims Put some green on your head like I play The Sims Say green because I've never been a flashy nigga You see the world in black and white like a ashy nigga"
+      ]
+    }, 
+    "title": "Ski Mask The Slump God, Denzel Curry, Ball Greezy and Young Miami BET Hip-Hop Cypher 2017", 
+    "url": "https://genius.com/Bet-ski-mask-the-slump-god-denzel-curry-ball-greezy-and-young-miami-bet-hip-hop-cypher-2017-lyrics"
+  }, 
+  {
+    "artist": "French Montana", 
+    "id": 98724, 
+    "lyrics": {
+      "intro": [
+        "Niggas be talkin that Bonnie & Clyde shit Man, that\u2019s that movie shit All I know how to do is keep it 100 with my dogs"
+      ], 
+      "verse": [
+        "Love a bad bitch get her Celine on Young Al Green get my lean on One love, one love I\u2019m talking Nas illmatic with my semi-automatic I started from the corner with a warrant, got the city hot Made mills, label on my back, watch me Diddy Bop Take that boost, something out the loo Hopping out the trunk, bumping Boos' Bad bitches, 6 inch heels, made 6 mills New jewelry set, cost me 6 deals Count them hundreds while shorty count 20\u2019s Shorty keep it a hunnid', it\u2019s all bad cuz he\u2019s bluntin' I love my main bitch and my side btch Niggas acting shady so I\u2019m riding with my lady dog Roof off the Rolls, feel close to God Fuck all them hoes, you married to the mob", 
+        "Hermes bracelets to her elbow Platinum Chanel when a nigga barely sell gold Back when 5-60 was a Melrose A nigga dug his way up out the cell ho Now yellow tape that bitch Cause girl, you be killin em, they hate that shit Seen you on Instagram, skiing out in Switzerland Yea ho, you turned me to a different man Pull a book off the shelf, the wrong move It\u2019s big business that make the small moves On the waterfall, mark a small cruise My bitch right, I ain\u2019t make a wrong move"
+      ]
+    }, 
+    "title": "Hip Hop", 
+    "url": "https://genius.com/French-montana-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "QueenOfCoplaints", 
+    "id": 2455567, 
+    "lyrics": {}, 
+    "title": "Is it the Migos\u2019 flow? Tracing the use of triplet flows in Hip-Hop", 
+    "url": "https://genius.com/Queenofcoplaints-is-it-the-migos-flow-tracing-the-use-of-triplet-flows-in-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "BMXE", 
+    "id": 593782, 
+    "lyrics": {}, 
+    "title": "The History of Hip Hop Music", 
+    "url": "https://genius.com/Bmxe-the-history-of-hip-hop-music-annotated"
+  }, 
+  {
+    "artist": "Pacewon", 
+    "id": 73528, 
+    "lyrics": {
+      "verse": [
+        "Yeah, raise the banner, emcees it's time for you to man up Cock ya hammers, but instead of bustin' off slugs we use grammar Rappers better dip like Juelz Santana Cause rappers nowadays are weak, they want glamour While real emcees got more gifts than Santa Chillin' like a bat inside the Wayne manor It ain't fair we get to climb the same ladder Risin' to the top, I take a look around And there I see 'em, actin' like a hooker now They think they gettin' back But what they don't know is the songs they sellin' wack If they hustle, I wish they get back to sellin' crack I wanna pack they CDs up and sell 'em back I paid 12, just give me 7 back I'll even take it back to the store and get it wrapped, yo", 
+        "Your rhymes are weak, I don't mean to insult ya But you're an embarrasment to the culture So I don't want you, representin' me You're not ready mentally, friends with the enemy But I'm the remedy, quick as a centipede My own posse like it's freakin' ten o' me I don't know why these record labels signed him If being wack was breaking the law you'd be a convict Locked up behind bars I throw on my hiking boots and climb charts All from the skills I got, I stay true to it You wanna, take hip hop and neuter it I wanna, take hip hop and tutor it Update all the rap heads new to it If I'm lonely, add my freakin' crew to it Write a jam and all my people move to it"
+      ]
+    }, 
+    "title": "Hip Hop", 
+    "url": "https://genius.com/Pacewon-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Tech N9ne", 
+    "id": 51009, 
+    "lyrics": {
+      "intro": [
+        "When I say \"Tech\", you say \"N9ne!\" Tech (N9ne!), Tech (N9ne!)"
+      ], 
+      "outro": [
+        "To all my youngsters out there listening to this: Find some sort of education or understanding of life and how it was And then try to find out how you can continue to grow this thing And better this thing and take this thing to higher heights with More knowledge and more conviction to preserve this thing called hip-hop!"
+      ], 
+      "verse": [
+        "What is livin' on 904 Michigan? What is havin' roaches and trouble findin' more dividends? Dyin' a poor citizen What is bars in the door to seal us in War kill us men, tryin' for your kid again What is savin' your pay to go stay in a available place In the way cause you ain't paying no janx when the Yate makes a way to rotate What is weight in your safe? So we can stay in your race Lay 'em on tape invading your state with this pain in your face What is the door slam? They ain't with the program The business give a damn, you go HAM, you giving them more stamina What is having a manager bookin' many shows to go jam? What is at the bottom? They don't really gotta What is in a column without another who stopped him Dropped him, popped on top of him, what is summer, spring and autumn? What is dope and to the top and shot him what is poverty? What is acknowledging a prodigy? What is the dichotomy of this good and bad anthology? What is lads that follow the sad path Sickology? What is livin' life low, then livin' like you hit the lottery", 
+        "What is gettin' off the X and writin' an album? What is being put in the middle like Malcolm? Sicker than Synchondrosis I eat Carrion, I got body parts in my Carry-On That's when the party starts, nigga, I'm very hung Been rippin' up niggas since I was very young Scary-lookin' motherfucker, ready to kill your daddy's mom Ready to eat that meat with a meat cleaver I creep in the streets and defeat these Eat these niggas up hot shittin' out their feces Put a knife in their nieces At least he's younger, hunger, dinner He sees thunder, one nut in her He sees baby, doctor visit He spills rabies in his lyrics Put her in the back with the flat tire, I'm fire 'till I retire I tie her up and then fry her up and then give her to the higher up Tech N9ne intertwine, get out the wine This is my kind of hip-hop", 
+        "To all my youngsters out there listening to this: Find some sort of education or understanding of life and how it was And then try to find out how you can continue to grow this thing And better this thing and take this thing to higher heights with More knowledge and more conviction to preserve this thing called hip-hop!"
+      ]
+    }, 
+    "title": "This Is Hip Hop", 
+    "url": "https://genius.com/Tech-n9ne-this-is-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Lil' Kim", 
+    "id": 239736, 
+    "lyrics": {}, 
+    "title": "BET Hip Hop Awards 2013 Cypher", 
+    "url": "https://genius.com/Lil-kim-bet-hip-hop-awards-2013-cypher-lyrics"
+  }, 
+  {
+    "artist": "Bizarre", 
+    "id": 2174, 
+    "lyrics": {
+      "intro": [
+        "Yeah... Huh... (hip hop, hip hop, hip hop) Turn my mic up a little bit (hip hop) Hit some of this Cali guido (hip hop) Listen to some motherfucking... (hip hop) Everybody got a little story they gotta tell Niggas ain't heard my shit...hahaha The life of Bizarre...what!"
+      ], 
+      "verse": [
+        "Hip hop, that's the way of life (Word?) If you think you're nice, then go grab the mic (Grab it!) Let me tell you my story, cause everybody got one Grab a pen and pad and start to jot some Always told myself that I would never be losing Man, I ain't had no hood, my mother was always moving (Damn!) From Detroit to Texas, Texas to Detroit (C'mon!) Goddamn, Mama, what's the point? (the fuck?) So I would go in my room and pack my little bags (Aughh!) Jump in the truck with my step-dad When I was ten years old, I started to feel the hunger Got a little older, man, the force got stronger (Yeah!) And me and my rap partner wasn't seeing eye to eye So he picked up and started a group with some other guys (Haha) This is hip hop, man, I won't stop Yo Big Boi (What up?) Gimme a beatbox *beatbox*", 
+        "From the Hip Hop Shop to Maurice Malone (Uh-huh) Ten years later, I'm still in the zone (Word?) 7 Mile and Foyer where a star was born (Yeah!) United we stand, divided we swore (D12!) And hell yeah, I lived in my car (Yeah!) Bitch, I was homeless, I would have slept in a jar (Hahahaha) And Dirty Management, I wish all the best But me and my niggas, we had to do what's best (That's right) It was a mess, all them taxes and accounts (What?) Checks started to bounce, niggas couldn't buy an ounce (Hell yeah) And now that we platinum, they diss our name (What?) Like we won't go to the car and get them thangs And beef, sometimes you don't have a choice From the fight with Whitey Ford to the beef with Royce (What!) To the Ja Rules, Benzinos, and niggas in the club To the e-dubs and niggas you ain't heard of And man, I don't know how to use a gun (Naw) But I'll learn quick if the fucking beef come!", 
+        "Man, I thought this was supposed to be hip hop, hip hop I'd rather be fishing in flip flops, flip flops Or cross over to country like Kid Rock, did, I Can't see no country singers beefing over some guitar Riff that Willie Nelson lifted from Bob Seger When I was younger I was so eager To have a gun I would do the same Couldn't wait to get to the shooting range Me and my man Goofy Gary just trying to let loose some steam Motherfuckers laughing cause I couldn't aim So I'd pull the fucking target closer and just shoot the thang I used to have this theory: keep three bullets in the gun It was a mandatory year up here in Michigan For each bullet if you got no CCW license I tried to apply for one, they said it'd take 5-6 months What the fuck am I supposed to do mean time when rivals come? Hide that sumbitch in the glovebox or inside the trunk Now, back to what my three-bullet theory was I'm triple platinum, I ain't trying to catch no murder one Figured I'd shoot to wound, probably miss with at least one But them other two gon' fuck his shoulder and his kneecap up Then I'mma say it's self defense,\" how come I had the gun?\" \"Was because I was at the range, on my way back from\" This dude approached me on some bullshit I'd get a year for each bullet at the most As opposed to having a full clip in that That was my idiotic logic, it was basically for safety But it gave me power, and it made me crazy And psychotic, I just got retarded once I got it Thank God it was empty the night that I got caught with it What the fuck, man I thought that it was supposed to be"
+      ]
+    }, 
+    "title": "Hip Hop", 
+    "url": "https://genius.com/Bizarre-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Boosie Badazz", 
+    "id": 1889563, 
+    "lyrics": {
+      "verse": [
+        "Nigga you ain't ever shot shit, bitch You don't know the first steps on how to whip a brick You too tender dick that I'mma try to pimp a bitch On the tape you, a ape, catch a case, you a snitch Just cause you rich, just cause you rich don't mean a thang You can't even go up in the streets you used to hang Putting on for the fame, you ain't know 'bout real pain Fairytaling ass nigga, scary ass nigga Don't give back to your city, they should jack your ass Did my research Webbie, they don't live like that Turn on the radio you hear the same thing Models, Bugatti's and bottles, damn shame It seems rappers don't struggle no mo', love they mother nomo I just left a place where you niggas will get fucked up, so Love a fucking bank roll the pussy nigga easy We cut from a different cloth nigga, believe that", 
+        "1, 2, 3, 4, 5, now what you doing? Putting all these pussy ass niggas on the list Big nuts, yeah I'm talking baseballs Shit big, got big booty bitches, yup all that They call my phone all the time I probably call back Straight up finna going beast mode, I got my dawg back Bandana, Polo pajamas, y'all niggas pussy cats I dick it down and you ain't even get your drawers back Got any questions for the doctor, I got truth for answers Have these lil pussy rappers dropping like they spreading cancer I been tryna make it, please don't make me make it happen Do what you want but you won't fuck with the savage, tell 'em", 
+        "Old weird ass rappers, weird ass teens Skinny ass pants, pussy ass jeans You niggas different from Badazz ENT Cause we never rap beef, we just put niggas to sleep I got a face that make these niggas ain't me They ain't real like I'm real cause these niggas ain't street The music that they making listen closely it ain't deep And other artists follow that shit, but not me I'm in my own lane doing my own thing, millions when the phone ring These niggas clone mane so Boosie on mane I got that Geto boy, NWA shit You got that four dollar bill music, that fake shit", 
+        "Yeah we see y'all niggas, we don't believe y'all niggas We don't fuck with y'all niggas, we will bleed y'all niggas On the real y'all actors , we don't feel y'all bastards We'll leave y'all pussy asses straight for the pastor bitch, preach"
+      ]
+    }, 
+    "title": "Hip Hop Hooray", 
+    "url": "https://genius.com/Boosie-badazz-hip-hop-hooray-lyrics"
+  }, 
+  {
+    "artist": "BET Hip Hop Awards", 
+    "id": 543121, 
+    "lyrics": {
+      "verse": [
+        "I'm so freakin' unorthodox I make bacon out of pigs Throw Molotovs at squad cars and torture cops Hardcore, tear at a bunch of hoes and they mothers' skirts I'm the stirrer, sip syrup with Mrs Butterworth **Burr** My guns stutter first before I murk a jerk A hopeless romantic, I punch him off for a Birkin purse I was cursed at birth, came out and hurt the nurse I'm so freakin' high I'm saying goodbye to Earth I used to be considered a failure I'd beat up a Kangaroo to nail Iggy Azalea Brass knuckle Benton, these rappers they", 
+        "Bring in another friend and it won't be a solo fight Two will be in dirt like motorbikes Listen, pinheads, Charron was right Too gutter with nothin' to spare, you'd swear that I'm bowling strikes Punches hitting so hard you have to ice this On cam, I'm cutthroat like ISIS Fight this, steppin' around, in need of a crown This ain't Krusty Burger, I'm not beefin' with clowns Out in Canada I'm the dude to battle first Front with me, you'll ruin your career, this like the Madden curse This ain't ready for the shot and all the cash I sign my name and bury ya soon as a body cast Leave the folk to idolize with idol eyes So def, don't make sense that I'm on time Won't stop 'til they put me on a Billboard If the good die young, I would have been a stillborn Charron, Canada", 
+        "Remy the Ruler's back, yeah, Sheezus Christ And I'm the God MC, so she's Jesus wife A cypher with us, they must wanna leave this life Cause never in your lifetime would you be this nice Bae they stole my style, I came to smack the thief When I walk the ground split, I could crack the street \"I woke up like this\", that's a bragging speech Chicks been claiming that since Beyonc\u00e9 last release They whole swag is weak Right, and if she woke up like that, she need to go back to sleep Yo, we gon' show y'all the meaning of black love You having a bad day, I fill up the bath tub She put on a oven mit, we cooking up mad grub Got beef with a nigga, put on a black glove Who run the world? Girls Rem you bugging Besides every great man bae is a good woman Anybody think differently, gotta be a hater Name one good man Will Smith, Jada, Melo, Lala Mandela, Winnie, Swizz, Alicia 2Pac, Afeni, T.I., Tiny Barack, Michelle What about Dwayne Wade, he got Gabrielle Nick, Mariah, Wiz, Amber Martin, Coretta, Biggie, Voletta Jay-Z, Beyonce, Kanye, Kim K Papoose, Remy, That's black love everyday See Rem's really rapping, these broads just yapping I smack a chick quick like, \"what happened?\" I ain't never see the broads in the trap and If you think I'm throwing a subliminal then catch it Yo, we ridin' in that Rolls Royce Just because you in that Cypher don't get gassed, Funk Flex voice Catch you in your car, I'ma blow out your tires You engaged to your girl, I engage in fire"
+      ]
+    }, 
+    "title": "Remy Ma, Papoose and Friends Cypher", 
+    "url": "https://genius.com/Bet-hip-hop-awards-remy-ma-papoose-and-friends-cypher-lyrics"
+  }, 
+  {
+    "artist": "Hocus Pocus", 
+    "id": 72739, 
+    "lyrics": {
+      "intro": [
+        "One-two, yo Check it out, yo The Procussions in the house, yo Hocus Pocus in the house, yo"
+      ], 
+      "outro": [
+        "You see it's one for the treble, two for the bass Come on, yo... Come on, yo... Clap your hands everybody, if you got what it takes"
+      ]
+    }, 
+    "title": "Hip-Hop ?", 
+    "url": "https://genius.com/Hocus-pocus-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Vicelow", 
+    "id": 96565, 
+    "lyrics": {
+      "outro": [
+        "All the lonely people... ... they all come from?"
+      ]
+    }, 
+    "title": "Hip Hop Ninja remix", 
+    "url": "https://genius.com/Vicelow-hip-hop-ninja-remix-lyrics"
+  }, 
+  {
+    "artist": "Ace Hood", 
+    "id": 341697, 
+    "lyrics": {
+      "verse": [
+        "Dear the love of my life I\u2019m sick and tired of the fights So we been fucking for years But you been cheating for life You give it up to them lames And then you blow em that night I gave my heart to you baby But you ain't doing me right See I was young when I met ya Had me fallin in seconds Held me down in recessions I\u2019m thinking god what a blessing Know my love runs deep I toss and turn in my sleep I need your heart in return And if it ever would beat I lost in touch with you once Had me stressing for months I started out in the barn We done been through too much I swear that life is a bitch And plus you easy to switch Ain't no worries lil mama I ain't taking the fence Keep on doin them lames Keep on makin em rich Ill be here for a while You\u2019ll be back on my dick Misses hip hop love I forgive and forget Still I wonder in time Will you ever commit I'm saying  Hook:  What do i do without you Without you, I am lost", 
+        "I went to war with some sinners Laid in bed with the devils Ain't no love in this game It\u2019ll turn a Christian to rebels Poured my heart and my soul I let my passion develop Why you playin with my feelings I ain't the type to be jealous Fuck that hip hop bitch Let that last line settle You fall in love with these rappers Know im ten times better Get it ten times wetter Plus im way more clever I\u2019m from that fuck you era Plus im top 5 level Whats a king to a god What\u2019s your life to my nine Whats my life without you I can\u2019t envision my odds Why your hearts so cold Where the love at tho I deserve that shit You\u2019ll be lying if I don\u2019t You wasting time with them gimmicks Suck a dick for your critics Give a fuck who your favorite I\u2019m the name that you mention You can look up the realest I\u2019m your sure definition We been at it for years I think its time for commitment I\u2019m saying  Outro:  Mmmhhhmm, been rocking for so long Had our ups and downs Our arguments Just don't understand, how come we get be more than what we are I been in love with Hip-Hop for a long time She knows that I devoted my love to you All I ask in return, is your love and heart Mrs. Hip-Hop Love Starvation"
+      ]
+    }, 
+    "title": "Hip Hop", 
+    "url": "https://genius.com/Ace-hood-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Bizzle", 
+    "id": 212594, 
+    "lyrics": {
+      "verse": [
+        "Dear Hip-hop, It's me your foster child I'm writing this cuz i feel we should sit and talk awhile It may sound like i'm crazy, but i feel like your baby Spend more time with chu' then my own folks so it's just like you raised me You taught me to walk, said I should have swag Taught me how to dress, thats why I let my pants sag You taught me how to be a man like i ain't have a dad You taught me how to talk, that's why my grammars bad You taught me self-defense, a little rule of thumb, you never wanna fight son, use a gun See when you use a gun you don't have to respect them, u can talk to them how you want then pull out and check em' You told me women ain't ish but hoes and tricks And never to love them just cut em' move on and dip You never told me what to do if i slipped and had a kid All i remember is move on and dip And make it rain when she get on the pole and strip But if she respectable then why ain't she suppose to trick(?) And if i see my brother get done wrong and just turn ur back and let it happen but dont you snitch You had me thinking heart and real were the same thing, like you real if you have the heart to kill and gang bang You never told me if I take his life, his pain is for a second but it's forever present in his babys life You carried the spirit of banging across the nation, and they embraced it because you put it in song formation You taught me I dont need school I can rap, and while waiting for my music to move I can trap I used to wanna be one, you told me to hate the cops Now they can only beat and mistreat us cuz we ain't the cops I thought you had my best interest, maybe not So I'm writing this letter to tell u thanks alot", 
+        "Dear hiphop, I met my real father He said he loved me and he missed me and I'm not forgotten He left me tons of messages but i must not of got em, I guess you must of lost them, but anyway i found them When i was just a younging you told me daddy left I ran and checked and it says he's always been at that address He said is was me who left him, he just respected my choice You showed me candy and toys and i was just a boy He told me wait for sex, but we ain't wanna wait Now it's abortions and broken homes plus a bunch of aids He told me to love my women, protect and provide, you told me if i love her only do it for a night He said if i really loved her than wife her and go in for life like a lifer, man up and make sure your family tight Ill never with-hold good from you but its got to be right, if it ain't you might have to wait till after this life He said to speak up when you see injustice, its thinking you weak when you speak on evil and whats the streets becoming He told our children are innocent, you teach them a sexual dance we re-tape it then post it up on the internet He told me love my brother, almost like what you said but you said if he looked at me wrong i can bust his head He said His Son is over everything, You either serve God or money, You told me money over everything! He said its never to late to come and join the family, he said they all been waiting for me they rejoiced to have me And that's the point of this letter, I wrote it so you know as sure as you know it, i decided i'm going home"
+      ]
+    }, 
+    "title": "Dear Hip-Hop", 
+    "url": "https://genius.com/Bizzle-dear-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Parias", 
+    "id": 202027, 
+    "lyrics": {}, 
+    "title": "Hip-hop vs Peja", 
+    "url": "https://genius.com/Parias-hip-hop-vs-peja-lyrics"
+  }, 
+  {
+    "artist": "D. Ace", 
+    "id": 3161410, 
+    "lyrics": {
+      "intro": [
+        "- Tout ce qu'il est capable de faire est tout simplement r\u00e9volutionnaire. Alors pour l'instant, il n'est qu'\u00e0 l'\u00e9tat de prototype, donc il manque encore d'un tout petit peu d'autonomie. Mais je n'crois pas m'avancer. En vous disant que ces The MC's envahiront tout le paysage du rap fran\u00e7ais. Il allit le flow, la forme - Nous ne somme pas ici pour \u00e9couter vos histoires - Il ma\u00eetrise tous les flows ! - On dit qu'un acte vaut mieux que mille discours. Place \u00e0 la d\u00e9monstration"
+      ], 
+      "outro": [
+        "- J'suis confus, j'vous ai juste dit que c'\u00e9tait un prototype, qui n\u00e9cessite quelques toute petites am\u00e9liorations. Si seulement j'avais plus de moyens.. - Avec cinq cent mille euros, en combien de temps pensez-vous pouvoir l'achever ? - Deux ou trois mois.. - Voici un million, vous avez un mois et demi"
+      ]
+    }, 
+    "title": "Hip-Hop", 
+    "url": "https://genius.com/D-ace-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "BET Hip Hop Awards", 
+    "id": 540660, 
+    "lyrics": {
+      "verse": [
+        "My momma said I ain't got it all To tell the truth I believe her, I ain't got it all 13 tucked the water gun in my drawers Shot at the police because I thought I was in the movie Set It Off Boy was I wrong now I gotta big choppa And I stay in Versace Big Pappa Played no games I don't duck duck goose I just duce, duce, duce, that means you, you, you Shooting won't stop I just don't get it Cause it's 50 for a bottle and a plane ticket Hoes running a fam, look where the mom did Niggas ain't loyal either look what Lebron did New winning game just getting wet toes Just hanging with shooters that be on lines, wet clothes 'Bout to catch a body, chill leader In the Philly with a motherfucking cheerleader Sleeping on me Red Beam Hundred shots, everybody horny, wet dream I'm on west side and I don't low ride 2 door Bentley coupe, I'm ready to fucking shoot Light skin girls I had a hard time with I was dark, so they used to treat me like dogshit They called me midnight, shadow, oil stain Ok enough is enough that's not my fucking name So I turned up, bought me a couple packs Turned one into two, oh how I love the trap I'm the man now, no caption All in they redskins, Desean Jackson", 
+        "You know Gates stays stupid mane who am I to say You gotta peep him when you see him Check out how he do his thing That dont match he got on louis with a gucci wallet chain Bottom line, never had a mind who am I to think It was times I had to grind, me and you are not the same I be movin' in the coupe, you just pulled up in a daze Playing ball on the ball courts to hoopin in the cage I went from hoopin' on the ball courts to hoopin' in the cage I don't know him but he better keep that metal when he walks Be behaved I wanna break him off nail him to the cross Look when he got his weapon off ain't no steppin' off Different interests afflicted how he led us with his thoughts Dedication mistaken, so what saw people crazy Done meditated for days and then elevated to greatness I listen bad with intentions of hearin half Partner was the driver the cops were clearing path Riding with us a chopper, shot through the steerin shaft Baby mother blamed me for killing her childrens ass", 
+        "With the all black attire on like somebody died You heard I'm not a real one then somebody lied Fuckboy's soft I know he's pink I care less about the haters, I care more about what OGs think Hit the store copped the OE drink Just imagine meeting legends like I wonder what the old me'd think Played a show cashed the check copped a rollie quick Flip you off while I hold my dick Why the bums wanna hate on Eazy? Probably because I'm pretty and my smile looks great on TV Surely he can't spit, surely he ain't shit Surely you ain't paid enough attention to your bank slip It's cheap if you sleep on G See I run with the wolves of wall street You wear the sheep all b Whiskey, condoms, and tree what I keep on me You can't climb as high as me like your Jeep's on E Get used to me I'm leaving no time soon Y'all are about to see some shit you can't imagine like you just did shrooms So forget what you thought it was, I just finally caught a buzz Son you all like a father does I gets a lot of love, G", 
+        "Lux on BET, you bet your luck I draw more blacks than etch a sketch does Protect your neck duck, pray for the predators Show 'em open arms so they don't open the register I'm with the band we came to dance, baby James Brown I see the circus ain't changed just the clowns Hard luck, momma said not like shots out of Starbucks Balled up punches that cars crush on these"
+      ]
+    }, 
+    "title": "2014 They Don\u2019t Get Tired Cypher", 
+    "url": "https://genius.com/Bet-hip-hop-awards-2014-they-dont-get-tired-cypher-lyrics"
+  }, 
+  {
+    "artist": "Page Kennedy", 
+    "id": 92432, 
+    "lyrics": {
+      "verse": [
+        "I gotta stand on top of the building And when I finally fall evacuate women and children Loyalties instilled in, a dark and lonely spot Tell that bitch karma to jump of a bridge with Tony Scott, UHHHHHH I don't give a fuck what you asking for Done with you bitches, I was the ass ambassador I had so much ass I couldn't ask for more Drenched in gas, going to hell faster than the pastor's whore And normally I exude intelligence But I keep going back and forth tryna be celibate All these models trying to provoke me, but I keep on telling them That each one of them 50 Shades of Grey lacking that melanin I'm married to the game, it's a matrimony These phony chicks running up for me they sprayed Axe on me If I wasn't making music they probably not be In my lobby and I'd be searching for molly Getting in relationshops every season With bad break-ups, so I'm sensitive for a reason And without all those trials and tribulations There wouldn't have been a mood music for your consideration Hey shorty, thanks for your participation Now go and join the Joe Budden Instagram nation, TAHHHH Now I got a new chick Everybody looking at me like I'm stupid But they can suck an Avatar blue dick You look at me, and I'll show you how to love Got bitches, so I don't wanna be a wannabe thug Got riches, TLC told you they don't want no scrub Too many wanna be crockets but don't wanna be tubbs, UHHHHH I say the things that nobody else'll say Let's clear this shit up, and hop up off that bidet You can smell irrelevance hella soon But a mouse'll always scare an elephant in the room TAHHHH", 
+        "It's Nickel Nine, I'mma spit a fickle rhyme And add a line that I talk about everytime And it's my big dick I'mma give all these bitches a voice By getting them moist and giving them choice As long as they pick it Play with these kids on the track like Super 8 I'mma just keep on moving straight 'Till the top while y'all losers wait And I guess you vegans don't like eating steak But I'mma eat, eat, eat, eat all day 'till Carlos Boozer shaves! I'll swallow you and you'll go to the neck Of Joe Budden and all of o'sudden you'll slide through chest And land in the in-testinal system Where Ortiz will export your knees exposing 'em And while you screaming for somebody to get you out Of the Slaughterhouse without a doubt, Crooked I 'll shit you out I scream like this cause I wanna sound like 'Pac And I ain't no motherfucking joke but knock knock See, what they don't know is, that I'm using my style to my advantage I'll throw in jokes and screams and yells and other slick little antics The things that I'm doing and the way I'm doing 'em is so enchanting I know that you really can't stand it I don't give a fuck I'm just being pendantic Take my fade straight up, that's why I'm one on one You'll learn your lesson, seed of Smith and; Wesson, son of a gun The second best rapper alive, and the angriest The only shadow I live in on the ground, you can't see it But it's cool, he's the white stallion and I'm the black steed 2012, Rocky Balboa and Apollo Creed Got the crowd hooping and hollering Soon as they hear the bell from the ring, they hear the bada-bing Sick as a Kid Vishis, a trick would give bitches The dick then big riches Then had a career shorter than the memory of a kid That got fed, and goes to bed And right before he did, he forgets dishes Leave out the hospital in mid stitches And strut and shout Just to tell you fuck niggas to cut it out Hop out a kangaroo's mother's pouch Cum the crazy house with a hard on An insane nut, I'm out", 
+        "YAOWA Coming to spray the whole place down, anti-disinfectant cans We in this bitch like if Snooki was expecting twins Arachnophobia scaring the shit out of erected men You can't handle it pussy, head first to the C-section Mister I want to find a penis twista Fuck Mars I'm on Venus like I'm fucking Serena's Sister And now I wanna fuck Shaft daughter And when I'm done throw a radio and Blanka in her bath water That's what I call the electric slide Electrified revolution will not be televised Your album will come out the same day Mathew McCounaughey Come out and say he openly gay I done took so many steps on planes That I done traveled more than Lebron James And I'll drop you lames like Game drop names Ridin' around and gettin' it with 2 Chainz Put me on a track with three other monsters And I'll give more life than a cheat code from Contra (YAOWA!) My weight go up and down like bar benches Or fucking benches and giving them large inches And gettin' going like car engines If a diamond is a girl's best friend Then a blow job is a best friend to a Puerto Rican Gotta have an ass, I mean cheeks fatter than a newborn She give head like she do porn Pussy so tight she need a shoe horn Pull here back stage and giver her that YAOWA For an hour with the force of punky power I got a Snoop Dogg buzz cuzz Confident as a fat thick black chick And if she an actress she can get that dick On a hotel mattress but that's it Stick her with this Brooklyn Spanish cactus match stick One died but here's another sick one Puerto Rican in little Italy diddily Now that's a Big Pun", 
+        "Ever since I been signed to Slim Shady And rhymed them M80's Phone lines then been weighty Maybe they was looking for a nigga like Wayne Brady But I am insane crazy Sadam Hussein angry They can't tame me but they did push me You ain't never been on an episode of the Sopranos A day in your life and still a big pussy Kill yourself like Junior Seau It won't take no internet transaction for you to Pay Pal The top code of the streets is folding la sheets I'mma mute at a wedding forever holding my piece, Capeash You in the cut on the block The ghost of the late Pac Could come and hand you a Glock And I'll bet my whole life in stock That you wouldn't even be able to go shoot a nut in a sock You so gay if you had it your way All shirts that had a hard on Would give other niggas a hard on Bite vicious as Royce little brother I son kids that's why they call me that Motherfucker You a cross between Peyton Manning and Dakota Fanning You a bigger joke than handing Akon lotion for tanning At ten till two, murder is what I'm finna do We can't wait to run into you Like that new Jordan tennis shoe Cain and Abel that's a cool fable I'm calling the shots like I'm drowning you niggas in a pool table Sky rocket headed straight for your eye socket Corner you with an eight ball, side pocket And in case you say that I lucked up You like an NFL replacement referee You got the game fucked up", 
+        "You bout to witness a tragic Infinite insulin accident If you think shits sweet No Laxative But the way the shit is about to hit the fan It's like I told a whole bag of them Sick of them little pussies And it feels like I'm pulling out all magnus Out of your Cervix is it worth it I accidentally on purpose Sold you a pipe dream that was refurbished You don't gotta reword ish You the one that's nervous You don't deserve a squirt of piss Or my fliest bird shit Does little Wayne need a haircut Or does he got a medium rare butt Or is it raw cause it got tear-D up By a skateboarding hoarding male slut Or is Keinan and Kel getting in All of That Till it gets swells shut Me and Michael Strahan go grab Lindsay Lohan Like a caveman And fill her up with grace until she says amen This gap between us is big as an erect penis Ewww, vomit she gives ill brain like a genius But I'mma turn this dirty slut to an honest clean seamstress But that's after I give her that D in old English That's right I got a whole squad Sick enough to have syphilis and go to unemployment And get a free blow job Now I got this juggernaut super group I feel like I just pooper scooped on the roof Of a Star Wars Storm Troopers coup Us falling off is not possible Unless Costco can run out of Tobasco sauce Or Rick Ross takes his beard and shaves it off We on top till Charles Barkley gets good a golf"
+      ]
+    }, 
+    "title": "BET HIP HOP AWARDS Slaughterhouse Eminem Shady Cypher 2012", 
+    "url": "https://genius.com/Page-kennedy-bet-hip-hop-awards-slaughterhouse-eminem-shady-cypher-2012-lyrics"
+  }, 
+  {
+    "artist": "KRS-ONE & Marley Marl", 
+    "id": 26946, 
+    "lyrics": {
+      "verse": [
+        "Hip means to know It's a form of intelligence To be hip is to be up-date and relevant Hop is a form of movement You can't just observe a hop You got to hop up and do it Hip and hop is more than music Hip is the knowledge, hop is the movement Hip and hop is intelligent movement Or relevant movement We selling the music So write this down on your black books and journals: hip-hop culture is eternal Run and tell all your friends An ancient civilization has been born again, it's a fact", 
+        "Hip-hop- Her Infinite Power, Helping Oppressed People We are unique and unequaled Hip-hop - Holy Integrated People, Having Omnipresent Power The watchman's in the tower of hip-hop Hydrogen Iodine Phosphorous, Hydrogen Oxygen Phosphorous That's called hip-hop The response of cosmic consciousness To our condition as hip-hop We gotta think about the children we bringing up When hip and hop means intelligence springing up We singing what, sickness, hatred, ignorance and poverty Or health, love, awareness and wealth Follow me"
+      ]
+    }, 
+    "title": "Hip Hop Lives (I Come Back)", 
+    "url": "https://genius.com/Krs-one-and-marley-marl-hip-hop-lives-i-come-back-lyrics"
+  }, 
+  {
+    "artist": "Eko Fresh", 
+    "id": 578625, 
+    "lyrics": {}, 
+    "title": "Real HipHop", 
+    "url": "https://genius.com/Eko-fresh-real-hiphop-lyrics"
+  }, 
+  {
+    "artist": "Chris Brown", 
+    "id": 57266, 
+    "lyrics": {
+      "verse": [
+        "Look, illest of the illest I'm a sick soul A little margarita blend so I sip slow Too talented type of nigga I'm kinda schizo But never out of my element I let that fifth go Shots in the club panic at the disco She of that MDMA that's from Frisco Hella chips call me mister Nabisco Is that your bitch cause she, won't let my go wrist go My technique is just sex freaks Skinny dip with hot models, bitches and lesbies I'mma put my tongue on they soul like a SB But they don't know they scum to my soul they're just sexy I'mma play dumb play that role in that SV, it's ridiculous And can I get a girl with real ass and tits Most respect in the world to my real niggas Cause, all them fake niggas make me wanna kill niggas I stand alone fuck that gang bang shit They Nintendo blowing niggas cause this game ain't shit Uh, it's relevant that I'm better than these 'veterans' They are sleeping on me like I been givin' them sedatives Sometimes I wish I had better friends and better peers Cause I know when that cheddar ends they disappear", 
+        "Damn! Where they go? Where they go? Where they go, huh?  See I'm doper than that shit Pookie was on in New Jack City This is why I'm getting rich without trying I ain't like fifty Cause what good is being rich if you're dying that shit is silly Call the the chain TLC all the ice'll make you chilly I'm a pimp so you know I'm snatching your broad I'm a real star, you're Patrick from SpongeBob And in my city to the streets I'm Freeway Ricky Cus I keep the streets flooded with that crack music I be selling CD's like them niggas push kilos But I don't push weight unless there's plates in the weight room Why you think I'm BUF? Blowin' Up Fast Call me lead foot cause I be heavy on the gas You would think I was a Spartan, 300 on the dash Either that or a martian in a space aircraft Cause when you see that whip that I have You be like \"What the fuck was that?!\""
+      ]
+    }, 
+    "title": "Real Hip Hop Shit", 
+    "url": "https://genius.com/Chris-brown-real-hip-hop-shit-lyrics"
+  }, 
+  {
+    "artist": "The Lady of Rage", 
+    "id": 60774, 
+    "lyrics": {
+      "verse": [
+        "I never played, so before first grade I skipped the playpen Pen game was flame before I learned to tie my laces Rage is where the plague is, no containing Sick with the spit that I spit, I inflict contagion Inhale the ether They can't breathe easy when I'm around I leave them a Lil' Weezy like the son of Cita Ha, I'm Chiquita, bananas Y'all monkeys wouldn't bust grapes Ahh, I roll with gorillas, for real-a, my nigga, bandits Planet of the Apes Rise, all hail Queen Kong Peons that becoming soft enough to stuff them out your ding-dongs Ah, I'm in it to win it 'til I become The hottest chick to run the third rock from the Sun Lyrically, you would be a fool to fight With the Robin Givens I'm spitting shit on two of the mics Yikes, I'm goin' in like a lifer Step into your radius and decipher your cypher", 
+        "Let me try it This the Big Payback, stupid Get lost, I'm a big boss like Rick Ross's Maybach Music I make cats lose it When they realize they part of the reason I'm starting to sleep on rap music I'm AJ with the style, cause I go free Now everybody and they mama want to know me I'm on that OG, feeling like I'm suppose'ta Came to ruin it, and I'm doin' it 'til it's over It's gon' take a little bit more than this to move me I'm on BET more than the Biggie movie Ain't looking for no girlfriend, just a clique of groupies Call me Wiz, cause tonight I'm tryna get the chewy I love New York, but out of town's sweeter I cheated on Irene 'soon as I found Keisha So, 'nuff respect to alla crew in all d'area Right 'ere on the street is where we-a bury ya Boom", 
+        "Even though I can't see me I know I look good right now on your TV Throw my shades on, call me young Stevie Leimert Park legend, we just make it look easy And I'm counting my money, everyday sunny I earned my spot, you ain't taking that from me Tell them fine girls start shaking that for me West Side get the money, start making that for me It's the unfadeable Who the best is debateable But I do it with no label though Yea, I said we going all night wit' it Prolly ain't seen this since Suge Knight did it Girl you look good, tell her get right wit' it I can't do a show in your city if the price isn't When I walk in, I can tell that they feeling me I hear the girls say that's Dom Kennedy", 
+        "If you a rapper from Virginia, meeting me should give you the chills I'm the reason that the world expects you to have some skills Y'all better call Rozay, dude Cause this verse gone need like nine uhh's and twenty-two whoo's I ain't kidding around You got BET in HD? Well you might want to hit that now Cause I'm never home, I stay gone Y'all was everywhere, now you never there, payphones Clutch fast, spit mustard gas And when haters say my name, it sounds like crushed glass They students, I crushed the class Plus, y'all never came in like Jay-Z's mustache Top me? Don't be crazy, chump Unless one of these guys decide to show a baby bump Shout Mr. Hill and Ms. Lee Oh, and the award for who destroyed the cypher? That goes to me"
+      ]
+    }, 
+    "title": "BET Hip Hop Awards Cypher #3", 
+    "url": "https://genius.com/The-lady-of-rage-bet-hip-hop-awards-cypher-3-lyrics"
+  }, 
+  {
+    "artist": "3Plusss", 
+    "id": 384468, 
+    "lyrics": {}, 
+    "title": "Ich habe Hip Hop nicht verstanden", 
+    "url": "https://genius.com/3plusss-ich-habe-hip-hop-nicht-verstanden-lyrics"
+  }, 
+  {
+    "artist": "2 Chainz", 
+    "id": 57669, 
+    "lyrics": {
+      "verse": [
+        "Aye yo weak minded bitches fall victim because my charm\u2019s strong jazzy pair of louis on my feet Chewy Armstrong Ma couldn\u2019t be my cheerleader with platinum pom-poms she the type to misrepresent a king like Lebron\u2019s mom Beating on my chest with a crown King Kong Don Langston Hughes I write a poem that do the Bible psalms harm These other rappers want problems then bring it on umm this rapping beef is nothing my studio\u2019s in its long form and all cowards\u2019ll become victims of man Keep a 5th of Remy and a stick of piff in my hand yeh they fly but I\u2019m a pilot that no one can understand plus the way I go ham\u2019ll make a Muslim say damn Hustle hard trips to Miami for three days so I can meet with the connects and get the D Wade run up in the Gucci store and drop 3k you bum I could get your whole outfit out of BJ\u2019s Lyrical scientist leaving mics with psoriasis so it\u2019s", 
+        "What goes around comes around like a hula hoop. Hair weave killa I\u2019ll show up to your funeral All this work I need a cubicle. Clear coat cuticle. Different color diamonds like a rubrics cube If this was New Edition, I\u2019ll be Bobby Brown. Put the check over your head and call it Nike Town How could I be down? Free Boosie, wipe me down. My credit card is black and proud I\u2019ve been trapping since roxies had the ankles out. I\u2019m going to the money and I took the paper route Uh Yeh, I\u2019m hood approved and I\u2019m street tested. You a nobody; anorexic If you stay next to me you\u2019re close to a blessing. So, I\u2019m guessin\u2019 I could get arrested for aggravated flexin\u2019 with all this ice on. My mic on, I apply pressure like a python. And everybody know this that body flow; bench press, cardio. They try to cramp a nigga style like a Charlie horse Yeh, they plot on you, and they drop on ya. I put a Glock to your eye and call it glaucoma Bow! From 30 nights of sipping dirty Sprite. I call this shit Bluetooth because I don\u2019t need a mic. 2Chainz"
+      ]
+    }, 
+    "title": "Hip Hop Awards: Uncut cypher", 
+    "url": "https://genius.com/2-chainz-hip-hop-awards-uncut-cypher-lyrics"
+  }, 
+  {
+    "artist": "GZA", 
+    "id": 22006, 
+    "lyrics": {
+      "chorus": [
+        "You crunchy chump crabs get crumbled up like crack rock Fuck with the Wu, we busting ya whole snot box Million white ears and your bitch up in a zip lock From Spazzola to this purest form of hip-hop", 
+        "You crunchy chump crabs get crumbled up like crack rock Fuck with the Wu, we busting ya whole snot box Million white ears and your bitch up in a zip lock From Spazzola to this purest form of hip-hop", 
+        "You crunchy chump crabs get crumbled up like crack rock Fuck with the Wu, we busting ya whole snot box Million white ears and your bitch up in a zip lock From Spazzola to this purest form of hip-hop"
+      ], 
+      "verse": [
+        "Here's something to advertise, promoter keep the fans satisfied Load data for the disc drive, ghetto citywide Leave 'em paralyzed, they stolen every word I provide Without no clearance, I nurture this track like I'm its parents Got requestments from retail stores for my appearance First we target it, then they market it to kill your artist with My hundred sharp cartridge hit whoever's starting shit Got as many rap soldiers for how much this record ship Fuck them niggas you record with, I make 'em forfeit Send a bomb rap through FedEx inside your office Son we build and deliver, came to build with the GZA You heard the chorus from the RZA, ain't no real album spitter Me and my street team be holding congress meetings Audio visual video treatments internationally speaking Got managers scared to shop you, ready to drop you It's the coming of that newest hip-hop, Christ's apostle Try your BDS and SoundScans for more fam Your whole roster couldn't take on that one Sun of Man Get your street team, get your stickers out, put your posters up Boost your budget up, still Razah gon' fuck it up", 
+        "Industrialized niggas change as soon as you get in Throw 'em on an auction block, CEOs bidding Highest price paid for those wack rhymes made Was overrated, cut off, never reinstated I be fruitful and multiply with marvelous tales Feed the hungry MCs who be starving as hell I laid the first verse to quench a dry ass nigga's thirst Who drank my wisdom up like water till his stomach burst Full tank with the premium quality raps Mickey Mouse niggas get caught on a trap You Cottonelle kid from Tottenville, you're Kleenex Looking like Rockwell wearing V-necks You learned from this, earned from this Niggas get tossed and turned in this and burnt in this Scorched at a thousand degrees from live MCs I melt y'all niggas down to the size of fleas", 
+        "Your microphonists collect the bonus, aiyo we own this House niggas verse the homeless, ten to one Timb's the one, Royal Famous. the verbal painters Dark gallery, million dollar pictures Imports from poor to riches, move darts We cruise across the Brooklyn Bridge doing 60 Illegal driving from dusk to red dawn The GZA/Genius, Wu-Tang, we live long", 
+        "True indeed, I hug tracks like my seed Masada, wack MCs do me nada King Solomon the great came to evaporate the fake Yeah you, you know you're Power-U You recognize the voice, it's the nigga from the Wu Every dart I spit gets mastered and promoted You've just been demoted 'cause you're sweet and sugarcoated You folded, your style is half stale half molded, molded,"
+      ]
+    }, 
+    "title": "Hip Hop Fury", 
+    "url": "https://genius.com/Gza-hip-hop-fury-lyrics"
+  }, 
+  {
+    "artist": "Dope Fantasy", 
+    "id": 152303, 
+    "lyrics": {
+      "outro": [
+        "Freestyle scatting"
+      ], 
+      "verse": [
+        "Fallen angels with clipped wings shooting Down my dreams hoping I never make it to Hotels suite as cream lord please Forgive me for my vices Im never ok With second Joe why you Biden pockets Money hungry on a strict diet from A city where niggas only appliance Is a stove on they waist souls wasted Like a whino on the pavement they Say stop the violence when they just contain it My soul rich and my heart is made of gold, no amount Of currency could make me sell my soul I am legend On this map quest leaving land marks on the game naw I ain't pissed Im just hella stressed like this denim im Not true to religion cuz I seen to many parish in parishes And to 5 0 1 nigga dead is a blessing, question, why we outkast in our gene Pool hip hop's savior you should put me on a pedestal Now watch this black boy fly I got my jays laced Ask whitney we the only dope allowed in her face Kindle a flame let yo brain levitate this is higher learning In sermons im moses parting waves", 
+        "Definition of some dreamers Ls not far fetched that im a schemer Tryna come up not the hardest in this city But its harder when you tryna keep it clean not gritty Working 9 \u2013 5s just to buy supplies for this rap shit Beats studio time a couple pens and pad shit Tryna get yo flow together why you work the floor Dreams of bigger venues no more open mics show Getting dough for that flow that you just rocked the crowd with Hands waving side to side im grinning feeling childish Sound of my alarm still keeps a fly kid grounded The bright lights golOt me blinded It\u2019s a reminder to not get to big for my britches And if I fall in love pick a queen not these bitches And now they say im an emcee on a mission Can't wait for the day I see things that I pictured", 
+        "First off gotta shout out to the lord and my granny Cuz they the only ones that understand me Moving right along bruce lee playing ping pong With nunchucks will catch my attention but for you dumb fucks Dancing round with shirts off guns out blunts lit all Because you think its kool boy thats some dumb shit A whole lot of nothing multiplied by some stuntin Will equal a bunch of fronting on how you gon get something As I paralyze the hooks and slit the throat of verses Cattle prod the beats while producers will drive the hearses I just wanna be useful and not viewed is worthless Make sure my fam ain't gotta struggle while making a purchase Grew up with a half mom and no dad Living in the chi you gotta grow yo on gonads So I learnt the ropes perhaps stay away from snakes and rats Cuz they always bring pigs hit harder than lance briggs So next time you selling arm and hammer while being armed with hammer You know how not to get up in the slammer You'll never double cross us like the legs on a indian So switch it up like aunt vivian"
+      ]
+    }, 
+    "title": "Real Hip Hop", 
+    "url": "https://genius.com/Dope-fantasy-real-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "ScHoolboy Q", 
+    "id": 95327, 
+    "lyrics": {
+      "verse": [
+        "I think my pressure boiling from all the shit that's spoiling Uh, I once was on it but now my head's enormous Uh, your shit was boring, my art is fast and forming Creativity is what you lack in your performance You see the crowd nigga? Microphone checker Mr. Home Wrecker, give me hard liquor Let the blunt flicker, you see my style evolve Reservoir Dogs and we some Hannibals If I would catalog, feeling phenomenon I'm after the Parmesan, while gripping my fire arm Bang, he lost an arm, bang, he writing nothing Nigga you wasting time, I'm wasted, past the line, I'm hard My nig, you whine, you broke, my nig, you lying, you owe You buying dimes, look my nig, we know the signs But quick to speak our minds, fronting like you balling man I couldn't tell, Hell, smoking more than what your dealer sell Huh, super fail, super duper fail Listen to the Schoolboy, my mic can teach you well, Hell Hah, left him at a pit stop Top Dawg, mothafuck your hip hop", 
+        "They don't wanna see you shine, they don't wanna see you grow They don't wanna see you sign on that line and get doe Wanna keep you in they pocket, I fire like a rocket I'm tryna blow up, like sticking forks in the socket I did it for the love, I do it for the art Now how am I supposed to write these 16's in the dark? My car's on park, I can't eat skills And props ain't gon' pay all these mothafuckin' bills I can keep it real and get paid at the same time Money in my pocket won't reflect on my next line Next rhyme, next date, showing off my chest plate Belly big, looking all full, cause I just ate Know some shit been going wrong if I lost weight Ain't about the doe, but I need it now, won't wait Can't stop, won't stop, not even a drip drop Say what you want but mothafuck your hip hop", 
+        "They say, \"Murs why you put Dogg Pound on Paid Dues and shit? Must have gone mainstream, sold out losing it\" Niggas that's been underground for years and ain't doing shit My homies ain't no B-boys fool, all they do is Crip Keep on talking shit and they gon' sock you in the lip And you gon' do is get mad and try to sue a pimp Then I'm spending loot on a lawyer that's ludicrous Cashing out my street cred for you? Man, I'm through with this I'm a changed man, that's the only reason you exist If this was '96 we would have caught you in a twist The little homies busting at you out the Bronco Peel your cap ten kick back at the compost Large orange bang and a bomb plate of nachos Biter broke nigga, quit hating, keep your mouth closed Rapping 30 years, you still ain't this hot Shut your ass up nigga, mothafuck your hip hop"
+      ]
+    }, 
+    "title": "Fuck Ya Hip Hop", 
+    "url": "https://genius.com/Schoolboy-q-fuck-ya-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Meek Mill", 
+    "id": 83760, 
+    "lyrics": {}, 
+    "title": "Hip Hop Flashback", 
+    "url": "https://genius.com/Meek-mill-hip-hop-flashback-lyrics"
+  }, 
+  {
+    "artist": "Screv", 
+    "id": 157864, 
+    "lyrics": {}, 
+    "title": "\"Hip-Hop is Dead\"", 
+    "url": "https://genius.com/Screv-hip-hop-is-dead-lyrics"
+  }, 
+  {
+    "artist": "Immortal Technique", 
+    "id": 170410, 
+    "lyrics": {}, 
+    "title": "Homeland And Hip-Hop", 
+    "url": "https://genius.com/Immortal-technique-homeland-and-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "Kollegah & Majoe", 
+    "id": 491813, 
+    "lyrics": {
+      "outro": [
+        "Ehem! Ja, dann ist ja gut!!! \"Partyyy!!!\""
+      ], 
+      "verse": [
+        "Ich geh' zum Training und stemm' Gewichte mit der Crew Ich mache Cash, denn ich hab' das Business in mei'm Blut Ich flieg' in Urlaub und spring' da mit paar Bitches in den Pool Da kommt der Kommissar: \"Das alles hat mit Hip-Hop nichts zu tun!\"", 
+        "Ich seh' die Chicks da, sie tragen bisschen Lipgloss, bisschen Rouge Bunte Hotpants, Extensions und viel Glitzer auf den Schuhen Doch sind dumm wie Brot, d'rum werden sie gekickboxt in den Pool Da kommt der Kommissar:  \"Das hat, das hat mit Hip-Hop nichts zu tun!\"", 
+        "Ich ess' ein Rumpsteak, denn das ist f\u00fcr das Bizepswachstum gut Wat is' denn los mit dir? - der Song kommt in der Disco immer cool Breiter als der T\u00fcrsteher, ich bring' den Fitnesscenter-Groove Da kommt der Kommissar: \"Das alles hat mit HipHop nichts zu tun!\" Ich seh' die Chicks da (wo?) Majoe, guck, sie schicken uns 'nen Gru\u00df Ja, die sehen fresh aus, Bruder, komm, wir winken ihnen zu Meine G\u00fcte, sag mal bitte, wat f\u00fcr 'n Hintern hast denn du? \"Ja, schon, aber der hat mit HipHop nichts zu tun!\""
+      ]
+    }, 
+    "title": "Das hat mit HipHop nichts zu tun", 
+    "url": "https://genius.com/Kollegah-and-majoe-das-hat-mit-hiphop-nichts-zu-tun-lyrics"
+  }, 
+  {
+    "artist": "The Hood Internet", 
+    "id": 3114846, 
+    "lyrics": {}, 
+    "title": "40 Years of Hip-Hop", 
+    "url": "https://genius.com/The-hood-internet-40-years-of-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "KRS-One", 
+    "id": 27101, 
+    "lyrics": {}, 
+    "title": "Hip Hop Knowledge", 
+    "url": "https://genius.com/Krs-one-hip-hop-knowledge-lyrics"
+  }, 
+  {
+    "artist": "Demi Portion", 
+    "id": 77877, 
+    "lyrics": {}, 
+    "title": "Hip hop", 
+    "url": "https://genius.com/Demi-portion-hip-hop-lyrics"
+  }, 
+  {
+    "artist": "BET", 
+    "id": 3265581, 
+    "lyrics": {
+      "verse": [
+        "Rap quitter, knack of the sack, nigga Who blizzards this rap, bigger than men of a pack Grin to the top of the gat, grip, and I'm busting up wack niggas Tarter or plaque, nigga? What do you choose? Simply irrelevant, mhm, cynical, evident Please, wrestling evidence, keys Moving when definite Sole goals for the president Bleed red for the government, he's...", 
+        "Love is not kissing, hugs, sharing fucking drugs Pictures on your birthday, pictures of making love It's dedication, trust and patience and compromise Not do or die, ultimatums for you and I I feel a vibe between us fade and I fucking hate it I cut myself constantly, hate myself, and creating Pain within your heart and I'm thinking this pistol tempting Screaming out to my demons \"get even within yourself.\" She crying, she need your help, and you selfish, think 'bout yourself? All these problems created extended from hated self, and I...", 
+        "Not saying I'm the best I'm saying that I'm tryna be, minus the excess Beating on my chest, get checked up Beat the beat, a boulder pro That's too quick too, outdoing all the older folks They be Voldermorts, I'm the Harry Potter \"Aye, what you think, son?\" That trash don't carry water Unless I scare your daughter or run up in a room I be flying across the moon with a broom, I'm witch!", 
+        "50 Central, no stutter in my step Money on my like that nigga lost a bet Can't wait to blow her back, she blanking Burn these hoes in my pocket Cash speed and lighting up, I'm on a 50 Central rocket Why don't y'all get on the short bus? In it, come off of the short bus We be up here in the short bus", 
+        "Misdirected and the cops are wrong Men that ratted on each other, then they back at home Acting like it never happened, backstabbing? Woah Horse necks, another rapper dead, no flex I'm going at they head, who the best, cause it's checked Closed mouths never get fed, take the food off your plate Chew it in your face, motherfucker I can't hear your shit, moment of sirens Condoning the violence if you're proposing the rising They fanbase mad, I killed they favorite rapper Fuck it, I'm still they favorite trapper's favorite trapper Fuck freestyles, kill 'em with this written rhyme And all these coke head niggas better get in line No subliminals, I'm direct, getting off Your clique is soft, tell your bitch kick it with a boss We two people from the bottom of a different lane Course I feel your pain, feel like I was born again This the tiger and the lion, this is David and Goliath The Quran and the Bible, the pistol and the rifle In the cypher, I ignite you It's a cold fucking world and I'm sneezing bricks", 
+        "I put this outfit on, knowing that Trump might curse at me But I still black out in an all black Kap' jersey Listen, I don't think you heard me I black out in this all black Kapernick jersey And for the sake of being free Why don't we all stand with Kapernick and just take a knee? So we can reverse the pattern of police brutality cause black lives matter, yah!", 
+        "In the hood, we don't listen Think I ain't getting money? I would say that you were tripping All of it's legal though, ain't no flipping chickens in kitchens It's hard to fit in my pocket, pardon me if I'm limping Now if I fall in love with this money, that's when I'm sinning Behind this real piece of paper, I ain't losing my religion My dog on the beat, had to dance it like New Edition In a '98 Honda, but this ain't the new edition Now I could be a lamborghini, yeah a new edition But it's unappreciated the second it's been driven I rather see my money on desks stacking and flipping I get a rush out of turning ten G's into a million Knowing you come from nothing, there's somethings I love McFilling I just use it to challenge the Almighty has given Now they calling him in to the men, women, and children Who questioning why the living and facing the opposition You gotta change your vision, when haters see you winning, they like \"No, nah, no, nah, no he didn't!\""
+      ]
+    }, 
+    "title": "BET Hip Hop Awards 2017 Freestyle", 
+    "url": "https://genius.com/Bet-bet-hip-hop-awards-2017-freestyle-lyrics"
   }
 ]
