@@ -49,28 +49,40 @@ def getRandomSongStructure(structureFile=SONG_STRUCTURE_FILE):
 		rand = random.randint(0, len(structures)-1)
 		return structures[rand]
 
-
-def generateLyrics(modelOrder, rowLength=10):
+def generateLyrics(modelOrder):
 
 	vocabulary = vocab.getVocab()
-	documents = getDocuments()
+	documents = getDocuments(docFile='./genius-lyrics-search/hundredPages.json')
 
-	lyrics = {}
-	def formatLyrics():
-		formattedText = ''
-		for lyricPart, lyric in lyrics.iteritems():
-			formattedText += u'{}\n\n{}\n\n'.format(lyricPart, lyric)
-		return formattedText
+	def randomRowLength(offset=0):
+		return offset + random.randint(4, 6)
 
+	def formatParagraph(model, partName=''):
+		first  = model.generate(length=10).split()
+		second = model.generate(length=10).split()
 
-	lyrics = ''
+		formatted = []
+		# formatted.append(first[:randomRowLength()])
+		# formatted.append(second[5:randomRowLength(offset=5)])
+		# formatted.append(first[10:randomRowLength(offset=10)])
+		# formatted.append(second[14:randomRowLength(offset=14)])
+		formatted.append(first[:5])
+		formatted.append(first[5:])
+		formatted.append(second[:5])
+		formatted.append(second[5:])
+		return u'{}\n\n{}\n\n'.format(partName, u'\n'.join([' '.join(f) for f in formatted]))
+
+	lyrics = u''
 	for partName in getRandomSongStructure():
 		partDocs = getPart(documents, partName=partName)
+		if not len(partDocs): continue
+
 		model = trainModelOfOrder(vocabulary=vocabulary, documents=partDocs, order=modelOrder)
 		if model is None: continue
-		# lyrics[partName] = model.generate(length=rowLength)
-		lyrics += u'{}\n\n{}\n\n'.format(partName, model.generate(length=rowLength))
+		# lyrics += u'{}\n\n{}\n\n'.format(partName, model.generate(length))
 
-	# return formatLyrics()
+		lyrics += formatParagraph(model, partName=partName)
+
+
 	return lyrics
 

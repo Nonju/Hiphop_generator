@@ -1,11 +1,18 @@
 [
 	[
 		"intro",
-		"verse"
+		"verse",
+		"verse",
+		"chorus",
+		"chorus"
 	],
 	[
 		"intro",
 		"verse",
-		"hook"
+		"hook",
+		"chorus",
+		"verse",
+		"chorus",
+		"outro"
 	]
 ]
