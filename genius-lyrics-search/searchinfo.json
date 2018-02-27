@@ -1,0 +1,13 @@
+{
+	"validGenres": [
+		"rap",
+		"hip",
+		"hop",
+		"r&b"
+	],
+	"credentials": {
+		"client_id": "",
+		"client_secret": "",
+		"client_access_token": ""
+	}
+}
