@@ -8,6 +8,8 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
+import tokenize
+
 SEARCHINFO_FILE = './searchinfo.json'
 
 def getSearchinfoByKey(key=''):
@@ -37,6 +39,10 @@ def validatePageGenres(pageMetas):
 
 
 def getSongLyrics(url):
+    # Skip urls that doesn't lead to genius-lyric-pages
+    if not url.endswith('-lyrics'):
+        return None
+
     print '\nFetching lyrics from url:', url
     page = requests.get(url)
     html = BeautifulSoup(page.content, 'html.parser')
@@ -77,7 +83,10 @@ def parseSongLyrics(lyricsString):
         for title in songPartTitles:
             if title in partTitle:
                 if not lyricParts.get(title): lyricParts[title] = []
-                lyricParts[title].append(partLyrics.split()) # basic tokenizer, splits on whitespace
+                tokenized = tokenize.tokenizeString(string=partLyrics)
+                if not tokenized: continue
+                lyricParts[title].append(tokenized)
+                # lyricParts[title].append(partLyrics.split()) # basic tokenizer, splits on whitespace
 
     return lyricParts
 
@@ -93,6 +102,8 @@ def extendSongDataWithLyrics(songData):
 
         # TODO: here post-process lyrics with function that divides songs parts into object
         lyrics = parseSongLyrics(lyrics)
+        if not len(lyrics.keys()): continue
+
         extendedSong = song.copy()
         extendedSong['lyrics'] = lyrics
         extended.append(extendedSong)
@@ -104,7 +115,7 @@ def loadCredentials():
     return credentials['client_id'], credentials['client_secret'], credentials['client_access_token']
 
     
-def search(search_term, client_access_token, pageLimit=100):
+def search(search_term, client_access_token, pageLimit=5):
     #Unfortunately, looks like it maxes out at 50 pages (approximately 1,000 results), roughly the same number of results as displayed on web front end
     page=1
     songData = []
