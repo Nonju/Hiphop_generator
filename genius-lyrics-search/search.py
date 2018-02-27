@@ -8,9 +8,15 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
+SEARCHINFO_FILE = './searchinfo.json'
+
+def getSearchinfoByKey(key=''):
+    with open(SEARCHINFO_FILE, 'r') as f:
+        searchinfo = json.loads(f.read())
+        return searchinfo.get(key)
+
 def getValidGenres():
-    with open('./validgenres.json', 'r') as f:
-        return json.loads(f.read())
+    return getSearchinfoByKey(key='validGenres')
 
 def validatePageGenres(pageMetas):
     genreMeta = [ meta.get('content') for meta in pageMetas if 'genres' in meta.get('content')]
@@ -91,18 +97,10 @@ def extendSongDataWithLyrics(songData):
 
     return extended
 
-def loadCredentials(): # TODO: change file format to json
-    lines = [line.rstrip('\n') for line in open('credentials.ini')]
-    chars_to_strip = " \'\""
-    for line in lines:
-        if "client_id" in line:
-            client_id = re.findall(r'[\"\']([^\"\']*)[\"\']', line)[0]
-        if "client_secret" in line:
-            client_secret = re.findall(r'[\"\']([^\"\']*)[\"\']', line)[0]
-        #Currently only need access token to run, the other two perhaps for future implementation
-        if "client_access_token" in line:
-            client_access_token = re.findall(r'[\"\']([^\"\']*)[\"\']', line)[0]
-    return client_id, client_secret, client_access_token
+def loadCredentials():
+    credentials = getSearchinfoByKey(key='credentials')
+    return credentials['client_id'], credentials['client_secret'], credentials['client_access_token']
+
     
 def search(search_term, client_access_token, pageLimit=10):
     #Unfortunately, looks like it maxes out at 50 pages (approximately 1,000 results), roughly the same number of results as displayed on web front end
@@ -118,7 +116,6 @@ def search(search_term, client_access_token, pageLimit=10):
             try:
                 response = urllib2.urlopen(request, timeout=4) #timeout set to 4 seconds; automatically retries if times out
                 raw = response.read()
-            # except socket.timeout:
             except Exception as e:
                 print("Timeout raised and caught")
                 continue
@@ -152,10 +149,10 @@ def main():
     arguments = sys.argv[1:] #so you can input searches from command line if you want
     search_term = arguments[0].translate(None, "\'\"")
     client_id, client_secret, client_access_token = loadCredentials()
-    songData = search(search_term,client_access_token)
+    songData = search(search_term, client_access_token)
     songData = extendSongDataWithLyrics(songData)
 
-    with open('./output.json', 'w') as f:
+    with open('./credtest.json', 'w') as f:
         f.write(json.dumps(songData, indent=2, sort_keys=True))
 
 if __name__ == '__main__':

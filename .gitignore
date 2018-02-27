@@ -1,3 +1,3 @@
 output*.json
-credentials.ini
+*searchinfo.json
 *.pyc
