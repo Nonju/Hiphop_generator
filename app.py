@@ -20,7 +20,7 @@ import quadrigram
 
 def getDocuments():
 	#Replace with function that uses search
-	with codecs.open('genius-lyrics-search/exampleoutput.json', 'r', encoding='utf8') as documents:
+	with codecs.open('genius-lyrics-search/hundredPages.json', 'r', encoding='utf8') as documents:
 		return json.loads(documents.read())
 
 def getPart(docs, partName=''):
@@ -52,7 +52,7 @@ def modelTrain(order=4): # Currently training of verses
 def main():
 	# bi, tri, quad = modelTrain()
 
-	testRows= 5
+	testRows= 10
 	order = None
 	while not isinstance(order, int):
 		order = raw_input('order: ')
@@ -73,7 +73,8 @@ def main():
 
 	model = modelTrain(order=order)
 	while True:
-		generated = '\n'.join([ model.generate(length=20) for i in range(0, testRows) ])
+		#generated = '\n'.join([ model.generate(length=20) for i in range(0, testRows) ])
+		generated = model.generate(length=5, rows=testRows)		
 		print generated
 		raw_input()
 

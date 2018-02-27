@@ -13,21 +13,14 @@ class Quadrigram:
 
 	def getBOSfromEOS(self, eosWord):
 		BOSes = [ context for context in self.pc.keys() if self.BOS in context ]
-		EOSesInBOSes = [ bos for bos in BOSes if eosWord in bos ]
-		if len(EOSesInBOSes) <= 0: return []
-		key = EOSesInBOSes[ random.randint(0, len(EOSesInBOSes)-1) ]
-		value = self.pc[key].keys()
-		if len(value) > 1:
-			value[ random.randint(0, len(value)-1) ]
-		sentence = []
-		sentence += value
-		predictedA = self.randomByContext((key[1], key[2], sentence[-1]))
-		predictedB = self.randomByContext((key[2], sentence[-1], predictedA))
-		sentence.append(predictedA)
-		sentence.append(predictedB)
-		if self.EOS in sentence:
-			sentence[-1] = '\n'
-		return sentence
+		BOSesWithEOS = [ context for context in BOSes if eosWord in context ]
+		#print 'eosword', eosWord
+		#print 'BOS containing EOS', BOSesWithEOS
+		if len(BOSesWithEOS) > 0:
+			BOSesWithEOS = BOSesWithEOS[ random.randint(0, len(BOSesWithEOS)-1) ]
+			print BOSesWithEOS
+			return BOSesWithEOS
+		return BOSes[ random.randint(0, len(BOSes)-1) ]
 
 	def getRandomBOS(self):
 		BOSes = [ context for context in self.pc.keys() if self.BOS in context ]
@@ -53,16 +46,11 @@ class Quadrigram:
 				sentence.append(bosContext[2])
 				predicted = self.randomByContext(bosContext)
 			elif sentence[-1] == '\n':
-				bosContext = self.getBOSfromEOS(sentence[-2])
-				if len(bosContext) == 0:
-					bosContext = self.getRandomBOS()
-					sentence.append(bosContext[1])
-					sentence.append(bosContext[2])
-					predicted = self.randomByContext(bosContext)
-				else:
-					sentence += bosContext
-					continue
-
+				bosContext = self.getBOSfromEOS(sentence[-2])				
+				#sentence.append(bosContext[1])
+				sentence.append(bosContext[2])
+				sentence.append(self.randomByContext(bosContext))
+				predicted = self.randomByContext((bosContext[1], sentence[-2], sentence[-1]))
 			else:
 				predicted = self.randomByContext((sentence[-3], sentence[-2], sentence[-1]))
 
