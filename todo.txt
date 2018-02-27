@@ -16,6 +16,9 @@
 
 	- CLEAR EOS FROM POSSIBLE PREDICTIONS!!
 
+	- only use links ending with '-lyrics'
+	- remove songs where lyrics object is empty
+
 # Not sure if should do
 
 	- generate vocabulary as set of words found in lyrics (why though? needed?)

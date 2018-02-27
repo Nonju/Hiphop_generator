@@ -50,7 +50,6 @@ def modelTrain(order=4): # Currently training of verses
 		return quadrigram.Quadrigram.train(voc, verseDocs)
 
 def main():
-	# bi, tri, quad = modelTrain()
 
 	testRows= 10
 	order = None

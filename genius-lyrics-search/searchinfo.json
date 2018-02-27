@@ -1,0 +1,13 @@
+{
+	"validGenres": [
+		"rap",
+		"hip",
+		"hop",
+		"r&b"
+	],
+	"credentials": {
+		"client_id": "JVNFEE7_xtzuWJXq8l8E94wjZlhENihtgHozND1at8td1pK3XW8MFerwwjjS-YyJ",
+		"client_secret": "3UKlYc12dMcPe79wGHTeaczZ6_QDqqPZtA3EE9NTnTgGR8LGqVYVKk6iuox7wYMqOYnYb-sRkXWqpA1kIhOezg",
+		"client_access_token": "RGui6r9cqbadjpXsRBOxz4nrgHWdVvcJWYun9Ey8kS64os3IG3C5Qphu2tKDBuZd"
+	}
+}
