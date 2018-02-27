@@ -23,6 +23,8 @@ def validatePageGenres(pageMetas):
     genres = set()
     for c in genreMeta:
         match = re.search('genres.*?\[(.*?)\]', c)
+        if match is None: continue
+
         genreList = match.group(1).replace('"', '').split(',')
         for genre in genreList: genres.add(genre)
 
@@ -102,7 +104,7 @@ def loadCredentials():
     return credentials['client_id'], credentials['client_secret'], credentials['client_access_token']
 
     
-def search(search_term, client_access_token, pageLimit=10):
+def search(search_term, client_access_token, pageLimit=100):
     #Unfortunately, looks like it maxes out at 50 pages (approximately 1,000 results), roughly the same number of results as displayed on web front end
     page=1
     songData = []
@@ -152,7 +154,7 @@ def main():
     songData = search(search_term, client_access_token)
     songData = extendSongDataWithLyrics(songData)
 
-    with open('./credtest.json', 'w') as f:
+    with open('./hundredPages.json', 'w') as f:
         f.write(json.dumps(songData, indent=2, sort_keys=True))
 
 if __name__ == '__main__':
