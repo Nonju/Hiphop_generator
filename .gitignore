@@ -2,4 +2,4 @@ output*.json
 *searchinfo.json
 *.pyc
 
-hundredPages.json
+hundredPages*

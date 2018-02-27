@@ -154,7 +154,7 @@ def main():
     songData = search(search_term, client_access_token)
     songData = extendSongDataWithLyrics(songData)
 
-    with open('./hundredPages.json', 'w') as f:
+    with open('./output.json', 'w') as f:
         f.write(json.dumps(songData, indent=2, sort_keys=True))
 
 if __name__ == '__main__':
