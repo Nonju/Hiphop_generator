@@ -115,7 +115,7 @@ def loadCredentials():
     return credentials['client_id'], credentials['client_secret'], credentials['client_access_token']
 
     
-def search(search_term, client_access_token, pageLimit=5):
+def search(search_term, client_access_token, pageLimit=25):
     #Unfortunately, looks like it maxes out at 50 pages (approximately 1,000 results), roughly the same number of results as displayed on web front end
     page=1
     songData = []
