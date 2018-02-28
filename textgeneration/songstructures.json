@@ -7,7 +7,7 @@
 	[
 		{ "name": "intro", "rows": 4 },
 		{ "name": "verse", "rows": 10 },
-		{ "name": "chorus", "rows": 10 }
+		{ "name": "chorus", "rows": 10 },
 		{ "name": "outro", "rows": 5 }
 	],
 	[
