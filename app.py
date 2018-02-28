@@ -17,6 +17,8 @@ from models import bigram
 from models import trigram
 from models import quadrigram
 
+import interface
+
 def getDocuments():
 	#Replace with function that uses search
 	with codecs.open('genius-lyrics-search/output.json', 'r', encoding='utf8') as documents:
@@ -49,31 +51,32 @@ def modelTrain(order=4): # Currently training of verses
 		return quadrigram.Quadrigram.train(voc, verseDocs)
 
 def main():
+	interface.run()
 
-	testRows= 5
-	order = None
-	while not isinstance(order, int):
-		order = raw_input('order: ')
-		try: order = int(order)
-		except: continue
+	# testRows= 5
+	# order = None
+	# while not isinstance(order, int):
+	# 	order = raw_input('order: ')
+	# 	try: order = int(order)
+	# 	except: continue
 
-	# # bi test
-	# print '\nBigram'
-	# print '\n'.join([ bi.generate(length=10) for i in range(0, testRows) ])
+	# # # bi test
+	# # print '\nBigram'
+	# # print '\n'.join([ bi.generate(length=10) for i in range(0, testRows) ])
 
-	# # tri test
-	# print '\nTrigram'
-	# print '\n'.join([ tri.generate(length=10) for i in range(0, testRows) ])
+	# # # tri test
+	# # print '\nTrigram'
+	# # print '\n'.join([ tri.generate(length=10) for i in range(0, testRows) ])
 
-	# # quad test
-	# print '\nQuadrigram'
-	# print '\n'.join([ quad.generate(length=10) for i in range(0, testRows) ])
+	# # # quad test
+	# # print '\nQuadrigram'
+	# # print '\n'.join([ quad.generate(length=10) for i in range(0, testRows) ])
 
-	model = modelTrain(order=order)
-	while True:
-		generated = '\n'.join([ model.generate(length=20) for i in range(0, testRows) ])
-		print generated
-		raw_input()
+	# model = modelTrain(order=order)
+	# while True:
+	# 	generated = '\n'.join([ model.generate(length=20) for i in range(0, testRows) ])
+	# 	print generated
+	# 	raw_input()
 
 if __name__ == '__main__':
 	main()
