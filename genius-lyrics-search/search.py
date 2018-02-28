@@ -20,6 +20,9 @@ def getSearchinfoByKey(key=''):
 def getValidGenres():
     return getSearchinfoByKey(key='validGenres')
 
+def getInvalidGenres():
+    return getSearchinfoByKey(key='invalidGenres')
+
 def validatePageGenres(pageMetas):
     genreMeta = [ meta.get('content') for meta in pageMetas if 'genres' in meta.get('content')]
     genres = set()
@@ -30,8 +33,13 @@ def validatePageGenres(pageMetas):
         genreList = match.group(1).replace('"', '').split(',')
         for genre in genreList: genres.add(genre)
 
-    for genre in genres:
-        for valid in getValidGenres():
+    for invalid in getInvalidGenres():
+        for genre in genres:
+            if invalid.lower() in genre.lower():
+                return False
+
+    for valid in getValidGenres():
+        for genre in genres:
             if valid.lower() in genre.lower():
                 return True
 
@@ -130,7 +138,7 @@ def loadCredentials():
     return credentials['client_id'], credentials['client_secret'], credentials['client_access_token']
 
     
-def search(search_term, client_access_token, pageLimit=25):
+def search(search_term, client_access_token, pageLimit=30):
     #Unfortunately, looks like it maxes out at 50 pages (approximately 1,000 results), roughly the same number of results as displayed on web front end
     page=1
     songData = []
