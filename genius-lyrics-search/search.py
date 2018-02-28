@@ -8,6 +8,8 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
+import tokenize
+
 SEARCHINFO_FILE = './searchinfo.json'
 
 def getSearchinfoByKey(key=''):
@@ -18,29 +20,58 @@ def getSearchinfoByKey(key=''):
 def getValidGenres():
     return getSearchinfoByKey(key='validGenres')
 
+def getInvalidGenres():
+    return getSearchinfoByKey(key='invalidGenres')
+
 def validatePageGenres(pageMetas):
     genreMeta = [ meta.get('content') for meta in pageMetas if 'genres' in meta.get('content')]
     genres = set()
     for c in genreMeta:
         match = re.search('genres.*?\[(.*?)\]', c)
+        if match is None: continue
+
         genreList = match.group(1).replace('"', '').split(',')
         for genre in genreList: genres.add(genre)
 
-    for genre in genres:
-        for valid in getValidGenres():
+    for invalid in getInvalidGenres():
+        for genre in genres:
+            if invalid.lower() in genre.lower():
+                return False
+
+    for valid in getValidGenres():
+        for genre in genres:
             if valid.lower() in genre.lower():
                 return True
 
     return False
 
+def validateLyricLang(pageMetas):
+    langContent = [ meta.get('content') for meta in pageMetas if 'Lyrics Language' in meta.get('content')]
+
+    if not len(langContent):
+        return False
+
+    match = re.search(r'Lyrics Language.*?value":"([A-Za-z]+?)"', langContent[0])
+
+    if match is None:
+        return False
+
+    return match.group(1) == u'en' # Only accepts lyrics in english
+
 
 def getSongLyrics(url):
+    # Skip urls that doesn't lead to genius-lyric-pages
+    if not url.endswith('-lyrics'):
+        return None
+
     print '\nFetching lyrics from url:', url
     page = requests.get(url)
     html = BeautifulSoup(page.content, 'html.parser')
     
     pageMetas = html.findAll("meta")
     if not validatePageGenres(pageMetas):
+        return None
+    if not validateLyricLang(pageMetas):
         return None
 
     #remove script tags that they put in the middle of the lyrics
@@ -59,7 +90,7 @@ def parseSongLyrics(lyricsString):
 
 
     lyricParts = {}
-    songPartTitles = [ 'intro', 'verse', 'hooks', 'chorus', 'outro' ]
+    songPartTitles = [ 'intro', 'verse', 'hook', 'chorus', 'outro' ]
     
     parts = lyricsString.split('[')
     for part in parts:
@@ -75,7 +106,9 @@ def parseSongLyrics(lyricsString):
         for title in songPartTitles:
             if title in partTitle:
                 if not lyricParts.get(title): lyricParts[title] = []
-                lyricParts[title].append(partLyrics.split()) # basic tokenizer, splits on whitespace
+                tokenized = tokenize.tokenizeString(string=partLyrics)
+                if not tokenized: continue
+                lyricParts[title].append(tokenized)
 
     return lyricParts
 
@@ -91,6 +124,8 @@ def extendSongDataWithLyrics(songData):
 
         # TODO: here post-process lyrics with function that divides songs parts into object
         lyrics = parseSongLyrics(lyrics)
+        if not len(lyrics.keys()): continue
+
         extendedSong = song.copy()
         extendedSong['lyrics'] = lyrics
         extended.append(extendedSong)
@@ -102,12 +137,11 @@ def loadCredentials():
     return credentials['client_id'], credentials['client_secret'], credentials['client_access_token']
 
     
-def search(search_term, client_access_token, pageLimit=10):
+def search(search_term, client_access_token, pageLimit=4):
     #Unfortunately, looks like it maxes out at 50 pages (approximately 1,000 results), roughly the same number of results as displayed on web front end
     page=1
     songData = []
     while True:
-
         querystring = "http://api.genius.com/search?q=" + urllib2.quote(search_term) + "&page=" + str(page)
         request = urllib2.Request(querystring)
         request.add_header("Authorization", "Bearer " + client_access_token)   
@@ -129,7 +163,6 @@ def search(search_term, client_access_token, pageLimit=10):
                 print("No results for: " + search_term)
             break      
         print("page {0}; num hits {1}".format(page, num_hits))
-        
 
         for result in body:
             result_id = result["result"]["id"]
@@ -152,7 +185,7 @@ def main():
     songData = search(search_term, client_access_token)
     songData = extendSongDataWithLyrics(songData)
 
-    with open('./credtest.json', 'w') as f:
+    with open('./output.json', 'w') as f:
         f.write(json.dumps(songData, indent=2, sort_keys=True))
 
 if __name__ == '__main__':

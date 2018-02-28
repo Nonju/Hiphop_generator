@@ -1,4 +1,4 @@
-output*.json
+output*.*
 *searchinfo.json
 *.pyc
 

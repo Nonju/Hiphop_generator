@@ -2,9 +2,9 @@
 # todo for project
 
 	- create install file based on dependencies.txt
-	- parse lyrics into the parts currently listed as plain text in single lyrics file
-	- rewrite credentials into json-file ( combine with validgenres.json )
-	- set amount of pages to retrieve from genius.com
+	DONE - parse lyrics into the parts currently listed as plain text in single lyrics file
+	DONE - rewrite credentials into json-file ( combine with validgenres.json )
+	DONE - set amount of pages to retrieve from genius.com
 
 	- find way to better end lines, ( base on EOS ?? )
 	- get model by order (function)
@@ -12,10 +12,10 @@
 
 	- simple interface for generating by order, regather data / vocab
 
-	- create parent class for models
-
 	- CLEAR EOS FROM POSSIBLE PREDICTIONS!!
 
-# Not sure if should do
+	DONE - only use links ending with '-lyrics'
+	DONE - remove songs where lyrics object is empty
 
-	- generate vocabulary as set of words found in lyrics (why though? needed?)
+	DONE - generate vocabulary as set of words found in lyrics
+
