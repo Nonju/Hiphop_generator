@@ -5,6 +5,12 @@
 		{ "name": "chorus", "rows": 10 }
 	],
 	[
+		{ "name": "intro", "rows": 4 },
+		{ "name": "verse", "rows": 10 },
+		{ "name": "chorus", "rows": 10 }
+		{ "name": "outro", "rows": 5 }
+	],
+	[
 		{ "name": "intro", "rows": 3 },
 		{ "name": "verse", "rows": 15 },
 		{ "name": "hook", "rows": 6 },
