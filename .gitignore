@@ -1,5 +1,6 @@
 output*.*
 *searchinfo.json
 *.pyc
+vocab.json
 
 hundredPages*
