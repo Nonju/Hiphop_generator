@@ -16,6 +16,10 @@ def getDocuments():
 	with codecs.open('genius_lyrics_search/output.json', 'r', encoding='utf8') as documents:
 		return json.loads(documents.read())
 
+def getIllegalEndWords():
+	with codecs.open('dontEndOn.json', 'r', encoding='utf8') as l:
+		return json.loads(l.read())
+
 def getPart(docs, partName=''):
 	parts = []
 	for doc in docs:
@@ -31,6 +35,7 @@ def getPart(docs, partName=''):
 def modelTrain(order=4): # Currently training of verses
 	voc = vocab.getVocab()
 	docs = getDocuments()
+	dontEnd = getIllegalEndWords()
 
 	verseDocs = getPart(docs, partName=u'verse')
 
@@ -39,7 +44,7 @@ def modelTrain(order=4): # Currently training of verses
 	elif order == 3:
 		return trigram.Trigram.train(voc, verseDocs)
 	elif order == 4:
-		return quadrigram.Quadrigram.train(voc, verseDocs)
+		return quadrigram.Quadrigram.train(voc, verseDocs, dontEnd)
 
 def run():
 	print 'Running app...'
@@ -53,4 +58,4 @@ def run():
 		except: continue
 
 	model = modelTrain(order=order)
-	print '\nGenerated:\ns', model.generate()
+	print '\nGenerated:\ns', model.generate(length=7, rows=10)

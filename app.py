@@ -7,6 +7,7 @@ Entry point for Hip-hop generator app
 
 Written using python2.7
 """
+
 import interface
 
 def main():
