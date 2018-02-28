@@ -8,6 +8,8 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
+import tokenize
+
 SEARCHINFO_FILE = './searchinfo.json'
 
 def getSearchinfoByKey(key=''):
@@ -17,6 +19,9 @@ def getSearchinfoByKey(key=''):
 
 def getValidGenres():
     return getSearchinfoByKey(key='validGenres')
+
+def getInvalidGenres():
+    return getSearchinfoByKey(key='invalidGenres')
 
 def validatePageGenres(pageMetas):
     genreMeta = [ meta.get('content') for meta in pageMetas if 'genres' in meta.get('content')]
@@ -28,8 +33,13 @@ def validatePageGenres(pageMetas):
         genreList = match.group(1).replace('"', '').split(',')
         for genre in genreList: genres.add(genre)
 
-    for genre in genres:
-        for valid in getValidGenres():
+    for invalid in getInvalidGenres():
+        for genre in genres:
+            if invalid.lower() in genre.lower():
+                return False
+
+    for valid in getValidGenres():
+        for genre in genres:
             if valid.lower() in genre.lower():
                 return True
 
@@ -37,6 +47,10 @@ def validatePageGenres(pageMetas):
 
 
 def getSongLyrics(url):
+    # Skip urls that doesn't lead to genius-lyric-pages
+    if not url.endswith('-lyrics'):
+        return None
+
     print '\nFetching lyrics from url:', url
     page = requests.get(url)
     html = BeautifulSoup(page.content, 'html.parser')
@@ -77,7 +91,10 @@ def parseSongLyrics(lyricsString):
         for title in songPartTitles:
             if title in partTitle:
                 if not lyricParts.get(title): lyricParts[title] = []
-                lyricParts[title].append(partLyrics.split()) # basic tokenizer, splits on whitespace
+                tokenized = tokenize.tokenizeString(string=partLyrics)
+                if not tokenized: continue
+                lyricParts[title].append(tokenized)
+                # lyricParts[title].append(partLyrics.split()) # basic tokenizer, splits on whitespace
 
     return lyricParts
 
@@ -93,6 +110,8 @@ def extendSongDataWithLyrics(songData):
 
         # TODO: here post-process lyrics with function that divides songs parts into object
         lyrics = parseSongLyrics(lyrics)
+        if not len(lyrics.keys()): continue
+
         extendedSong = song.copy()
         extendedSong['lyrics'] = lyrics
         extended.append(extendedSong)
@@ -104,7 +123,7 @@ def loadCredentials():
     return credentials['client_id'], credentials['client_secret'], credentials['client_access_token']
 
     
-def search(search_term, client_access_token, pageLimit=100):
+def search(search_term, client_access_token, pageLimit=30):
     #Unfortunately, looks like it maxes out at 50 pages (approximately 1,000 results), roughly the same number of results as displayed on web front end
     page=1
     songData = []

@@ -8,15 +8,14 @@ Entry point for Hip-hop generator app
 Written using python2.7
 """
 
-import vocab
-# from .models import bigram
 import codecs
 import json
 
+from vocab import vocab
 # models
-import bigram
-import trigram
-import quadrigram
+from models import bigram
+from models import trigram
+from models import quadrigram
 
 def getDocuments():
 	#Replace with function that uses search

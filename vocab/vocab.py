@@ -11,7 +11,7 @@ import codecs
 import json
 
 DATA_FILE  = './genius-lyrics-search/output.json'
-VOCAB_FILE = './vocab.json'
+VOCAB_FILE = './vocab/vocab.json'
 
 def generateVocab():
 	with codecs.open(DATA_FILE, 'r', encoding='utf8') as dataFile:
