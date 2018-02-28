@@ -1,0 +1,20 @@
+{
+	"invalidEndWords":[
+		"i",
+		"i'm",
+		"to",
+		"they",
+		"you",
+		"but",
+		"the",
+		"a",
+		"an",
+		"and"
+	],
+	"invalidStartWords":[
+		"i",
+		"a",
+		",",
+		"."
+	]
+}

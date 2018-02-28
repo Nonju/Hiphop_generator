@@ -10,7 +10,7 @@ def tokenizeString(string=''):
 	Returns 'None' if invalid string
 	"""
 	string = string.lower()
-	pattern = r"([A-Za-z]\.[A-Za-z]\.[A-Za-z]|[A-Za-z]\.[A-Za-z]|[A-Za-z'-]+|\.\.\.|[,.])"
+	pattern = r"([A-Za-z]\.[A-Za-z]\.[A-Za-z]|[A-Za-z]\.[A-Za-z]\.?|[A-Za-z'-]+|\.\.\.|[,.])"
 	match = re.findall(pattern, string)
 
 	if not len(match):
