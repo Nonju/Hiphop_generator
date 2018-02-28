@@ -17,7 +17,7 @@ class Bigram:
 		sentence = ' '.join(sentence)
 		clean = ''
 		for letter in sentence:
-			if letter in ['.',',','(',')','[',']','?','/']:
+			if letter in ['.',',','(',')','[',']','?','/', '-']:
 				continue
 			clean += letter
 
