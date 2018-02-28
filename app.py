@@ -22,6 +22,11 @@ def getDocuments():
 	with codecs.open('genius-lyrics-search/output.json', 'r', encoding='utf8') as documents:
 		return json.loads(documents.read())
 
+def getSpecialWords():
+	#Replace with function that uses search
+	with codecs.open('breakWords.json', 'r', encoding='utf8') as breakWords:
+		return json.loads(breakWords.read())
+
 def getPart(docs, partName=''):
 	parts = []
 	for doc in docs:
@@ -37,6 +42,7 @@ def getPart(docs, partName=''):
 def modelTrain(order=4): # Currently training of verses
 	voc = vocab.getVocab()
 	docs = getDocuments()
+	breakWords = getSpecialWords()
 
 	verseDocs = getPart(docs, partName=u'verse')
 	# return bigram.Bigram.train(voc, verseDocs)
@@ -46,7 +52,7 @@ def modelTrain(order=4): # Currently training of verses
 	elif order == 3:
 		return trigram.Trigram.train(voc, verseDocs)
 	elif order == 4:
-		return quadrigram.Quadrigram.train(voc, verseDocs)
+		return quadrigram.Quadrigram.train(voc, verseDocs, breakWords)
 
 def main():
 

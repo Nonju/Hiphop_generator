@@ -10,6 +10,7 @@ class Quadrigram:
 	EOS = 'EOS'
 
 	vocabulary = set()
+	breakWords = set()
 	documents = {}
 
 	def getRandomBOS(self):
@@ -19,11 +20,19 @@ class Quadrigram:
 	def randomByContext(self, context):
 		# TODO: check if can select word in better way that 'random'
 		c = self.pc[context]
-		possible = self.pc[context].keys()
-		return possible[random.randint(0, len(possible)-1)]
+		# possible = self.pc[context].keys()
+		# return possible[random.randint(0, len(possible)-1)]
+		maxValue = 0
+		maxWord = ''
+		for word in c:
+			if self.pc[context][word] > maxValue:
+				maxWord = word
+		return maxWord
 
-	def generate(self, length=10):
+	def generate(self, length=10, minBreakLength=7):
 		sentence = []
+		cleanSentence = []
+		wordsSinceBreak = 0
 		for i in range(0, length):
 			if i == 0 or sentence[-1] == self.EOS:
 				bosContext = self.getRandomBOS()
@@ -34,13 +43,20 @@ class Quadrigram:
 				predicted = self.randomByContext((sentence[-3], sentence[-2], sentence[-1]))
 
 			sentence.append(predicted)
-		return ' '.join(sentence)
+			cleanSentence.append(sentence[-1])
+			wordsSinceBreak += 1			
+			if sentence[-1] in self.breakWords and wordsSinceBreak >= minBreakLength:
+				cleanSentence.append('\nBroke')
+				wordsSinceBreak = 0
+
+		return ' '.join(cleanSentence)
 
 	@classmethod
-	def train(cls, vocabulary, documents):
+	def train(cls, vocabulary, documents, bW):
 		documents = documents[:]
 		quadrigram = cls()
 		quadrigram.vocabulary = vocabulary
+		quadrigram.breakWords = bW
 		quadrigram.documents = documents
 
 		# determine context / word probabilities
