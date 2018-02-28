@@ -2,7 +2,9 @@
 	[
 		{ "name": "intro", "rows": 3 },
 		{ "name": "verse", "rows": 10 },
-		{ "name": "chorus", "rows": 10 }
+		{ "name": "chorus", "rows": 10 },
+		{ "name": "hook", "rows": 6 },
+		{ "name": "outro", "rows": 6 }
 	],
 	[
 		{ "name": "intro", "rows": 4 },

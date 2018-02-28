@@ -38,15 +38,13 @@ def getPart(docs, partName=''):
 def trainModelOfOrder(vocabulary, documents, order=0):
 	model = None
 	if order == 2:
-		model = bigram.Bigram
+		model = bigram.Bigram.train(vocabulary=vocabulary, documents=documents)
 	elif order == 3:
-		model = trigram.Trigram
+		model = trigram.Trigram.train(vocabulary=vocabulary, documents=documents)
 	elif order == 4:
-		model = quadrigram.Quadrigram
-
-	if model is not None:
 		dontEndOn = getIllegalEndWords()
-		return model.train(vocabulary=vocabulary, documents=documents, invalidWords=dontEndOn)
+		model = quadrigram.Quadrigram.train(vocabulary=vocabulary, documents=documents, invalidWords=dontEndOn)
+
 	return model
 
 def getRandomSongStructure(structureFile=SONG_STRUCTURE_FILE):
