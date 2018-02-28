@@ -17,7 +17,7 @@ def getDocuments():
 		return json.loads(documents.read())
 
 def getIllegalEndWords():
-	with codecs.open('dontEndOn.json', 'r', encoding='utf8') as l:
+	with codecs.open('interface/dontEndOn.json', 'r', encoding='utf8') as l:
 		return json.loads(l.read())
 
 def getPart(docs, partName=''):
