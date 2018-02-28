@@ -20,8 +20,13 @@ import quadrigram
 
 def getDocuments():
 	#Replace with function that uses search
-	with codecs.open('genius-lyrics-search/hundredPages.json', 'r', encoding='utf8') as documents:
+	with codecs.open('genius-lyrics-search/output.json', 'r', encoding='utf8') as documents:
 		return json.loads(documents.read())
+
+def getIllegalEndWords():
+	with codecs.open('dontEndOn.json', 'r', encoding='utf8') as l:
+		return json.loads(l.read())	
+	
 
 def getPart(docs, partName=''):
 	parts = []
@@ -38,6 +43,7 @@ def getPart(docs, partName=''):
 def modelTrain(order=4): # Currently training of verses
 	voc = vocab.getVocab()
 	docs = getDocuments()
+	dontEnd = getIllegalEndWords()
 
 	verseDocs = getPart(docs, partName=u'verse')
 	# return bigram.Bigram.train(voc, verseDocs)
@@ -47,7 +53,7 @@ def modelTrain(order=4): # Currently training of verses
 	elif order == 3:
 		return trigram.Trigram.train(voc, verseDocs)
 	elif order == 4:
-		return quadrigram.Quadrigram.train(voc, verseDocs)
+		return quadrigram.Quadrigram.train(voc, verseDocs, dontEnd)
 
 def main():
 
