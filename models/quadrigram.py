@@ -38,7 +38,7 @@ class Quadrigram:
 		key = EOSesInBOSes[ random.randint(0, len(EOSesInBOSes)-1) ]
 		value = self.pc[key].keys()
 		if len(value) > 1:
-			print value
+			# print value
 			value[ random.randint(0, len(value)-1) ]
 		sentence = value
 		#Dont want to add first word but still have to search with it
@@ -90,7 +90,7 @@ class Quadrigram:
 		del sentence[-2]	
 		foundBOS = self.getBOSfromEOS(word)
 		if len(foundBOS) > 0:
-			print 'end word', word		
+			# print 'end word', word
 			sentence.append(word)
 			sentence += foundBOS
 		else:
