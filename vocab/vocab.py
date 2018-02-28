@@ -10,11 +10,11 @@ Retrieves existing vocab
 import codecs
 import json
 
-DATA_FILE  = './genius-lyrics-search/output.json'
+DEFAULT_DATA_FILE  = './genius_lyrics_search/output.json'
 VOCAB_FILE = './vocab/vocab.json'
 
 def generateVocab():
-	with codecs.open(DATA_FILE, 'r', encoding='utf8') as dataFile:
+	with codecs.open(DEFAULT_DATA_FILE, 'r', encoding='utf8') as dataFile:
 		songData = json.loads(dataFile.read())
 
 	# TODO: replace with yield ?? 

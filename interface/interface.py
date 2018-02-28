@@ -6,6 +6,7 @@ import os
 
 import runapp
 import vocab
+from genius_lyrics_search import search
 
 RUNNING = True
 
@@ -21,11 +22,11 @@ def exit():
 	print 'Exiting app...'
 
 menuOptions = [
-	dict(name='Run app',			 command='r', f=runapp.run),
-	dict(name='Regather data', command='g', f=placeholder),
-	dict(name='Update vocab',	 command='u', f=placeholder),
-	dict(name='Clear',				 command='c', f=clearTerminal),
-	dict(name='Quit',					 command='q', f=exit)
+	dict(name='Run app',       command='r', f=runapp.run),
+	dict(name='Regather data', command='g', f=search.run),
+	dict(name='Update vocab',  command='u', f=placeholder),
+	dict(name='Clear',         command='c', f=clearTerminal),
+	dict(name='Quit',          command='q', f=exit)
 ]
 def renderMenu():
 	print '\nEnter a command to select an option:'
