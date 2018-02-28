@@ -183,7 +183,6 @@ def run(searchTerm='hiphop', searchLimit=1, outputFile='./output.json'):
     pages = None
     while not isinstance(pages, int):
         pages = raw_input('Enter page limit (default: {}): '.format(searchLimit))
-        print 'PAGERS:', repr(pages)
         if pages == '': # Go with default if enter is pressed
             pages = searchLimit
             break
@@ -191,10 +190,6 @@ def run(searchTerm='hiphop', searchLimit=1, outputFile='./output.json'):
         try: pages = int(pages)
         except: print 'Invalid input, try again'
     if pages > 100: pages = 100
-
-    of = raw_input('Enter outputfile (default: {}): '.format(outputFile))
-    if of != '': outputFile = of # Go with default if enter is pressed
-
 
     client_id, client_secret, client_access_token = loadCredentials()
     songData = search(searchTerm, client_access_token)

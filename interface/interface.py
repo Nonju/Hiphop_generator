@@ -52,6 +52,7 @@ def handleSelection(command=''):
 	if opt is None:
 		handleInvalidCommand()
 		return
+
 	# Run command
 	opt['f']()
 
