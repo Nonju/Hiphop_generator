@@ -14,9 +14,9 @@ import codecs
 import json
 
 # models
-import bigram
-import trigram
-import quadrigram
+from models import bigram
+from models import trigram
+from models import quadrigram
 
 def getDocuments():
 	#Replace with function that uses search
