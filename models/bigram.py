@@ -18,7 +18,7 @@ class Bigram:
 		possible = self.pc[context].keys()
 		return possible[random.randint(0, len(possible)-1)]
 
-	def generate(self, length=10):
+	def generate(self, length=10, rows=10):
 		sentence = []
 		for i in range(0, length):
 			if i == 0 or sentence[-1] == self.EOS:
