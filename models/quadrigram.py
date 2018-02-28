@@ -33,10 +33,14 @@ class Quadrigram:
 			if sentence[i] == self.EOS or sentence[i] == self.BOS:
 				del cleanSentences[-1]
 
+			if i == 0 and len(cleanSentences) > 0:
+				cleanSentences[-1] = u'{}{}'.format(cleanSentences[-1][0].upper(), cleanSentences[-1][1:])
+
 			if sentence[i] in punctuation:
 				merged = '{}{}'.format(cleanSentences[-2], cleanSentences[-1])
 				cleanSentences[-2] = merged
 				del cleanSentences[-1]
+
 
 		return cleanSentences
 
