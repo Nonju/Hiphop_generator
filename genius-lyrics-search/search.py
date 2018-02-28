@@ -45,6 +45,19 @@ def validatePageGenres(pageMetas):
 
     return False
 
+def validateLyricLang(pageMetas):
+    langContent = [ meta.get('content') for meta in pageMetas if 'Lyrics Language' in meta.get('content')]
+
+    if not len(langContent):
+        return False
+
+    match = re.search(r'Lyrics Language.*?value":"([A-Za-z]+?)"', langContent[0])
+
+    if match is None:
+        return False
+
+    return match.group(1) == u'en' # Only accepts lyrics in english
+
 
 def getSongLyrics(url):
     # Skip urls that doesn't lead to genius-lyric-pages
@@ -57,6 +70,8 @@ def getSongLyrics(url):
     
     pageMetas = html.findAll("meta")
     if not validatePageGenres(pageMetas):
+        return None
+    if not validateLyricLang(pageMetas):
         return None
 
     #remove script tags that they put in the middle of the lyrics
@@ -75,7 +90,7 @@ def parseSongLyrics(lyricsString):
 
 
     lyricParts = {}
-    songPartTitles = [ 'intro', 'verse', 'hooks', 'chorus', 'outro' ]
+    songPartTitles = [ 'intro', 'verse', 'hook', 'chorus', 'outro' ]
     
     parts = lyricsString.split('[')
     for part in parts:
@@ -94,7 +109,6 @@ def parseSongLyrics(lyricsString):
                 tokenized = tokenize.tokenizeString(string=partLyrics)
                 if not tokenized: continue
                 lyricParts[title].append(tokenized)
-                # lyricParts[title].append(partLyrics.split()) # basic tokenizer, splits on whitespace
 
     return lyricParts
 
@@ -123,12 +137,11 @@ def loadCredentials():
     return credentials['client_id'], credentials['client_secret'], credentials['client_access_token']
 
     
-def search(search_term, client_access_token, pageLimit=30):
+def search(search_term, client_access_token, pageLimit=4):
     #Unfortunately, looks like it maxes out at 50 pages (approximately 1,000 results), roughly the same number of results as displayed on web front end
     page=1
     songData = []
     while True:
-
         querystring = "http://api.genius.com/search?q=" + urllib2.quote(search_term) + "&page=" + str(page)
         request = urllib2.Request(querystring)
         request.add_header("Authorization", "Bearer " + client_access_token)   
@@ -150,7 +163,6 @@ def search(search_term, client_access_token, pageLimit=30):
                 print("No results for: " + search_term)
             break      
         print("page {0}; num hits {1}".format(page, num_hits))
-        
 
         for result in body:
             result_id = result["result"]["id"]
