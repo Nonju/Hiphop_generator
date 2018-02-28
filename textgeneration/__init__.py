@@ -1,2 +1,2 @@
 
-from .generator import generateLyrics
+import generator
