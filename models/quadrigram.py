@@ -16,7 +16,13 @@ class Quadrigram:
 	#Remove doubles of words
 	def cleanSentence(self, sentence):
 		cleanSentences = []
-		for i in range(1, len(sentence)-1):
+
+		punctuation = ['.', ',', '...', '\'', '-']
+
+		while sentence[0] in punctuation:
+			del sentence[0]
+
+		for i in range(0, len(sentence)-1):
 			cleanSentences.append(sentence[i])
 			if sentence[i] == '\n':
 				if sentence[i-1] == sentence[i+1]:
@@ -26,6 +32,12 @@ class Quadrigram:
 					del cleanSentences[-1]
 			if sentence[i] == self.EOS or sentence[i] == self.BOS:
 				del cleanSentences[-1]
+
+			if sentence[i] in punctuation:
+				merged = '{}{}'.format(cleanSentences[-2], cleanSentences[-1])
+				cleanSentences[-2] = merged
+				del cleanSentences[-1]
+
 		return cleanSentences
 
 	def getBOSfromEOS(self, eosWord):
