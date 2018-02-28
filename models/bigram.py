@@ -12,10 +12,23 @@ class Bigram:
 	vocabulary = set()
 	documents = {}
 
+	def cleanSentence(self, sentence):
+		sentence = [word for word in sentence if word != self.EOS]
+		sentence = ' '.join(sentence)
+		clean = ''
+		for letter in sentence:
+			if letter in ['.',',','(',')','[',']','?','/']:
+				continue
+			clean += letter
+
+		return clean
+
+
 	def randomByContext(self, context):
 		# TODO: check if can select word in better way that 'random'
 		c = self.pc[context]
 		possible = self.pc[context].keys()
+		p = possible[random.randint(0, len(possible)-1)]
 		return possible[random.randint(0, len(possible)-1)]
 
 	def generate(self, length=10, rows=10):
@@ -25,9 +38,9 @@ class Bigram:
 				predicted = self.randomByContext(self.BOS)
 			else:
 				predicted = self.randomByContext(sentence[i-1])
-
 			sentence.append(predicted)
-		return ' '.join(sentence)
+		sentence = self.cleanSentence(sentence)
+		return sentence
 
 	@classmethod
 	def train(cls, vocabulary, documents):
@@ -35,7 +48,6 @@ class Bigram:
 		bigram = cls()
 		bigram.vocabulary = vocabulary
 		bigram.documents = documents
-
 		# determine context / word probabilities
 		contextOccurrenceCount = {}
 		for doc in documents:
@@ -53,7 +65,6 @@ class Bigram:
 					contextOccurrenceCount[context][word] = 1
 				else:
 					contextOccurrenceCount[context][word] += 1
-
 		def sumContextOccurences(context):
 			s = 0
 			for occurences, count in context.iteritems():

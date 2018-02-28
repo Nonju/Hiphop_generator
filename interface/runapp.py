@@ -15,6 +15,14 @@ def run():
 			order = int(order)
 		except: continue
 
-	print generator.generateLyrics(modelOrder=order)
+	while True:
+		title = raw_input('Generate Title? (y / n): ')
+		if title in ['y','Y','n','N']:
+			break
 
+	# lyrics = generator.generateLyrics(modelOrder=order)
+	if title in ['Y','y']: 
+		title = generator.generateTitle(2)
+		print title
+	print generator.generateLyrics(modelOrder=order)
 

@@ -26,7 +26,8 @@ def getIllegalEndWords(dontEndOnFile=DONT_END_ON_FILE):
 def getPart(docs, partName=''):
 	parts = []
 	for doc in docs:
-
+		if partName == 'title':
+			parts.append(doc[partName].split(' '))
 		if partName not in doc['lyrics'].keys():
 			continue
 
@@ -76,3 +77,18 @@ def generateLyrics(modelOrder):
 
 	return lyrics
 
+def generateTitle(lyrics):
+
+	vocabulary = vocab.getVocab()
+	documents = getDocuments()
+
+	def formatParagraph(model, partName='', partRows=10):
+		return u'\n\n<{}>\n{}\n\n'.format(partName, model.generate(length=7, rows=partRows))
+	partDocs = getPart(documents, partName='title')
+	model = trainModelOfOrder(vocabulary=vocabulary, documents=partDocs, order=2)
+	
+	length = random.randint(4,6)
+	title = model.generate(length, 1)
+
+
+	return title
