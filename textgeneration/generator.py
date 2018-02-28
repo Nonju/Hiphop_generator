@@ -5,12 +5,13 @@
 import codecs
 import json
 import random
+
 import vocab
 from bigram import Bigram
 from trigram import Trigram
 from quadrigram import Quadrigram
 
-DEFAULT_DOC_FILE = './genius-lyrics-search/exampleoutput.json'
+DEFAULT_DOC_FILE = './genius_lyrics_search/output.json'
 SONG_STRUCTURE_FILE = './songstructures.json'
 
 def getDocuments(docFile=DEFAULT_DOC_FILE):

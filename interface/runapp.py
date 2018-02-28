@@ -12,7 +12,6 @@ from models import trigram
 from models import quadrigram
 
 def getDocuments():
-	#Replace with function that uses search
 	with codecs.open('genius_lyrics_search/output.json', 'r', encoding='utf8') as documents:
 		return json.loads(documents.read())
 
