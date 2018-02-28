@@ -13,6 +13,7 @@ class Quadrigram:
 	invalidStartWords = set()
 	documents = {}
 
+	#Remove doubles of words
 	def cleanSentence(self, sentence):
 		cleanSentences = []
 		for i in range(1, len(sentence)-1):
@@ -20,19 +21,28 @@ class Quadrigram:
 			if sentence[i] == '\n':
 				if sentence[i-1] == sentence[i+1]:
 					del cleanSentences[-2]
+			if sentence[i-1] == '\n':
+				if sentence[i] in self.invalidStartWords:
+					del cleanSentences[-1]
+
 		return cleanSentences
 
 	def getBOSfromEOS(self, eosWord):
-		if eosWord in self.invalidStartWords: return []
+		# if eosWord in self.invalidStartWords: return []
+		#Check if end word also exist in start words
 		BOSes = [ context for context in self.pc.keys() if self.BOS in context ]
 		EOSesInBOSes = [ bos for bos in BOSes if eosWord in bos ]
 		if len(EOSesInBOSes) <= 0: return []
+
+		#If contexts found choose a random one 
 		key = EOSesInBOSes[ random.randint(0, len(EOSesInBOSes)-1) ]
 		value = self.pc[key].keys()
 		if len(value) > 1:
+			print value
 			value[ random.randint(0, len(value)-1) ]
 		sentence = value
-		sentence.append(self.randomByContext((key[1], key[2], sentence[-1])))
+		#Dont want to add first word but still have to search with it
+		sentence.append(self.randomByContext((key[1], key[2], sentence[-1]))) 
 		sentence.append(self.randomByContext((key[2], sentence[-2], sentence[-1])))
 		if self.EOS in sentence:
 			sentence[-1] = '\n'
@@ -40,6 +50,13 @@ class Quadrigram:
 
 	def getRandomBOS(self):
 		BOSes = [ context for context in self.pc.keys() if self.BOS in context ]
+		return BOSes[ random.randint(0, len(BOSes)-1) ]
+
+	def getLessRandomBOS(self, word):
+		BOSes = [ context for context in self.pc.keys() if self.BOS in context ]
+		BOSes = [ context for context in self.pc.keys() if word in context ]
+
+		if len(BOSes) <= 0: return None
 		return BOSes[ random.randint(0, len(BOSes)-1) ]
 
 	def randomByContext(self, context):
@@ -56,6 +73,11 @@ class Quadrigram:
 		return maxWord
 
 	def randomSentenceBOS(self, sentence, bosContext=None):
+		if len(sentence) > 1 and bosContext == None:
+			word = sentence[-1]
+			if sentence[-1] != '\n':
+				word = sentence[-2]
+			boxContext = self.getLessRandomBOS(word)
 		if bosContext == None:
 			bosContext = self.getRandomBOS()
 		sentence.append(bosContext[1])
@@ -121,6 +143,7 @@ class Quadrigram:
 		documents = documents[:]
 		quadrigram = cls()
 		quadrigram.eosWords = set()
+		quadrigram.bosWords = set()
 		quadrigram.invalidEndWords = invalidWords['invalidEndWords']
 		quadrigram.invalidStartWords = invalidWords['invalidStartWords']
 		quadrigram.vocabulary = vocabulary
@@ -159,5 +182,5 @@ class Quadrigram:
 				quadrigram.pc[context][word] = float(count) / float(total)
 
 		quadrigram.eosWords.update([ eos[-1] for eos in  quadrigram.pc.keys() if cls.EOS in quadrigram.pc[eos] ])
-		print [ context for context in quadrigram.pc.keys() if 	quadrigram.BOS in context ]
+		quadrigram.bosWords.update([ context for context in quadrigram.pc.keys() if cls.BOS in context ])
 		return quadrigram

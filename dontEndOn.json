@@ -13,6 +13,8 @@
 	],
 	"invalidStartWords":[
 		"i",
-		"a"
+		"a",
+		",",
+		"."
 	]
 }
