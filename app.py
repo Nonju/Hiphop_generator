@@ -8,11 +8,10 @@ Entry point for Hip-hop generator app
 Written using python2.7
 """
 
-import vocab
-# from .models import bigram
 import codecs
 import json
 
+from vocab import vocab
 # models
 from models import bigram
 from models import trigram
