@@ -39,7 +39,7 @@ class Quadrigram:
 			if sentence[i] == '-':
 				del cleanSentences[-1]
 
-			if sentence[i] in punctuation:
+			if len(cleanSentences) > 2 and sentence[i] in punctuation:
 				merged = '{}{}'.format(cleanSentences[-2], cleanSentences[-1])
 				cleanSentences[-2] = merged
 				del cleanSentences[-1]
