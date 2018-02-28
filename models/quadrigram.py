@@ -24,7 +24,8 @@ class Quadrigram:
 			if sentence[i-1] == '\n':
 				if sentence[i] in self.invalidStartWords:
 					del cleanSentences[-1]
-
+			if sentence[i] == self.EOS or sentence[i] == self.BOS:
+				del cleanSentences[-1]
 		return cleanSentences
 
 	def getBOSfromEOS(self, eosWord):
