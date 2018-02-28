@@ -56,7 +56,7 @@ def validateLyricLang(pageMetas):
     if match is None:
         return False
 
-    return match.group(1) == 'en' # Only accepts lyrics in english
+    return match.group(1) == u'en' # Only accepts lyrics in english
 
 
 def getSongLyrics(url):
@@ -90,7 +90,7 @@ def parseSongLyrics(lyricsString):
 
 
     lyricParts = {}
-    songPartTitles = [ 'intro', 'verse', 'hooks', 'chorus', 'outro' ]
+    songPartTitles = [ 'intro', 'verse', 'hook', 'chorus', 'outro' ]
     
     parts = lyricsString.split('[')
     for part in parts:
@@ -109,7 +109,6 @@ def parseSongLyrics(lyricsString):
                 tokenized = tokenize.tokenizeString(string=partLyrics)
                 if not tokenized: continue
                 lyricParts[title].append(tokenized)
-                # lyricParts[title].append(partLyrics.split()) # basic tokenizer, splits on whitespace
 
     return lyricParts
 
@@ -138,7 +137,7 @@ def loadCredentials():
     return credentials['client_id'], credentials['client_secret'], credentials['client_access_token']
 
     
-def search(search_term, client_access_token, pageLimit=30):
+def search(search_term, client_access_token, pageLimit=4):
     #Unfortunately, looks like it maxes out at 50 pages (approximately 1,000 results), roughly the same number of results as displayed on web front end
     page=1
     songData = []
