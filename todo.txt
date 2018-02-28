@@ -7,7 +7,7 @@
 	DONE - set amount of pages to retrieve from genius.com
 
 	DONE - find way to better end lines, ( base on EOS ?? )
-	- function that generates x rows intro, x rows verses, etc
+	DONE - function that generates x rows intro, x rows verses, etc
 
 	DONE - simple interface for generating by order, regather data / vocab
 
@@ -18,3 +18,5 @@
 
 	DONE - generate vocabulary as set of words found in lyrics
 
+	DONE - Merge punctuation with former token
+	DONE - Uppercase first letter in first word on paragraph or after dot
