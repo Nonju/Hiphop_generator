@@ -1,24 +1,24 @@
 [
 	[
-		{ "name": "intro", "rows": 3 },
-		{ "name": "verse", "rows": 10 },
-		{ "name": "chorus", "rows": 10 },
-		{ "name": "hook", "rows": 6 },
-		{ "name": "outro", "rows": 6 }
+		{ "name": "intro", "length": 7, "rows": 3 },
+		{ "name": "verse", "length": 10, "rows": 10 },
+		{ "name": "chorus", "length": 7, "rows": 10 },
+		{ "name": "hook", "length": 5, "rows": 6 },
+		{ "name": "outro", "length": 14, "rows": 6 }
 	],
 	[
-		{ "name": "intro", "rows": 4 },
-		{ "name": "verse", "rows": 10 },
-		{ "name": "chorus", "rows": 10 },
-		{ "name": "outro", "rows": 5 }
+		{ "name": "intro", "length": 10, "rows": 4 },
+		{ "name": "verse", "length": 15, "rows": 10 },
+		{ "name": "chorus", "length": 8, "rows": 10 },
+		{ "name": "outro", "length": 7, "rows": 5 }
 	],
 	[
-		{ "name": "intro", "rows": 3 },
-		{ "name": "verse", "rows": 15 },
-		{ "name": "hook", "rows": 6 },
-		{ "name": "chorus", "rows": 10 },
-		{ "name": "verse", "rows": 10 },
-		{ "name": "chorus", "rows": 10 },
-		{ "name": "outro", "rows": 4 }
+		{ "name": "intro", "length": 6, "rows": 3 },
+		{ "name": "verse", "length": 10, "rows": 15 },
+		{ "name": "hook", "length": 5, "rows": 6 },
+		{ "name": "chorus", "length": 15, "rows": 10 },
+		{ "name": "verse", "length": 8, "rows": 10 },
+		{ "name": "chorus", "length": 10, "rows": 10 },
+		{ "name": "outro", "length": 5, "rows": 4 }
 	]
 ]
