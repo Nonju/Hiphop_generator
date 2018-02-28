@@ -60,18 +60,20 @@ def generateLyrics(modelOrder):
 	vocabulary = vocab.getVocab()
 	documents = getDocuments()
 
-	def formatParagraph(model, partName=''):
-		return u'\n\n<{}>\n{}\n\n'.format(partName, model.generate(length=7, rows=10))
+	def formatParagraph(model, partName='', partRows=10):
+		return u'\n\n<{}>\n{}\n\n'.format(partName, model.generate(length=7, rows=partRows))
 
 	lyrics = u''
-	for partName in getRandomSongStructure():
+	for part in getRandomSongStructure():
+		partName = part.get('name', '')
+		partRows = part.get('rows', 10)
 		partDocs = getPart(documents, partName=partName)
 		if not len(partDocs): continue
 
 		model = trainModelOfOrder(vocabulary=vocabulary, documents=partDocs, order=modelOrder)
 		if model is None: continue
 
-		lyrics += formatParagraph(model, partName=partName)
+		lyrics += formatParagraph(model, partName=partName, partRows=partRows)
 
 
 	return lyrics

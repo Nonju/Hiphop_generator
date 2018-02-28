@@ -1,18 +1,16 @@
 [
 	[
-		"intro",
-		"verse",
-		"verse",
-		"chorus",
-		"chorus"
+		{ "name": "intro", "rows": 3 },
+		{ "name": "verse", "rows": 10 },
+		{ "name": "chorus", "rows": 10 }
 	],
 	[
-		"intro",
-		"verse",
-		"hook",
-		"chorus",
-		"verse",
-		"chorus",
-		"outro"
+		{ "name": "intro", "rows": 3 },
+		{ "name": "verse", "rows": 15 },
+		{ "name": "hook", "rows": 6 },
+		{ "name": "chorus", "rows": 10 },
+		{ "name": "verse", "rows": 10 },
+		{ "name": "chorus", "rows": 10 },
+		{ "name": "outro", "rows": 4 }
 	]
 ]
