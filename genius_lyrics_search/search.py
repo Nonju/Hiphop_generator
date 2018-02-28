@@ -192,7 +192,7 @@ def run(searchTerm='hiphop', searchLimit=1, outputFile='./output.json'):
     if pages > 100: pages = 100
 
     client_id, client_secret, client_access_token = loadCredentials()
-    songData = search(searchTerm, client_access_token)
+    songData = search(searchTerm, client_access_token, pageLimit=pages)
     songData = extendSongDataWithLyrics(songData)
 
     with open(outputFile, 'w') as f:
