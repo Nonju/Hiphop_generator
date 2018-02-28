@@ -5,7 +5,7 @@
 import os
 
 import runapp
-import vocab
+import updatevocab
 from genius_lyrics_search import search
 
 RUNNING = True
@@ -24,7 +24,7 @@ def exit():
 menuOptions = [
 	dict(name='Run app',       command='r', f=runapp.run),
 	dict(name='Regather data', command='g', f=search.run),
-	dict(name='Update vocab',  command='u', f=placeholder),
+	dict(name='Update vocab',  command='u', f=updatevocab.run),
 	dict(name='Clear',         command='c', f=clearTerminal),
 	dict(name='Quit',          command='q', f=exit)
 ]

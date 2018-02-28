@@ -22,15 +22,20 @@ def generateVocab():
 	for song in songData:
 		for part in song['lyrics']:
 			for line in song['lyrics'][part]:
-				vocab.update(line.split())
+				vocab.update(line)
 
 	with codecs.open(VOCAB_FILE, 'w', encoding='utf8') as vocabFile:
 		vocabFile.write(json.dumps(list(vocab), indent=2, sort_keys=True))
 
 
 def getVocab():
-	with codecs.open(VOCAB_FILE, 'r', encoding='utf8') as vocabFile:
-		return json.loads(vocabFile.read())
+	try:
+		with codecs.open(VOCAB_FILE, 'r', encoding='utf8') as vocabFile:
+			return json.loads(vocabFile.read())
+	except:
+		print 'No vocabulary file could be found, generating a new one'
+		generateVocab()
+		return getVocab()
 
 def main():
 	generate = raw_input('generate (yes/no): ')

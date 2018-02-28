@@ -21,7 +21,7 @@ import interface
 
 def getDocuments():
 	#Replace with function that uses search
-	with codecs.open('genius-lyrics-search/output.json', 'r', encoding='utf8') as documents:
+	with codecs.open('genius_lyrics_search/output.json', 'r', encoding='utf8') as documents:
 		return json.loads(documents.read())
 
 def getPart(docs, partName=''):
