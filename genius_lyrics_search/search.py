@@ -178,7 +178,7 @@ def search(search_term, client_access_token, pageLimit=4):
     print 
     return songData
 
-def run(searchTerm='hiphop', searchLimit=1, outputFile='./output.json'):
+def run(searchTerm='hiphop', searchLimit=1, outputFile='./genius_lyrics_search/output.json'):
     print 'Running search...' # Remove
     pages = None
     while not isinstance(pages, int):
