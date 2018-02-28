@@ -9,7 +9,8 @@ class Quadrigram:
 	BOS = 'BOS'
 	EOS = 'EOS'
 	vocabulary = set()
-	illegalEndWords = set()
+	invalidEndWords = set()
+	invalidStartWords = set()
 	documents = {}
 
 	def cleanSentence(self, sentence):
@@ -22,6 +23,7 @@ class Quadrigram:
 		return cleanSentences
 
 	def getBOSfromEOS(self, eosWord):
+		if eosWord in self.invalidStartWords: return []
 		BOSes = [ context for context in self.pc.keys() if self.BOS in context ]
 		EOSesInBOSes = [ bos for bos in BOSes if eosWord in bos ]
 		if len(EOSesInBOSes) <= 0: return []
@@ -43,8 +45,15 @@ class Quadrigram:
 	def randomByContext(self, context):
 		# TODO: check if can select word in better way that 'random'
 		c = self.pc[context]
-		possible = self.pc[context].keys()
-		return possible[random.randint(0, len(possible)-1)]
+		# possible = self.pc[context].keys()
+		# return possible[random.randint(0, len(possible)-1)]
+		maxWord = ''
+		maxValue = 0
+		for word in c:
+			if self.pc[context][word] > 0:
+				maxWord = word
+				maxValue = self.pc[context][word]
+		return maxWord
 
 	def randomSentenceBOS(self, sentence, bosContext=None):
 		if bosContext == None:
@@ -73,13 +82,13 @@ class Quadrigram:
 		sentence = []
 		lastBOSword = 0
 		r = 0
-		l = 0
 		while r < rows :
 			lastBOSword += 1
 			if len(sentence) == 0 or sentence[-1] == self.EOS:
+				if len(sentence) > 0 and sentence[-1] == self.EOS: del sentence[-1]
 				sentence, predicted = self.randomSentenceBOS(sentence)
 			elif sentence[-1] == '\n':
-				if sentence[-2] in self.illegalEndWords:
+				if sentence[-2] in self.invalidEndWords:
 					sentence = self.illegalEnd(sentence)				
 					continue
 				bosContext = self.getBOSfromEOS(sentence[-2])
@@ -99,20 +108,21 @@ class Quadrigram:
 				r += 1
 				continue
 
-			if l >= modLength and False:
+			if lastBOSword >= modLength or False:
 				sentence.append('\n')				
 				lastBOSword = 0			
 				r += 1
-			l +=1
+				continue
 		sentence = self.cleanSentence(sentence)
 		return ' '.join(sentence)
 	
 	@classmethod
-	def train(cls, vocabulary, documents, dontEnd):
+	def train(cls, vocabulary, documents, invalidWords):
 		documents = documents[:]
 		quadrigram = cls()
 		quadrigram.eosWords = set()
-		quadrigram.illegalEndWords = dontEnd
+		quadrigram.invalidEndWords = invalidWords['invalidEndWords']
+		quadrigram.invalidStartWords = invalidWords['invalidStartWords']
 		quadrigram.vocabulary = vocabulary
 		quadrigram.documents = documents
 
@@ -149,5 +159,5 @@ class Quadrigram:
 				quadrigram.pc[context][word] = float(count) / float(total)
 
 		quadrigram.eosWords.update([ eos[-1] for eos in  quadrigram.pc.keys() if cls.EOS in quadrigram.pc[eos] ])
-		print quadrigram.eosWords
+		print [ context for context in quadrigram.pc.keys() if 	quadrigram.BOS in context ]
 		return quadrigram

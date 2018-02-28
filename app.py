@@ -78,7 +78,7 @@ def main():
 	model = modelTrain(order=order)
 	while True:
 		#generated = '\n'.join([ model.generate(length=20) for i in range(0, testRows) ])
-		generated = model.generate(length=5, rows=testRows)		
+		generated = model.generate(length=7, rows=testRows)
 		print generated
 		raw_input()
 
