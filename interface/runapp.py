@@ -33,7 +33,6 @@ def modelTrain(order=4): # Currently training of verses
 	docs = getDocuments()
 
 	verseDocs = getPart(docs, partName=u'verse')
-	# return bigram.Bigram.train(voc, verseDocs)
 
 	if order == 2:
 		return bigram.Bigram.train(voc, verseDocs)
