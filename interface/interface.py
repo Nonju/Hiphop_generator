@@ -10,9 +10,6 @@ from genius_lyrics_search import search
 
 RUNNING = True
 
-def placeholder():
-	print 'not yet implemented'
-
 def clearTerminal():
 	os.system('clear')
 
@@ -39,6 +36,7 @@ def renderMenu():
 def handleSelection(command=''):
 	def handleInvalidCommand():
 		print 'Invalid command, try again'
+
 	def getOptionByCommand():
 		opt = filter(lambda x : x.get('command') == command, menuOptions)
 		if not len(opt): return None
