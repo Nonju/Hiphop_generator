@@ -6,13 +6,12 @@
 	DONE - rewrite credentials into json-file ( combine with validgenres.json )
 	DONE - set amount of pages to retrieve from genius.com
 
-	- find way to better end lines, ( base on EOS ?? )
-	- get model by order (function)
+	DONE - find way to better end lines, ( base on EOS ?? )
 	- function that generates x rows intro, x rows verses, etc
 
-	- simple interface for generating by order, regather data / vocab
+	DONE - simple interface for generating by order, regather data / vocab
 
-	- CLEAR EOS FROM POSSIBLE PREDICTIONS!!
+	DONE - CLEAR EOS FROM POSSIBLE PREDICTIONS!!
 
 	DONE - only use links ending with '-lyrics'
 	DONE - remove songs where lyrics object is empty

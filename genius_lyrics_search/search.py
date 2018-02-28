@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 
 import tokenize
 
-SEARCHINFO_FILE = './searchinfo.json'
+SEARCHINFO_FILE = './genius_lyrics_search/searchinfo.json'
 
 def getSearchinfoByKey(key=''):
     with open(SEARCHINFO_FILE, 'r') as f:
@@ -178,15 +178,31 @@ def search(search_term, client_access_token, pageLimit=4):
     print 
     return songData
 
-def main():
-    arguments = sys.argv[1:] #so you can input searches from command line if you want
-    search_term = arguments[0].translate(None, "\'\"")
+def run(searchTerm='hiphop', searchLimit=1, outputFile='./output.json'):
+    print 'Running search...' # Remove
+    pages = None
+    while not isinstance(pages, int):
+        pages = raw_input('Enter page limit (default: {}): '.format(searchLimit))
+        if pages == '': # Go with default if enter is pressed
+            pages = searchLimit
+            break
+
+        try: pages = int(pages)
+        except: print 'Invalid input, try again'
+    if pages > 100: pages = 100
+
     client_id, client_secret, client_access_token = loadCredentials()
-    songData = search(search_term, client_access_token)
+    songData = search(searchTerm, client_access_token)
     songData = extendSongDataWithLyrics(songData)
 
-    with open('./output.json', 'w') as f:
+    with open(outputFile, 'w') as f:
         f.write(json.dumps(songData, indent=2, sort_keys=True))
+
+def main():
+    arguments = sys.argv[1:] #so you can input searches from command line if you want
+    searchTerm = arguments[0].translate(None, "\'\"")
+    run(searchTerm=searchTerm)
+
 
 if __name__ == '__main__':
     main()
